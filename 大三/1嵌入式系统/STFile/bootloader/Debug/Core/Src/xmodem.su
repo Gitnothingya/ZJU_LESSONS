@@ -1,0 +1,4 @@
+../Core/Src/xmodem.c:14:16:Receive_Packet	48	static
+../Core/Src/xmodem.c:53:9:Xmodem_Receive	224	static
+../Core/Src/xmodem.c:117:9:CalcChecksum	24	static
+../Core/Src/xmodem.c:129:6:Serial_PutByte	16	static

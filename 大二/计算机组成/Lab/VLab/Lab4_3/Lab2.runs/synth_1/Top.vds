@@ -1,0 +1,360 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Jun 14 09:50:50 2022
+# Process ID: 5904
+# Current directory: D:/Vteacher/Lab4_3/Lab2.runs/synth_1
+# Command line: vivado.exe -log Top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Top.tcl
+# Log file: D:/Vteacher/Lab4_3/Lab2.runs/synth_1/Top.vds
+# Journal file: D:/Vteacher/Lab4_3/Lab2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Top.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Vteacher/IP'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Vteacher/Cctrl'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Vteacher/DPath'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2020.2/data/ip'.
+Command: synth_design -top Top -part xc7k160tffg676-2L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: [Device 21-403] Loading part xc7k160tffg676-2L
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 27700
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1142.445 ; gain = 33.684
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Top' [D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/new/Top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clk_div_0' [D:/Vteacher/Lab4_3/Lab2.runs/synth_1/.Xil/Vivado-5904-DESKTOP-715IQOV/realtime/clk_div_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'clk_div_0' (1#1) [D:/Vteacher/Lab4_3/Lab2.runs/synth_1/.Xil/Vivado-5904-DESKTOP-715IQOV/realtime/clk_div_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'pbdebounce' [D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/new/pbdebounce.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'pbdebounce' (2#1) [D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/new/pbdebounce.v:23]
+INFO: [Synth 8-6157] synthesizing module 'SAnti_jitter_0' [D:/Vteacher/Lab4_3/Lab2.runs/synth_1/.Xil/Vivado-5904-DESKTOP-715IQOV/realtime/SAnti_jitter_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'SAnti_jitter_0' (3#1) [D:/Vteacher/Lab4_3/Lab2.runs/synth_1/.Xil/Vivado-5904-DESKTOP-715IQOV/realtime/SAnti_jitter_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'rom_d' [D:/Vteacher/Lab4_3/Lab2.runs/synth_1/.Xil/Vivado-5904-DESKTOP-715IQOV/realtime/rom_d_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'rom_d' (4#1) [D:/Vteacher/Lab4_3/Lab2.runs/synth_1/.Xil/Vivado-5904-DESKTOP-715IQOV/realtime/rom_d_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ram_b' [D:/Vteacher/Lab4_3/Lab2.runs/synth_1/.Xil/Vivado-5904-DESKTOP-715IQOV/realtime/ram_b_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ram_b' (5#1) [D:/Vteacher/Lab4_3/Lab2.runs/synth_1/.Xil/Vivado-5904-DESKTOP-715IQOV/realtime/ram_b_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Store_ctrl' [D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/new/Store_ctrl.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/new/Store_ctrl.v:47]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/new/Store_ctrl.v:38]
+INFO: [Synth 8-6155] done synthesizing module 'Store_ctrl' (6#1) [D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/new/Store_ctrl.v:23]
+INFO: [Synth 8-6157] synthesizing module 'CPUT' [D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/new/CPUT.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Load_Ctrl' [D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/new/Load_Ctrl.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/new/Load_Ctrl.v:30]
+INFO: [Synth 8-6155] done synthesizing module 'Load_Ctrl' (7#1) [D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/new/Load_Ctrl.v:23]
+INFO: [Synth 8-6157] synthesizing module 'cpu_ctrl' [D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/imports/new/cpu_ctrl.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/imports/new/cpu_ctrl.v:42]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/imports/new/cpu_ctrl.v:173]
+INFO: [Synth 8-226] default block is never used [D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/imports/new/cpu_ctrl.v:196]
+INFO: [Synth 8-6155] done synthesizing module 'cpu_ctrl' (8#1) [D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/imports/new/cpu_ctrl.v:23]
+INFO: [Synth 8-6157] synthesizing module 'DataPath' [D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/imports/new/DataPath.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ImmGen' [D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/imports/new/ImmGen.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ImmGen' (9#1) [D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/imports/new/ImmGen.v:23]
+INFO: [Synth 8-6157] synthesizing module 'RegFile32' [D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/imports/new/RegFile32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'RegFile32' (10#1) [D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/imports/new/RegFile32.v:23]
+INFO: [Synth 8-6157] synthesizing module 'PCReg' [D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/imports/new/PCReg.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'PCReg' (11#1) [D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/imports/new/PCReg.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALUT' [D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/imports/new/ALUT.v:23]
+INFO: [Synth 8-226] default block is never used [D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/imports/new/ALUT.v:40]
+INFO: [Synth 8-6155] done synthesizing module 'ALUT' (12#1) [D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/imports/new/ALUT.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'DataPath' (13#1) [D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/imports/new/DataPath.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'CPUT' (14#1) [D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/new/CPUT.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Counter_x_0' [D:/Vteacher/Lab4_3/Lab2.runs/synth_1/.Xil/Vivado-5904-DESKTOP-715IQOV/realtime/Counter_x_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Counter_x_0' (15#1) [D:/Vteacher/Lab4_3/Lab2.runs/synth_1/.Xil/Vivado-5904-DESKTOP-715IQOV/realtime/Counter_x_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'MIO_BUS_0' [D:/Vteacher/Lab4_3/Lab2.runs/synth_1/.Xil/Vivado-5904-DESKTOP-715IQOV/realtime/MIO_BUS_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'MIO_BUS_0' (16#1) [D:/Vteacher/Lab4_3/Lab2.runs/synth_1/.Xil/Vivado-5904-DESKTOP-715IQOV/realtime/MIO_BUS_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'SPIO_0' [D:/Vteacher/Lab4_3/Lab2.runs/synth_1/.Xil/Vivado-5904-DESKTOP-715IQOV/realtime/SPIO_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'SPIO_0' (17#1) [D:/Vteacher/Lab4_3/Lab2.runs/synth_1/.Xil/Vivado-5904-DESKTOP-715IQOV/realtime/SPIO_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Multi_8CH32_0' [D:/Vteacher/Lab4_3/Lab2.runs/synth_1/.Xil/Vivado-5904-DESKTOP-715IQOV/realtime/Multi_8CH32_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Multi_8CH32_0' (18#1) [D:/Vteacher/Lab4_3/Lab2.runs/synth_1/.Xil/Vivado-5904-DESKTOP-715IQOV/realtime/Multi_8CH32_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'SSeg7_Dev_0' [D:/Vteacher/Lab4_3/Lab2.runs/synth_1/.Xil/Vivado-5904-DESKTOP-715IQOV/realtime/SSeg7_Dev_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'SSeg7_Dev_0' (19#1) [D:/Vteacher/Lab4_3/Lab2.runs/synth_1/.Xil/Vivado-5904-DESKTOP-715IQOV/realtime/SSeg7_Dev_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'VGA_0' [D:/Vteacher/Lab4_3/Lab2.runs/synth_1/.Xil/Vivado-5904-DESKTOP-715IQOV/realtime/VGA_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'VGA_0' (20#1) [D:/Vteacher/Lab4_3/Lab2.runs/synth_1/.Xil/Vivado-5904-DESKTOP-715IQOV/realtime/VGA_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Top' (21#1) [D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/new/Top.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1201.945 ; gain = 93.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1201.945 ; gain = 93.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1201.945 ; gain = 93.184
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.053 . Memory (MB): peak = 1201.945 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/Vteacher/Lab4_3/Lab2.gen/sources_1/ip/SAnti_jitter_0/SAnti_jitter_0/SAnti_jitter_0_in_context.xdc] for cell 'U9'
+Finished Parsing XDC File [d:/Vteacher/Lab4_3/Lab2.gen/sources_1/ip/SAnti_jitter_0/SAnti_jitter_0/SAnti_jitter_0_in_context.xdc] for cell 'U9'
+Parsing XDC File [d:/Vteacher/Lab4_3/Lab2.gen/sources_1/ip/clk_div_0/clk_div_0/clk_div_0_in_context.xdc] for cell 'Uclk'
+Finished Parsing XDC File [d:/Vteacher/Lab4_3/Lab2.gen/sources_1/ip/clk_div_0/clk_div_0/clk_div_0_in_context.xdc] for cell 'Uclk'
+Parsing XDC File [d:/Vteacher/Lab4_3/Lab2.gen/sources_1/ip/clk_div_0/clk_div_0/clk_div_0_in_context.xdc] for cell 'U8'
+Finished Parsing XDC File [d:/Vteacher/Lab4_3/Lab2.gen/sources_1/ip/clk_div_0/clk_div_0/clk_div_0_in_context.xdc] for cell 'U8'
+Parsing XDC File [d:/Vteacher/Lab4_3/Lab2.gen/sources_1/ip/Counter_x_0/Counter_x_0/Counter_x_0_in_context.xdc] for cell 'U10'
+Finished Parsing XDC File [d:/Vteacher/Lab4_3/Lab2.gen/sources_1/ip/Counter_x_0/Counter_x_0/Counter_x_0_in_context.xdc] for cell 'U10'
+Parsing XDC File [d:/Vteacher/Lab4_3/Lab2.gen/sources_1/ip/MIO_BUS_0/MIO_BUS_0/MIO_BUS_0_in_context.xdc] for cell 'U4'
+Finished Parsing XDC File [d:/Vteacher/Lab4_3/Lab2.gen/sources_1/ip/MIO_BUS_0/MIO_BUS_0/MIO_BUS_0_in_context.xdc] for cell 'U4'
+Parsing XDC File [d:/Vteacher/Lab4_3/Lab2.gen/sources_1/ip/Multi_8CH32_0/Multi_8CH32_0/Multi_8CH32_0_in_context.xdc] for cell 'U5'
+Finished Parsing XDC File [d:/Vteacher/Lab4_3/Lab2.gen/sources_1/ip/Multi_8CH32_0/Multi_8CH32_0/Multi_8CH32_0_in_context.xdc] for cell 'U5'
+Parsing XDC File [d:/Vteacher/Lab4_3/Lab2.gen/sources_1/ip/SSeg7_Dev_0/SSeg7_Dev_0/SSeg7_Dev_0_in_context.xdc] for cell 'U6'
+Finished Parsing XDC File [d:/Vteacher/Lab4_3/Lab2.gen/sources_1/ip/SSeg7_Dev_0/SSeg7_Dev_0/SSeg7_Dev_0_in_context.xdc] for cell 'U6'
+Parsing XDC File [d:/Vteacher/Lab4_3/Lab2.gen/sources_1/ip/SPIO_0/SPIO_0/SPIO_0_in_context.xdc] for cell 'U7'
+Finished Parsing XDC File [d:/Vteacher/Lab4_3/Lab2.gen/sources_1/ip/SPIO_0/SPIO_0/SPIO_0_in_context.xdc] for cell 'U7'
+Parsing XDC File [d:/Vteacher/Lab4_3/Lab2.gen/sources_1/ip/VGA_0/VGA_0/VGA_0_in_context.xdc] for cell 'U11'
+Finished Parsing XDC File [d:/Vteacher/Lab4_3/Lab2.gen/sources_1/ip/VGA_0/VGA_0/VGA_0_in_context.xdc] for cell 'U11'
+Parsing XDC File [d:/Vteacher/Lab4_3/Lab2.gen/sources_1/ip/rom_d/rom_d/rom_d_in_context.xdc] for cell 'U2'
+Finished Parsing XDC File [d:/Vteacher/Lab4_3/Lab2.gen/sources_1/ip/rom_d/rom_d/rom_d_in_context.xdc] for cell 'U2'
+Parsing XDC File [d:/Vteacher/Lab4_3/Lab2.gen/sources_1/ip/ram_b/ram_b/ram_b_in_context.xdc] for cell 'U3'
+Finished Parsing XDC File [d:/Vteacher/Lab4_3/Lab2.gen/sources_1/ip/ram_b/ram_b/ram_b_in_context.xdc] for cell 'U3'
+Parsing XDC File [D:/Vteacher/Lab4_3/Lab2.srcs/constrs_1/new/K7.xdc]
+Finished Parsing XDC File [D:/Vteacher/Lab4_3/Lab2.srcs/constrs_1/new/K7.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Vteacher/Lab4_3/Lab2.srcs/constrs_1/new/K7.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1326.797 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1326.797 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1326.797 ; gain = 218.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k160tffg676-2L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1326.797 ; gain = 218.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for U9. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U8. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for Uclk. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U10. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U4. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U5. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U6. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U7. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U11. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U2. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U3. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1326.797 ; gain = 218.035
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'wea_reg' [D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/new/Store_ctrl.v:36]
+WARNING: [Synth 8-327] inferring latch for variable 'Data_reg_reg' [D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/new/Load_Ctrl.v:32]
+WARNING: [Synth 8-327] inferring latch for variable 'ImmSel_reg' [D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/imports/new/cpu_ctrl.v:52]
+WARNING: [Synth 8-327] inferring latch for variable 'ALUSrc_B_reg' [D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/imports/new/cpu_ctrl.v:45]
+WARNING: [Synth 8-327] inferring latch for variable 'MemtoReg_reg' [D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/imports/new/cpu_ctrl.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'Jump_reg' [D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/imports/new/cpu_ctrl.v:50]
+WARNING: [Synth 8-327] inferring latch for variable 'Branch_reg' [D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/imports/new/cpu_ctrl.v:49]
+WARNING: [Synth 8-327] inferring latch for variable 'RegWrite_reg' [D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/imports/new/cpu_ctrl.v:48]
+WARNING: [Synth 8-327] inferring latch for variable 'MemRW_reg' [D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/imports/new/cpu_ctrl.v:47]
+WARNING: [Synth 8-327] inferring latch for variable 'ALU_Control_reg' [D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/imports/new/cpu_ctrl.v:171]
+WARNING: [Synth 8-327] inferring latch for variable 'ALUop_reg' [D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/imports/new/cpu_ctrl.v:51]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1326.797 ; gain = 218.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 3     
+	   3 Input   32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 33    
+	                8 Bit    Registers := 4     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	  33 Input   32 Bit        Muxes := 2     
+	   2 Input   32 Bit        Muxes := 8     
+	  16 Input    6 Bit        Muxes := 1     
+	  10 Input    4 Bit        Muxes := 2     
+	   9 Input    4 Bit        Muxes := 1     
+	  10 Input    3 Bit        Muxes := 1     
+	  10 Input    2 Bit        Muxes := 3     
+	   2 Input    1 Bit        Muxes := 41    
+	   7 Input    1 Bit        Muxes := 1     
+	   6 Input    1 Bit        Muxes := 1     
+	  10 Input    1 Bit        Muxes := 5     
+	   4 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 600 (col length:100)
+BRAMs: 650 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:30 ; elapsed = 00:01:37 . Memory (MB): peak = 1361.809 ; gain = 253.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:35 ; elapsed = 00:01:41 . Memory (MB): peak = 1361.809 ; gain = 253.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:39 ; elapsed = 00:01:46 . Memory (MB): peak = 1361.809 ; gain = 253.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:41 ; elapsed = 00:01:48 . Memory (MB): peak = 1361.809 ; gain = 253.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-4442] BlackBox module Uclk has unconnected pin SW2
+CRITICAL WARNING: [Synth 8-4442] BlackBox module Uclk has unconnected pin SW8
+CRITICAL WARNING: [Synth 8-4442] BlackBox module Uclk has unconnected pin STEP
+CRITICAL WARNING: [Synth 8-4442] BlackBox module U9 has unconnected pin readn
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:44 ; elapsed = 00:01:50 . Memory (MB): peak = 1361.809 ; gain = 253.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:44 ; elapsed = 00:01:50 . Memory (MB): peak = 1361.809 ; gain = 253.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:44 ; elapsed = 00:01:50 . Memory (MB): peak = 1361.809 ; gain = 253.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:44 ; elapsed = 00:01:50 . Memory (MB): peak = 1361.809 ; gain = 253.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:44 ; elapsed = 00:01:51 . Memory (MB): peak = 1361.809 ; gain = 253.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:44 ; elapsed = 00:01:51 . Memory (MB): peak = 1361.809 ; gain = 253.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+---------------+----------+
+|      |BlackBox name  |Instances |
++------+---------------+----------+
+|1     |clk_div_0      |         2|
+|2     |SAnti_jitter_0 |         1|
+|3     |rom_d          |         1|
+|4     |ram_b          |         1|
+|5     |Counter_x_0    |         1|
+|6     |MIO_BUS_0      |         1|
+|7     |SPIO_0         |         1|
+|8     |Multi_8CH32_0  |         1|
+|9     |SSeg7_Dev_0    |         1|
+|10    |VGA_0          |         1|
++------+---------------+----------+
+
+Report Cell Usage: 
++------+-------------+------+
+|      |Cell         |Count |
++------+-------------+------+
+|1     |Counter_x    |     1|
+|2     |MIO_BUS      |     1|
+|3     |Multi_8CH32  |     1|
+|4     |SAnti_jitter |     1|
+|5     |SPIO         |     1|
+|6     |SSeg7_Dev    |     1|
+|7     |VGA          |     1|
+|8     |clk_div      |     1|
+|9     |clk_div_0_   |     1|
+|10    |ram_b        |     1|
+|11    |rom_d        |     1|
+|12    |BUFG         |     1|
+|13    |CARRY4       |    40|
+|14    |LUT1         |   107|
+|15    |LUT2         |    91|
+|16    |LUT3         |   121|
+|17    |LUT4         |   126|
+|18    |LUT5         |   245|
+|19    |LUT6         |   968|
+|20    |MUXF7        |    69|
+|21    |MUXF8        |     2|
+|22    |FDCE         |  1024|
+|23    |FDRE         |    32|
+|24    |LD           |    53|
+|25    |LDC          |     4|
+|26    |IBUF         |    22|
+|27    |OBUF         |    27|
++------+-------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:44 ; elapsed = 00:01:51 . Memory (MB): peak = 1361.809 ; gain = 253.047
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 4 critical warnings and 11 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:36 ; elapsed = 00:01:48 . Memory (MB): peak = 1361.809 ; gain = 128.195
+Synthesis Optimization Complete : Time (s): cpu = 00:01:44 ; elapsed = 00:01:51 . Memory (MB): peak = 1361.809 ; gain = 253.047
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.049 . Memory (MB): peak = 1369.867 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 168 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1370.148 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 57 instances were transformed.
+  LD => LDCE: 53 instances
+  LDC => LDCE: 4 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+69 Infos, 11 Warnings, 4 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:49 ; elapsed = 00:01:57 . Memory (MB): peak = 1370.148 ; gain = 261.387
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'D:/Vteacher/Lab4_3/Lab2.runs/synth_1/Top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Top_utilization_synth.rpt -pb Top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jun 14 09:52:52 2022...

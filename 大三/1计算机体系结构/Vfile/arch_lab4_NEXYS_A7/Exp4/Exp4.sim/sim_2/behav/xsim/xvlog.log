@@ -1,0 +1,50 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/arch_lab4_NEXYS_A7/Exp4/Exp4.ip_user_files/ipstatic/simulation/dist_mem_gen_v8_0.v" into library dist_mem_gen_v8_0_12
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_v8_0_12
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/arch_lab4_NEXYS_A7/Exp4/Exp4.srcs/sources_1/ip/ROM_D/sim/ROM_D.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM_D
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/core/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/auxillary/CPUTEST.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPUTEST
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/core/CtrlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CtrlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/core/HazardDetectionUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HazardDetectionUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/core/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/common/MUX2T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/common/MUX4T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX4T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/common/REG32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/core/REG_EX_MEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG_EX_MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/core/REG_ID_EX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG_ID_EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/core/REG_IF_ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG_IF_ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/core/REG_MEM_WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG_MEM_WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/core/RV32core.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RV32core
+INFO: [VRFC 10-2458] undeclared symbol Addr, assumed default net type wire [D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/core/RV32core.v:219]
+INFO: [VRFC 10-2458] undeclared symbol MWR, assumed default net type wire [D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/core/RV32core.v:220]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/core/Regs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Regs
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/common/add_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/cache/cache.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cache
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/common/cmp_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmp_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/cache/cmu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/cache/sim/data_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/auxillary/debug_clk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debug_clk
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/sim/core_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module core_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/arch_lab4_NEXYS_A7/Exp4/Exp4.sim/sim_2/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

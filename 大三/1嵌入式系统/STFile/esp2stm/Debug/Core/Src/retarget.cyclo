@@ -1,0 +1,7 @@
+retarget.c:23:6:RetargetInit	1
+retarget.c:31:5:_isatty	3
+retarget.c:39:5:_write	4
+retarget.c:53:5:_close	3
+retarget.c:61:5:_lseek	1
+retarget.c:70:5:_read	3
+retarget.c:84:5:_fstat	3

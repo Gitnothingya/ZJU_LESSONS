@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Mar 15 23:04:21 2022
+# Process ID: 14356
+# Current directory: D:/Vteacher/OExp02-IP2SOC/IP/Supplementary/ROM_D（建议在BD工程中直接生成便于更换初始化文件）
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10764 D:\Vteacher\OExp02-IP2SOC\IP\Supplementary\ROM_D（建议在BD工程中直接生成便于更换初始化文件）\ROM_D.xpr
+# Log file: D:/Vteacher/OExp02-IP2SOC/IP/Supplementary/ROM_D（建议在BD工程中直接生成便于更换初始化文件）/vivado.log
+# Journal file: D:/Vteacher/OExp02-IP2SOC/IP/Supplementary/ROM_D（建议在BD工程中直接生成便于更换初始化文件）\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vteacher/OExp02-IP2SOC/IP/Supplementary/ROM_D（建议在BD工程中直接生成便于更换初始化文件）/ROM_D.xpr
+update_compile_order -fileset sources_1

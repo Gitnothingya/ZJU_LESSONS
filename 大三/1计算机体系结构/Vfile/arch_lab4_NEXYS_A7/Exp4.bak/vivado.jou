@@ -1,0 +1,204 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Nov 29 10:18:00 2022
+# Process ID: 9408
+# Current directory: D:/Vfile/arch_lab4_NEXYS_A7/Exp4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25664 D:\Vfile\arch_lab4_NEXYS_A7\Exp4\Exp4.xpr
+# Log file: D:/Vfile/arch_lab4_NEXYS_A7/Exp4/vivado.log
+# Journal file: D:/Vfile/arch_lab4_NEXYS_A7/Exp4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vfile/arch_lab4_NEXYS_A7/Exp4/Exp4.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+reset_run ROM_D_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+launch_simulation
+open_wave_config D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/cache/wave/sim_top_behav.wcfg
+source sim_top.tcl
+current_fileset -simset [ get_filesets sim_2 ]
+launch_simulation -simset [get_filesets sim_2 ]
+open_wave_config D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+current_fileset -simset [ get_filesets sim_1 ]
+current_sim simulation_1
+close_sim
+launch_simulation
+launch_simulation
+close_sim
+launch_simulation
+open_wave_config D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/cache/wave/sim_top_behav.wcfg
+source sim_top.tcl
+run 50 us
+restart
+relaunch_sim
+current_wave_config {sim_top_behav.wcfg}
+add_wave {{/sim_top/uut/INST/index}} {{/sim_top/uut/INST/valid}} {{/sim_top/uut/INST/write}} {{/sim_top/uut/INST/addr}} {{/sim_top/uut/INST/u_b_h_w}} {{/sim_top/uut/INST/data}} 
+current_wave_config {sim_top_behav.wcfg}
+add_wave {{/sim_top/uut/RAM/cs}} {{/sim_top/uut/RAM/we}} {{/sim_top/uut/RAM/addr}} {{/sim_top/uut/RAM/din}} {{/sim_top/uut/RAM/dout}} {{/sim_top/uut/RAM/stall}} {{/sim_top/uut/RAM/ack}} 
+restart
+run 5 us
+current_wave_config {sim_top_behav.wcfg}
+add_wave {{/sim_top/uut/RAM/data[130]}} 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+current_wave_config {sim_top_behav.wcfg}
+add_wave {{/sim_top/uut/RAM/data[0]}} {{/sim_top/uut/RAM/data[4]}} 
+current_wave_config {sim_top_behav.wcfg}
+add_wave {{/sim_top/uut/RAM/data[3]}} 
+current_wave_config {sim_top_behav.wcfg}
+add_wave {{/sim_top/uut/RAM/data[1]}} 
+current_wave_config {sim_top_behav.wcfg}
+add_wave {{/sim_top/uut/RAM/data[2]}} 
+current_wave_config {sim_top_behav.wcfg}
+add_wave {{/sim_top/uut/RAM/data[5]}} 
+current_wave_config {sim_top_behav.wcfg}
+add_wave {{/sim_top/uut/RAM/data[6]}} 
+current_wave_config {sim_top_behav.wcfg}
+add_wave {{/sim_top/uut/RAM/data[7]}} 
+current_wave_config {sim_top_behav.wcfg}
+add_wave {{/sim_top/uut/RAM/data[128]}} {{/sim_top/uut/RAM/data[129]}} {{/sim_top/uut/RAM/data[130]}} {{/sim_top/uut/RAM/data[131]}} 
+current_wave_config {sim_top_behav.wcfg}
+add_wave {{/sim_top/uut/RAM/data[132]}} {{/sim_top/uut/RAM/data[133]}} {{/sim_top/uut/RAM/data[134]}} {{/sim_top/uut/RAM/data[135]}} 
+current_wave_config {sim_top_behav.wcfg}
+add_wave {{/sim_top/uut/RAM/data[256]}} {{/sim_top/uut/RAM/data[257]}} {{/sim_top/uut/RAM/data[260]}} {{/sim_top/uut/RAM/data[261]}} 
+restart
+run 4 us
+current_wave_config {sim_top_behav.wcfg}
+add_wave {{/sim_top/uut/CMU/CACHE/addr_tag}} {{/sim_top/uut/CMU/CACHE/addr_index}} {{/sim_top/uut/CMU/CACHE/addr_element1}} {{/sim_top/uut/CMU/CACHE/addr_element2}} {{/sim_top/uut/CMU/CACHE/addr_word1}} {{/sim_top/uut/CMU/CACHE/addr_word2}} 
+restart
+run 4 us
+current_wave_config {sim_top_behav.wcfg}
+add_wave {{/sim_top/uut/CMU/CACHE/inner_data[0]}} {{/sim_top/uut/CMU/CACHE/inner_data[1]}} {{/sim_top/uut/CMU/CACHE/inner_data[2]}} {{/sim_top/uut/CMU/CACHE/inner_data[3]}} {{/sim_top/uut/CMU/CACHE/inner_data[4]}} {{/sim_top/uut/CMU/CACHE/inner_data[5]}} {{/sim_top/uut/CMU/CACHE/inner_data[6]}} {{/sim_top/uut/CMU/CACHE/inner_data[7]}} {{/sim_top/uut/CMU/CACHE/inner_data[8]}} {{/sim_top/uut/CMU/CACHE/inner_data[9]}} {{/sim_top/uut/CMU/CACHE/inner_data[10]}} {{/sim_top/uut/CMU/CACHE/inner_data[11]}} {{/sim_top/uut/CMU/CACHE/inner_data[12]}} {{/sim_top/uut/CMU/CACHE/inner_data[13]}} {{/sim_top/uut/CMU/CACHE/inner_data[14]}} {{/sim_top/uut/CMU/CACHE/inner_data[15]}} 
+restart
+run 4 us
+current_wave_config {sim_top_behav.wcfg}
+add_wave {{/sim_top/uut/CMU/CACHE/hit1}} {{/sim_top/uut/CMU/CACHE/hit2}} 
+restart
+run 4 us
+current_wave_config {sim_top_behav.wcfg}
+add_wave {{/sim_top/uut/CMU/CACHE/recent1}} {{/sim_top/uut/CMU/CACHE/recent2}} {{/sim_top/uut/CMU/CACHE/valid1}} {{/sim_top/uut/CMU/CACHE/valid2}} {{/sim_top/uut/CMU/CACHE/dirty1}} {{/sim_top/uut/CMU/CACHE/dirty2}} 
+restart
+run 4 us
+save_wave_config {D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/cache/wave/sim_top_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/cache/wave/sim_top_behav.wcfg
+source sim_top.tcl
+current_wave_config {sim_top_behav.wcfg}
+add_wave {{/sim_top/uut/CMU/cmu_state}} 
+restart
+run 4 us
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+launch_simulation -simset [get_filesets sim_2 ]
+open_wave_config D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+save_wave_config {D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/cache/wave/sim_top_behav.wcfg}
+current_sim simulation_4
+close_sim
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/Vfile/arch_lab4_NEXYS_A7/Exp4/Exp4.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/Vfile/arch_lab4_NEXYS_A7/Exp4/Exp4.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/Vfile/arch_lab4_NEXYS_A7/Exp4/Exp4.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/Vfile/arch_lab4_NEXYS_A7/Exp4/Exp4.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/Vfile/arch_lab4_NEXYS_A7/Exp4/Exp4.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/Vfile/arch_lab4_NEXYS_A7/Exp4/Exp4.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_hw_manager
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/register/register[3]}} {{/core_sim/core/register/register[4]}} {{/core_sim/core/register/register[5]}} {{/core_sim/core/register/register[6]}} {{/core_sim/core/register/register[7]}} {{/core_sim/core/register/register[8]}} 
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/register/register[1]}} 
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/register/register[1]}} 
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/register/register[1]}} 
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/register/register}} 
+save_wave_config {D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/sim/core_sim_behav.wcfg}
+close_sim
+launch_simulation -simset [get_filesets sim_2 ]
+open_wave_config D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/register/register}} 
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/register/register[1]}} 
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/register/register[6]}} 
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/register/register[3]}} 
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/register/register[2]}} 
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/register/register[4]}} 
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/register/register[5]}} 
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/register/register[7]}} 
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/register/register[8]}} 
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/mem_addr}} {{/core_sim/core/mem_data}} 
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/RAM/data}} 
+restart
+run 28 us
+run 28 us
+restart
+run 28 us
+run 28 us
+run 28 us
+run 999 us
+save_wave_config {D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/sim/core_sim_behav.wcfg}
+close_sim
+launch_simulation -simset [get_filesets sim_2 ]
+open_wave_config D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/RAM/data[0]}} {{/core_sim/core/RAM/data[1]}} {{/core_sim/core/RAM/data[2]}} 
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/cmu_stall}} 
+restart
+run 999 us
+save_wave_config {D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/sim/core_sim_behav.wcfg}
+close_sim
+launch_simulation -simset [get_filesets sim_2 ]
+open_wave_config D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+restart
+run 280 ns
+save_wave_config {D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/sim/core_sim_behav.wcfg}
+close_sim

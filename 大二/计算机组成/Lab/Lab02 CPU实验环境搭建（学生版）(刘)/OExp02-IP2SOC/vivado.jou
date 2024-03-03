@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Mar 15 22:45:56 2022
+# Process ID: 27380
+# Current directory: D:/1学习文件/计组/Lab/Lab02 CPU实验环境搭建（学生版）(刘)/OExp02-IP2SOC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5752 D:\1学习文件\计组\Lab\Lab02 CPU实验环境搭建（学生版）(刘)\OExp02-IP2SOC\OExp02-IP2SOC.xpr
+# Log file: D:/1学习文件/计组/Lab/Lab02 CPU实验环境搭建（学生版）(刘)/OExp02-IP2SOC/vivado.log
+# Journal file: D:/1学习文件/计组/Lab/Lab02 CPU实验环境搭建（学生版）(刘)/OExp02-IP2SOC\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/1学习文件/计组/Lab/Lab02 CPU实验环境搭建（学生版）(刘)/OExp02-IP2SOC/OExp02-IP2SOC.xpr}
+update_compile_order -fileset sources_1

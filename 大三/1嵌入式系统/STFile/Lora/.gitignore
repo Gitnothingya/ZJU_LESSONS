@@ -1,0 +1,12 @@
+.vscode/
+.setting/
+Debug/
+Drivers/
+Middlewares/
+.cproject
+.mxproject
+.project
+BasicLora.ioc
+README.md
+STM32F103C8TX_FLASH.ld
+Lora Debug.launch

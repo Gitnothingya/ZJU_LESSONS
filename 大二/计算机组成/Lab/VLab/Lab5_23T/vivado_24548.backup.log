@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Jun 15 00:41:02 2022
+# Process ID: 24548
+# Current directory: D:/Vteacher/Lab5_23T
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14552 D:\Vteacher\Lab5_23T\Lab5_23.xpr
+# Log file: D:/Vteacher/Lab5_23T/vivado.log
+# Journal file: D:/Vteacher/Lab5_23T\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vteacher/Lab5_23T/Lab5_23.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Vteacher/IP'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Vteacher/VGA5'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2020.2/data/ip'.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:VGA:1.0'. The one found in IP location 'd:/Vteacher/VGA5/VGA/VGA.srcs/sources_1/imports/Framework' will take precedence over the same IP in location d:/Vteacher/IP/Supplementary/VGA/VGA/VGA.srcs/sources_1/new
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:10 . Memory (MB): peak = 1112.633 ; gain = 0.000
+update_compile_order -fileset sources_1
+close [ open D:/Vteacher/Lab5_23T/Lab5_23.srcs/sources_1/new/sim.v w ]
+add_files D:/Vteacher/Lab5_23T/Lab5_23.srcs/sources_1/new/sim.v
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jun 15 10:11:38 2022...

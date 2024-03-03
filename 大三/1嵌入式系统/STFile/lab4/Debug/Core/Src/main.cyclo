@@ -1,0 +1,8 @@
+main.c:39:1:__io_putchar	1
+main.c:173:5:main	1
+main.c:317:6:SystemClock_Config	3
+main.c:354:6:HAL_GPIO_EXTI_Callback	7
+main.c:440:6:HAL_TIM_PeriodElapsedCallback	5
+main.c:509:9:SUM	2
+main.c:518:6:My_Delay	2
+main.c:533:6:Error_Handler	1

@@ -1,0 +1,6 @@
+../Core/Src/freertos.c:96:6:MX_FREERTOS_Init	64	static
+../Core/Src/freertos.c:163:6:StartDefaultTask	24	static
+../Core/Src/freertos.c:178:6:Callback01	16	static
+../Core/Src/freertos.c:190:6:StartSerialWithESP	16	static
+../Core/Src/freertos.c:212:6:StartTxWithESP	40	static
+../Core/Src/freertos.c:226:6:vTestTimerCallback	24	static

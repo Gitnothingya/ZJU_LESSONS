@@ -1,0 +1,19 @@
+
+*** Running vivado
+    with args -log rom_d.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source rom_d.tcl
+
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source rom_d.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Vteacher/IP'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Vteacher/Cctrl'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Vteacher/DPath'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2020.2/data/ip'.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP rom_d, cache-ID = 82ce73ab0431aaca.
+INFO: [Common 17-206] Exiting Vivado at Wed May 25 18:52:17 2022...

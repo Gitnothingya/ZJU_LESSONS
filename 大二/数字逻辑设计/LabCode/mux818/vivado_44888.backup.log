@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Mar 10 18:03:03 2022
+# Process ID: 44888
+# Current directory: D:/Vfile/mux818
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10604 D:\Vfile\mux818\mux818.xpr
+# Log file: D:/Vfile/mux818/vivado.log
+# Journal file: D:/Vfile/mux818\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vfile/mux818/mux818.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/Vfile/mux818/mux818.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Vfile/mux818/mux818.srcs/sources_1/new'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:27 ; elapsed = 00:00:12 . Memory (MB): peak = 1112.641 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 10 18:07:00 2022...

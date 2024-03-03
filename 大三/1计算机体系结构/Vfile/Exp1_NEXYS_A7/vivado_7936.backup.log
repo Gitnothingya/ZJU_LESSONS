@@ -1,0 +1,535 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Oct 12 14:16:23 2022
+# Process ID: 7936
+# Current directory: D:/Vfile/Exp1_NEXYS_A7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11808 D:\Vfile\Exp1_NEXYS_A7\Exp1.xpr
+# Log file: D:/Vfile/Exp1_NEXYS_A7/vivado.log
+# Journal file: D:/Vfile/Exp1_NEXYS_A7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vfile/Exp1_NEXYS_A7/Exp1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2020.2/data/ip'.
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+[Wed Oct 12 14:17:07 2022] Launched synth_1...
+Run output will be captured here: D:/Vfile/Exp1_NEXYS_A7/Exp1.runs/synth_1/runme.log
+[Wed Oct 12 14:17:07 2022] Launched impl_1...
+Run output will be captured here: D:/Vfile/Exp1_NEXYS_A7/Exp1.runs/impl_1/runme.log
+copy_run -name synth_1_copy_1 [get_runs synth_1] 
+synth_1_copy_1
+set_property part xc7a100tcsg324-1 [current_project]
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+[Wed Oct 12 14:28:16 2022] Launched synth_1...
+Run output will be captured here: D:/Vfile/Exp1_NEXYS_A7/Exp1.runs/synth_1/runme.log
+[Wed Oct 12 14:28:16 2022] Launched impl_1...
+Run output will be captured here: D:/Vfile/Exp1_NEXYS_A7/Exp1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Oct 12 14:40:40 2022] Launched impl_1...
+Run output will be captured here: D:/Vfile/Exp1_NEXYS_A7/Exp1.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.2
+  **** Build date : Nov 18 2020 at 10:01:48
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2020.2
+  ****** Build date   : Nov 04 2020-05:02:56
+    **** Build number : 2020.2.1604437376
+      ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1107.137 ; gain = 1.129
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B1822DA
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/Vfile/Exp1_NEXYS_A7/Exp1.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Vfile/Exp1_NEXYS_A7/Exp1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'core_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Vfile/Exp1_NEXYS_A7/Exp1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj core_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/core/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/auxillary/CPUTEST.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPUTEST
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/core/CtrlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CtrlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/core/HazardDetectionUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HazardDetectionUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/core/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/common/MUX2T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/common/MUX4T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX4T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/core/RAM_B.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM_B
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/common/REG32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/core/REG_EX_MEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG_EX_MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/core/REG_ID_EX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG_ID_EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/core/REG_IF_ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG_IF_ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/core/REG_MEM_WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG_MEM_WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/core/ROM_D.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM_D
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/core/RV32core.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RV32core
+INFO: [VRFC 10-2458] undeclared symbol Addr, assumed default net type wire [D:/Vfile/Exp1_NEXYS_A7/code/core/RV32core.v:183]
+INFO: [VRFC 10-2458] undeclared symbol MWR, assumed default net type wire [D:/Vfile/Exp1_NEXYS_A7/code/core/RV32core.v:184]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/core/Regs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Regs
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/common/add_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/common/cmp_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmp_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/auxillary/debug_clk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debug_clk
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/sim/core_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module core_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Vfile/Exp1_NEXYS_A7/Exp1.sim/sim_1/behav/xsim'
+"xelab -wto 1995affe731d4385a79f1f7a3468775d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot core_sim_behav xil_defaultlib.core_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 1995affe731d4385a79f1f7a3468775d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot core_sim_behav xil_defaultlib.core_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'PCSource' [D:/Vfile/Exp1_NEXYS_A7/code/core/RV32core.v:170]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'Addr' [D:/Vfile/Exp1_NEXYS_A7/code/core/RV32core.v:183]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'DatatoReg' [D:/Vfile/Exp1_NEXYS_A7/code/core/RV32core.v:187]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.debug_clk
+Compiling module xil_defaultlib.REG32
+Compiling module xil_defaultlib.add_32
+Compiling module xil_defaultlib.MUX2T1_32
+Compiling module xil_defaultlib.ROM_D
+Compiling module xil_defaultlib.REG_IF_ID
+Compiling module xil_defaultlib.CtrlUnit
+Compiling module xil_defaultlib.Regs
+Compiling module xil_defaultlib.ImmGen
+Compiling module xil_defaultlib.MUX4T1_32
+Compiling module xil_defaultlib.cmp_32
+Compiling module xil_defaultlib.HazardDetectionUnit
+Compiling module xil_defaultlib.REG_ID_EX
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.REG_EX_MEM
+Compiling module xil_defaultlib.RAM_B
+Compiling module xil_defaultlib.REG_MEM_WB
+Compiling module xil_defaultlib.CPUTEST
+Compiling module xil_defaultlib.RV32core
+Compiling module xil_defaultlib.core_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot core_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Vfile/Exp1_NEXYS_A7/Exp1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "core_sim_behav -key {Behavioral:sim_1:Functional:core_sim} -tclbatch {core_sim.tcl} -view {D:/Vfile/Exp1_NEXYS_A7/code/sim/core_sim_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+open_wave_config D:/Vfile/Exp1_NEXYS_A7/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'core_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2725.305 ; gain = 57.625
+current_wave_config {core_sim_behav.wcfg}
+core_sim_behav.wcfg
+add_wave {{/core_sim/core/register}} 
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+run: Time (s): cpu = 00:00:37 ; elapsed = 00:00:22 . Memory (MB): peak = 2984.273 ; gain = 253.742
+current_wave_config {core_sim_behav.wcfg}
+core_sim_behav.wcfg
+add_wave {{/core_sim/core/imm_gen}} 
+current_wave_config {core_sim_behav.wcfg}
+core_sim_behav.wcfg
+add_wave {{/core_sim/core/alu}} 
+current_wave_config {core_sim_behav.wcfg}
+core_sim_behav.wcfg
+add_wave {{/core_sim/core/mux_A_EXE}} 
+current_wave_config {core_sim_behav.wcfg}
+core_sim_behav.wcfg
+add_wave {{/core_sim/core/mux_B_EXE}} 
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/Vfile/Exp1_NEXYS_A7/Exp1.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Oct 12 15:30:28 2022] Launched synth_1...
+Run output will be captured here: D:/Vfile/Exp1_NEXYS_A7/Exp1.runs/synth_1/runme.log
+[Wed Oct 12 15:30:28 2022] Launched impl_1...
+Run output will be captured here: D:/Vfile/Exp1_NEXYS_A7/Exp1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/Vfile/Exp1_NEXYS_A7/Exp1.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Vfile/Exp1_NEXYS_A7/Exp1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'core_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Vfile/Exp1_NEXYS_A7/Exp1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj core_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/core/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/auxillary/CPUTEST.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPUTEST
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/core/CtrlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CtrlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/core/HazardDetectionUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HazardDetectionUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/core/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/common/MUX2T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/common/MUX4T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX4T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/core/RAM_B.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM_B
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/common/REG32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/core/REG_EX_MEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG_EX_MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/core/REG_ID_EX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG_ID_EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/core/REG_IF_ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG_IF_ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/core/REG_MEM_WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG_MEM_WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/core/ROM_D.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM_D
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/core/RV32core.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RV32core
+INFO: [VRFC 10-2458] undeclared symbol Addr, assumed default net type wire [D:/Vfile/Exp1_NEXYS_A7/code/core/RV32core.v:183]
+INFO: [VRFC 10-2458] undeclared symbol MWR, assumed default net type wire [D:/Vfile/Exp1_NEXYS_A7/code/core/RV32core.v:184]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/core/Regs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Regs
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/common/add_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/common/cmp_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmp_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/auxillary/debug_clk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debug_clk
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/sim/core_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module core_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Vfile/Exp1_NEXYS_A7/Exp1.sim/sim_1/behav/xsim'
+"xelab -wto 1995affe731d4385a79f1f7a3468775d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot core_sim_behav xil_defaultlib.core_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 1995affe731d4385a79f1f7a3468775d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot core_sim_behav xil_defaultlib.core_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'PCSource' [D:/Vfile/Exp1_NEXYS_A7/code/core/RV32core.v:170]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'Addr' [D:/Vfile/Exp1_NEXYS_A7/code/core/RV32core.v:183]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'DatatoReg' [D:/Vfile/Exp1_NEXYS_A7/code/core/RV32core.v:187]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.debug_clk
+Compiling module xil_defaultlib.REG32
+Compiling module xil_defaultlib.add_32
+Compiling module xil_defaultlib.MUX2T1_32
+Compiling module xil_defaultlib.ROM_D
+Compiling module xil_defaultlib.REG_IF_ID
+Compiling module xil_defaultlib.CtrlUnit
+Compiling module xil_defaultlib.Regs
+Compiling module xil_defaultlib.ImmGen
+Compiling module xil_defaultlib.MUX4T1_32
+Compiling module xil_defaultlib.cmp_32
+Compiling module xil_defaultlib.HazardDetectionUnit
+Compiling module xil_defaultlib.REG_ID_EX
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.REG_EX_MEM
+Compiling module xil_defaultlib.RAM_B
+Compiling module xil_defaultlib.REG_MEM_WB
+Compiling module xil_defaultlib.CPUTEST
+Compiling module xil_defaultlib.RV32core
+Compiling module xil_defaultlib.core_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot core_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Vfile/Exp1_NEXYS_A7/Exp1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "core_sim_behav -key {Behavioral:sim_1:Functional:core_sim} -tclbatch {core_sim.tcl} -view {D:/Vfile/Exp1_NEXYS_A7/code/sim/core_sim_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+open_wave_config D:/Vfile/Exp1_NEXYS_A7/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'core_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 3548.430 ; gain = 0.000
+current_wave_config {core_sim_behav.wcfg}
+core_sim_behav.wcfg
+add_wave {{/core_sim/core/register}} 
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+run: Time (s): cpu = 00:01:06 ; elapsed = 00:01:00 . Memory (MB): peak = 3548.430 ; gain = 0.000
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Vivado 12-872] Run step 'Design Initialization' is out-of-date.
+[Wed Oct 12 15:57:34 2022] Launched impl_1...
+Run output will be captured here: D:/Vfile/Exp1_NEXYS_A7/Exp1.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/Vfile/Exp1_NEXYS_A7/Exp1.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Oct 12 15:57:58 2022] Launched synth_1...
+Run output will be captured here: D:/Vfile/Exp1_NEXYS_A7/Exp1.runs/synth_1/runme.log
+[Wed Oct 12 15:57:58 2022] Launched impl_1...
+Run output will be captured here: D:/Vfile/Exp1_NEXYS_A7/Exp1.runs/impl_1/runme.log
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+[Wed Oct 12 15:59:44 2022] Launched impl_1...
+Run output will be captured here: D:/Vfile/Exp1_NEXYS_A7/Exp1.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Vfile/Exp1_NEXYS_A7/Exp1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'core_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Vfile/Exp1_NEXYS_A7/Exp1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj core_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/core/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/auxillary/CPUTEST.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPUTEST
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/core/CtrlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CtrlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/core/HazardDetectionUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HazardDetectionUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/core/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/common/MUX2T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/common/MUX4T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX4T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/core/RAM_B.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM_B
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/common/REG32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/core/REG_EX_MEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG_EX_MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/core/REG_ID_EX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG_ID_EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/core/REG_IF_ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG_IF_ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/core/REG_MEM_WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG_MEM_WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/core/ROM_D.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM_D
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/core/RV32core.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RV32core
+INFO: [VRFC 10-2458] undeclared symbol Addr, assumed default net type wire [D:/Vfile/Exp1_NEXYS_A7/code/core/RV32core.v:183]
+INFO: [VRFC 10-2458] undeclared symbol MWR, assumed default net type wire [D:/Vfile/Exp1_NEXYS_A7/code/core/RV32core.v:184]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/core/Regs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Regs
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/common/add_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/common/cmp_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmp_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/auxillary/debug_clk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debug_clk
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp1_NEXYS_A7/code/sim/core_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module core_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Vfile/Exp1_NEXYS_A7/Exp1.sim/sim_1/behav/xsim'
+"xelab -wto 1995affe731d4385a79f1f7a3468775d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot core_sim_behav xil_defaultlib.core_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 1995affe731d4385a79f1f7a3468775d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot core_sim_behav xil_defaultlib.core_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'PCSource' [D:/Vfile/Exp1_NEXYS_A7/code/core/RV32core.v:170]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'Addr' [D:/Vfile/Exp1_NEXYS_A7/code/core/RV32core.v:183]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'DatatoReg' [D:/Vfile/Exp1_NEXYS_A7/code/core/RV32core.v:187]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.debug_clk
+Compiling module xil_defaultlib.REG32
+Compiling module xil_defaultlib.add_32
+Compiling module xil_defaultlib.MUX2T1_32
+Compiling module xil_defaultlib.ROM_D
+Compiling module xil_defaultlib.REG_IF_ID
+Compiling module xil_defaultlib.CtrlUnit
+Compiling module xil_defaultlib.Regs
+Compiling module xil_defaultlib.ImmGen
+Compiling module xil_defaultlib.MUX4T1_32
+Compiling module xil_defaultlib.cmp_32
+Compiling module xil_defaultlib.HazardDetectionUnit
+Compiling module xil_defaultlib.REG_ID_EX
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.REG_EX_MEM
+Compiling module xil_defaultlib.RAM_B
+Compiling module xil_defaultlib.REG_MEM_WB
+Compiling module xil_defaultlib.CPUTEST
+Compiling module xil_defaultlib.RV32core
+Compiling module xil_defaultlib.core_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot core_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Vfile/Exp1_NEXYS_A7/Exp1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "core_sim_behav -key {Behavioral:sim_1:Functional:core_sim} -tclbatch {core_sim.tcl} -view {D:/Vfile/Exp1_NEXYS_A7/code/sim/core_sim_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+open_wave_config D:/Vfile/Exp1_NEXYS_A7/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'core_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 3548.430 ; gain = 0.000
+launch_runs impl_1 -jobs 4
+[Wed Oct 12 16:00:10 2022] Launched impl_1...
+Run output will be captured here: D:/Vfile/Exp1_NEXYS_A7/Exp1.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/Vfile/Exp1_NEXYS_A7/Exp1.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Oct 12 16:02:20 2022] Launched synth_1...
+Run output will be captured here: D:/Vfile/Exp1_NEXYS_A7/Exp1.runs/synth_1/runme.log
+[Wed Oct 12 16:02:20 2022] Launched impl_1...
+Run output will be captured here: D:/Vfile/Exp1_NEXYS_A7/Exp1.runs/impl_1/runme.log
+current_wave_config {core_sim_behav.wcfg}
+core_sim_behav.wcfg
+add_wave {{/core_sim/core/register}} 
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+run: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 3615.363 ; gain = 0.000
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292B1822DA
+reset_run impl_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Oct 12 16:54:35 2022] Launched impl_1...
+Run output will be captured here: D:/Vfile/Exp1_NEXYS_A7/Exp1.runs/impl_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Vfile\Exp1_NEXYS_A7\code\core\ImmGen.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Vfile\Exp1_NEXYS_A7\code\common\add_32.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Vfile\Exp1_NEXYS_A7\code\common\MUX4T1_32.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Vfile\Exp1_NEXYS_A7\code\core\ImmGen.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Vfile\Exp1_NEXYS_A7\code\common\add_32.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Vfile\Exp1_NEXYS_A7\code\common\MUX4T1_32.v:]
+set_param general.maxThreads 8
+8
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+get_param general.maxThreads
+8
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 12 17:03:42 2022...

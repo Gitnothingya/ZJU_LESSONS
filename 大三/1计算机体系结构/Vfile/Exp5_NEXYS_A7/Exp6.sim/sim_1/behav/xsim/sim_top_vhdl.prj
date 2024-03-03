@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Exp6.srcs/sources_1/ip/divider/sim/divider.vhd" \
+"../../../../Exp6.srcs/sources_1/ip/multiplier/sim/multiplier.vhd" \
+"../../../../code/auxillary/UART_TX_CTRL.vhd" \
+
+# Do not sort compile order
+nosort

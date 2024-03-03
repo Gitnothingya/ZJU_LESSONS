@@ -1,0 +1,201 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Wed Oct 26 20:22:45 2022
+| Host         : DESKTOP-715IQOV running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |   123 |
+|    Minimum number of control sets                        |    28 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |    95 |
+| Unused register locations in slices containing registers |   477 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |   123 |
+| >= 0 to < 4        |    18 |
+| >= 4 to < 6        |    21 |
+| >= 6 to < 8        |    12 |
+| >= 8 to < 10       |    12 |
+| >= 10 to < 12      |    16 |
+| >= 12 to < 14      |    10 |
+| >= 14 to < 16      |     8 |
+| >= 16              |    26 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             144 |           62 |
+| No           | No                    | Yes                    |             205 |           74 |
+| No           | Yes                   | No                     |              79 |           27 |
+| Yes          | No                    | No                     |            1343 |          565 |
+| Yes          | No                    | Yes                    |             847 |          401 |
+| Yes          | Yes                   | No                     |               9 |            4 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------+----------------------------------------+------------------------------+------------------+----------------+--------------+
+|     Clock Signal     |              Enable Signal             |       Set/Reset Signal       | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------------+----------------------------------------+------------------------------+------------------+----------------+--------------+
+|  debug_clk           | core/reg_EXE_MEM/IR_MEM_reg[21]_0[0]   | rst_all_repN_5               |                1 |              1 |         1.00 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_2[0]      | rst_all_repN_1               |                1 |              1 |         1.00 |
+|  debug_clk           | core/reg_IF_ID/isFlushed_reg_0[0]      | rst_all_repN_3               |                1 |              1 |         1.00 |
+|  debug_clk           | core/reg_MEM_WB/CSR_reg[0][3]_0[0]     | rst_all_repN_7               |                1 |              1 |         1.00 |
+|  CLK_GEN/clk_disp    | BTN_SCAN/p_0_in                        |                              |                1 |              1 |         1.00 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_1[0]      | rst_all_repN_1               |                1 |              1 |         1.00 |
+|  debug_clk           | core/reg_IF_ID/PCurrent_ID[31]_i_1_n_0 | rst_all_repN                 |                1 |              1 |         1.00 |
+|  debug_clk           | core/reg_EXE_MEM/rst_all_reg_7[0]      | rst_all_repN                 |                2 |              2 |         1.00 |
+|  debug_clk           |                                        | rst_all_repN_3               |                1 |              2 |         2.00 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_8[0]      | rst_all_repN_1               |                2 |              2 |         1.00 |
+|  CLK100MHZ_IBUF_BUFG |                                        |                              |                1 |              2 |         2.00 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_8[0]      | rst_all_repN_3               |                1 |              2 |         2.00 |
+|  debug_clk           | core/reg_EXE_MEM/IR_MEM_reg[22]_0[0]   | rst_all_repN                 |                1 |              2 |         2.00 |
+|  debug_clk           | core/reg_EXE_MEM/IR_MEM_reg[26]_4[0]   | rst_all                      |                2 |              2 |         1.00 |
+|  debug_clk           | core/reg_IF_ID/E[0]                    | rst_all_repN_4               |                3 |              3 |         1.00 |
+|  debug_clk           | core/reg_EXE_MEM/IR_MEM_reg[26]_3[0]   | rst_all_repN_7               |                2 |              3 |         1.50 |
+|  debug_clk           | core/reg_EXE_MEM/IR_MEM_reg[22]_0[0]   | rst_all_repN_7               |                2 |              3 |         1.50 |
+|  debug_clk           | core/reg_EXE_MEM/IR_MEM_reg[22]_1[0]   | rst_all_repN                 |                2 |              3 |         1.50 |
+|  debug_clk           | core/reg_EXE_MEM/rst_all_reg_6[0]      | rst_all_repN                 |                3 |              4 |         1.33 |
+|  debug_clk           | core/reg_IF_ID/E[0]                    | rst_all_repN_3               |                2 |              4 |         2.00 |
+|  debug_clk           | core/reg_IF_ID/isFlushed_reg_0[0]      | rst_all_repN_1               |                1 |              4 |         4.00 |
+|  debug_clk           | core/reg_EXE_MEM/IR_MEM_reg[26]_3[0]   | rst_all                      |                3 |              4 |         1.33 |
+|  debug_clk           | core/reg_MEM_WB/CSR_reg[0][3]_0[0]     | rst_all_repN_5               |                2 |              4 |         2.00 |
+|  debug_clk           |                                        |                              |                1 |              4 |         4.00 |
+|  debug_clk           | core/reg_EXE_MEM/IR_MEM_reg[21]_1[0]   | rst_all_repN_5               |                3 |              4 |         1.33 |
+|  debug_clk           | core/reg_EXE_MEM/IR_MEM_reg[26]_4[0]   | rst_all_repN_7               |                3 |              4 |         1.33 |
+|  debug_clk           | core/reg_EXE_MEM/IR_MEM_reg[22]_1[0]   | rst_all_repN_7               |                4 |              4 |         1.00 |
+|  CLK_GEN/clk100MHz   |                                        | vga/U12/v_count_reg[8]_1     |                2 |              5 |         2.50 |
+|  debug_clk           | core/reg_EXE_MEM/IR_MEM_reg[21]_1[0]   | rst_all_repN                 |                3 |              5 |         1.67 |
+|  debug_clk           | core/reg_EXE_MEM/IR_MEM_reg[21]_1[0]   | rst_all_repN_4               |                5 |              5 |         1.00 |
+| ~debug_clk           | core/reg_MEM_WB/E[0]                   | rst_all_repN_3               |                3 |              5 |         1.67 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_11[0]     | rst_all_repN_3               |                2 |              5 |         2.50 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_1[0]      | rst_all_repN_3               |                3 |              5 |         1.67 |
+|  debug_clk           | core/reg_IF_ID/isFlushed_reg_0[0]      | rst_all_repN_7               |                2 |              5 |         2.50 |
+|  debug_clk           | core/reg_EXE_MEM/rst_all_reg_7[0]      | rst_all_repN_7               |                1 |              5 |         5.00 |
+|  debug_clk           | core/reg_EXE_MEM/rst_all_reg_6[0]      | rst_all                      |                3 |              5 |         1.67 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_10[0]     | rst_all_repN_3               |                2 |              5 |         2.50 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_13[0]     | rst_all_repN_3               |                3 |              5 |         1.67 |
+|  debug_clk           | core/reg_EXE_MEM/rst_all_reg_6[0]      | rst_all_repN_7               |                2 |              5 |         2.50 |
+|  debug_clk           | core/reg_IF_ID/PCurrent_ID[31]_i_1_n_0 | rst_all_repN_1               |                4 |              6 |         1.50 |
+|  debug_clk           | core/reg_IF_ID/PCurrent_ID[31]_i_1_n_0 | rst_all_repN_6               |                4 |              6 |         1.50 |
+|  debug_clk           | core/reg_EXE_MEM/rst_all_reg_7[0]      | rst_all                      |                5 |              6 |         1.20 |
+|  debug_clk           | core/reg_MEM_WB/CSR_reg[0][3]_0[0]     | rst_all_repN                 |                3 |              6 |         2.00 |
+|  CLK_GEN/clk100MHz   | vga/U12/E[0]                           |                              |                6 |              7 |         1.17 |
+|  debug_clk           |                                        | rst_all_repN_5               |                3 |              7 |         2.33 |
+|  debug_clk           | core/reg_EXE_MEM/IR_MEM_reg[26]_3[0]   | rst_all_repN                 |                3 |              7 |         2.33 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_9[0]      | rst_all_repN_3               |                3 |              7 |         2.33 |
+|  debug_clk           |                                        | rst_all_repN_1               |                4 |              7 |         1.75 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_3[0]      | rst_all_repN_3               |                4 |              7 |         1.75 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_7[0]      | rst_all_repN_3               |                4 |              7 |         1.75 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_5[0]      | rst_all_repN_3               |                5 |              7 |         1.40 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_6[0]      | rst_all_repN_3               |                3 |              8 |         2.67 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_2[0]      | rst_all_repN_3               |                5 |              8 |         1.60 |
+|  debug_clk           | core/reg_EXE_MEM/IR_MEM_reg[26]_4[0]   | rst_all_repN                 |                4 |              8 |         2.00 |
+|  led_clk_BUFG        |                                        | DISPLAY/rst_all_reg          |                2 |              8 |         4.00 |
+|  debug_clk           | core/reg_IF_ID/PCurrent_ID[31]_i_1_n_0 | rst_all_repN_7               |                6 |              8 |         1.33 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_0[0]      | rst_all_repN_3               |                3 |              8 |         2.67 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_2[0]      | rst_all_repN_4               |                3 |              8 |         2.67 |
+|  debug_clk           | core/reg_IF_ID/rst_all_reg             | core/reg_IF_ID/rst_all_reg_0 |                4 |              9 |         2.25 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_12[0]     | rst_all_repN_3               |                4 |              9 |         2.25 |
+|  debug_clk           | core/reg_EXE_MEM/IR_MEM_reg[21]_0[0]   | rst_all_repN_4               |                6 |              9 |         1.50 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_10[0]     | rst_all_repN_4               |                5 |              9 |         1.80 |
+|  debug_clk           | core/reg_EXE_MEM/IR_MEM_reg[21]_0[0]   | rst_all_repN                 |                6 |              9 |         1.50 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_11[0]     | rst_all_repN_4               |                4 |             10 |         2.50 |
+|  CLK_GEN/clk_disp    |                                        | vga/U12/h_count[9]_i_1_n_0   |                5 |             10 |         2.00 |
+|  CLK_GEN/clk_disp    | vga/U12/v_count__30                    |                              |                4 |             10 |         2.50 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_1[0]      | rst_all_repN_4               |                5 |             10 |         2.00 |
+|  debug_clk           | core/reg_EXE_MEM/IR_MEM_reg[22]_1[0]   | rst_all                      |                4 |             10 |         2.50 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_4[0]      | rst_all_repN_3               |                4 |             10 |         2.50 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_4[0]      | rst_all_repN_2               |                5 |             10 |         2.00 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_0[0]      | rst_all_repN_4               |                5 |             10 |         2.00 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_3[0]      | rst_all_repN_2               |                4 |             10 |         2.50 |
+| ~debug_clk           | core/reg_MEM_WB/E[0]                   | rst_all_repN_4               |                4 |             11 |         2.75 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_6[0]      | rst_all_repN_4               |                6 |             11 |         1.83 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_7[0]      | rst_all_repN_4               |                7 |             11 |         1.57 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_5[0]      | rst_all_repN_2               |                2 |             11 |         5.50 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_8[0]      | rst_all_repN_4               |                7 |             11 |         1.57 |
+|  debug_clk           | core/reg_IF_ID/PCurrent_ID[31]_i_1_n_0 | rst_all_repN_4               |                5 |             11 |         2.20 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_12[0]     | rst_all_repN_4               |                5 |             11 |         2.20 |
+|  CLK_GEN/clk_disp    |                                        | vga/U12/rdn_reg_n_0          |                3 |             12 |         4.00 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_13[0]     | rst_all_repN_4               |                5 |             12 |         2.40 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_9[0]      | rst_all_repN_4               |                5 |             12 |         2.40 |
+|  debug_clk           | core/reg_EXE_MEM/IR_MEM_reg[22]_0[0]   | rst_all                      |                6 |             12 |         2.00 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_4[0]      | rst_all_repN_4               |                5 |             12 |         2.40 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_12[0]     | rst_all_repN_2               |                4 |             12 |         3.00 |
+|  debug_clk           | core/reg_EXE_MEM/IR_MEM_reg[21]_0[0]   | rst_all_repN_7               |                7 |             13 |         1.86 |
+|  CLK_GEN/clk100MHz   |                                        | vga/U12/v_count_reg[8]_14    |                7 |             13 |         1.86 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_9[0]      | rst_all_repN_2               |                5 |             13 |         2.60 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_6[0]      | rst_all_repN_2               |                4 |             13 |         3.25 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_0[0]      | rst_all_repN_2               |                8 |             14 |         1.75 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_5[0]      | rst_all_repN_4               |                7 |             14 |         2.00 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_7[0]      | rst_all_repN_2               |                5 |             14 |         2.80 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_13[0]     | rst_all_repN_2               |                6 |             15 |         2.50 |
+|  debug_clk           | core/reg_EXE_MEM/IR_MEM_reg[22]_0[0]   | rst_all_repN_5               |                5 |             15 |         3.00 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_2[0]      | rst_all_repN_2               |                6 |             15 |         2.50 |
+|  debug_clk           | core/reg_EXE_MEM/IR_MEM_reg[22]_1[0]   | rst_all_repN_5               |                5 |             15 |         3.00 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_3[0]      | rst_all_repN_4               |                6 |             15 |         2.50 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_1[0]      | rst_all_repN_2               |                7 |             16 |         2.29 |
+| ~debug_clk           | core/reg_MEM_WB/E[0]                   | rst_all_repN_2               |                7 |             16 |         2.29 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_8[0]      | rst_all_repN_2               |                8 |             17 |         2.12 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_11[0]     | rst_all_repN_2               |                5 |             17 |         3.40 |
+|  debug_clk           | core/reg_EXE_MEM/IR_MEM_reg[26]_4[0]   | rst_all_repN_5               |                5 |             18 |         3.60 |
+| ~debug_clk           | core/reg_MEM_WB/IR_WB_reg[9]_10[0]     | rst_all_repN_2               |                4 |             18 |         4.50 |
+|  debug_clk           | core/reg_EXE_MEM/IR_MEM_reg[21]_1[0]   | rst_all_repN_7               |               12 |             18 |         1.50 |
+|  debug_clk           | core/reg_EXE_MEM/rst_all_reg_6[0]      | rst_all_repN_5               |                7 |             18 |         2.57 |
+|  debug_clk           | core/reg_EXE_MEM/IR_MEM_reg[26]_3[0]   | rst_all_repN_5               |                7 |             18 |         2.57 |
+|  debug_clk           | core/reg_EXE_MEM/rst_all_reg_7[0]      | rst_all_repN_5               |                6 |             19 |         3.17 |
+|  CLK_GEN/clk_disp    |                                        |                              |                9 |             22 |         2.44 |
+|  CLK_GEN/clk_cpu     |                                        |                              |                9 |             25 |         2.78 |
+|  debug_clk           |                                        | rst_all_repN                 |                9 |             28 |         3.11 |
+|  CLK100MHZ_IBUF_BUFG |                                        | CLK_GEN/led_clk_0            |                8 |             31 |         3.88 |
+|  CLK_GEN/clk100MHz   |                                        |                              |               25 |             31 |         1.24 |
+|  debug_clk           |                                        | rst_all                      |               11 |             33 |         3.00 |
+|  debug_clk           |                                        | rst_all_repN_6               |               16 |             40 |         2.50 |
+|  debug_clk           |                                        | rst_all_repN_4               |               15 |             43 |         2.87 |
+|  debug_clk           |                                        | rst_all_repN_7               |               15 |             45 |         3.00 |
+|  CLK_GEN/clk100MHz   | vga/U12/should_latch_debug_data        |                              |                6 |             48 |         8.00 |
+|  debug_clk           | core/reg_IF_ID/E[0]                    | rst_all_repN_6               |               24 |             51 |         2.12 |
+|  led_clk_BUFG        |                                        |                              |               17 |             60 |         3.53 |
+|  debug_clk           | core/reg_MEM_WB/ALUO_WB[31]_i_1_n_0    |                              |               22 |             65 |         2.95 |
+|  debug_clk           | core/reg_IF_ID/rst_all_reg             |                              |               40 |             97 |         2.42 |
+|  debug_clk           | core/reg_ID_EX/rst_all_reg             |                              |               83 |            139 |         1.67 |
+| ~debug_clk           | core/data_ram/p_1_out                  |                              |              409 |           1024 |         2.50 |
++----------------------+----------------------------------------+------------------------------+------------------+----------------+--------------+
+
+

@@ -1,0 +1,120 @@
+19:46:20 **** Incremental Build of configuration Debug for project BasicLora ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I"D:/STFile/BasicLora/Drivers" -I"D:/STFile/BasicLora/Drivers/driver" -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'sendDataToESP32':
+../Core/Src/main.c:105:35: warning: passing argument 2 of 'HAL_UART_Transmit_IT' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  105 |     HAL_UART_Transmit_IT(&huart2, content, len);
+      |                                   ^~~~~~~
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:338,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:727:76: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'const char *'
+  727 | HAL_StatusTypeDef HAL_UART_Transmit_IT(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size);
+      |                                                                   ~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'HAL_UART_RxCpltCallback':
+../Core/Src/main.c:256:15: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness [-Wpointer-sign]
+  256 |    if (strcmp(UART2_Rx_Buf, "request all")==0)
+      |               ^~~~~~~~~~~~
+      |               |
+      |               unsigned char *
+In file included from ../Core/Src/main.c:31:
+d:\stm\stm32cubeide_1.12.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\arm-none-eabi\include\string.h:36:14: note: expected 'const char *' but argument is of type 'unsigned char *'
+   36 | int  strcmp (const char *, const char *);
+      |              ^~~~~~~~~~~~
+../Core/Src/main.c:262:25: warning: format '%d' expects argument of type 'int *', but argument 4 has type 'int' [-Wformat=]
+  262 |      sscanf(buffer, "%s%d %d %d;", buffer, temp->dest, temp->dest, 0);
+      |                        ~^                  ~~~~~~~~~~
+      |                         |                      |
+      |                         int *                  int
+../Core/Src/main.c:262:28: warning: format '%d' expects argument of type 'int *', but argument 5 has type 'int' [-Wformat=]
+  262 |      sscanf(buffer, "%s%d %d %d;", buffer, temp->dest, temp->dest, 0);
+      |                           ~^                           ~~~~~~~~~~
+      |                            |                               |
+      |                            int *                           int
+../Core/Src/main.c:262:31: warning: format '%d' expects argument of type 'int *', but argument 6 has type 'int' [-Wformat=]
+  262 |      sscanf(buffer, "%s%d %d %d;", buffer, temp->dest, temp->dest, 0);
+      |                              ~^                                    ~
+      |                               |                                    |
+      |                               int *                                int
+../Core/Src/main.c:265:35: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit_IT' differ in signedness [-Wpointer-sign]
+  265 |     HAL_UART_Transmit_IT(&huart2, buffer, strlen(buffer));
+      |                                   ^~~~~~
+      |                                   |
+      |                                   char *
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:338,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:727:76: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+  727 | HAL_StatusTypeDef HAL_UART_Transmit_IT(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size);
+      |                                                                   ~~~~~~~~~^~~~~
+../Core/Src/main.c:268:20: warning: pointer targets in passing argument 1 of 'strstr' differ in signedness [-Wpointer-sign]
+  268 |    else if (strstr(UART2_Rx_Buf, "request") != NULL)
+      |                    ^~~~~~~~~~~~
+      |                    |
+      |                    unsigned char *
+In file included from ../Core/Src/main.c:31:
+d:\stm\stm32cubeide_1.12.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\arm-none-eabi\include\string.h:48:16: note: expected 'const char *' but argument is of type 'unsigned char *'
+   48 | char  *strstr (const char *, const char *);
+      |                ^~~~~~~~~~~~
+../Core/Src/main.c:271:12: warning: pointer targets in passing argument 1 of 'sscanf' differ in signedness [-Wpointer-sign]
+  271 |     sscanf(UART2_Rx_Buf, "request %d", &real_dest_addr);
+      |            ^~~~~~~~~~~~
+      |            |
+      |            unsigned char *
+In file included from ../Core/Src/main.c:29:
+d:\stm\stm32cubeide_1.12.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\arm-none-eabi\include\stdio.h:204:13: note: expected 'const char * restrict' but argument is of type 'unsigned char *'
+  204 | int sscanf (const char *__restrict, const char *__restrict, ...)
+      |             ^
+../Core/Src/main.c:271:36: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'uint8_t *' {aka 'unsigned char *'} [-Wformat=]
+  271 |     sscanf(UART2_Rx_Buf, "request %d", &real_dest_addr);
+      |                                   ~^   ~~~~~~~~~~~~~~~
+      |                                    |   |
+      |                                    |   uint8_t * {aka unsigned char *}
+      |                                    int *
+      |                                   %hhd
+../Core/Src/main.c:273:20: warning: pointer targets in passing argument 1 of 'strstr' differ in signedness [-Wpointer-sign]
+  273 |    else if (strstr(UART2_Rx_Buf, "set") != NULL)
+      |                    ^~~~~~~~~~~~
+      |                    |
+      |                    unsigned char *
+In file included from ../Core/Src/main.c:31:
+d:\stm\stm32cubeide_1.12.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\arm-none-eabi\include\string.h:48:16: note: expected 'const char *' but argument is of type 'unsigned char *'
+   48 | char  *strstr (const char *, const char *);
+      |                ^~~~~~~~~~~~
+../Core/Src/main.c:277:12: warning: pointer targets in passing argument 1 of 'sscanf' differ in signedness [-Wpointer-sign]
+  277 |     sscanf(UART2_Rx_Buf, "set %d %d", &real_dest_addr, &state);
+      |            ^~~~~~~~~~~~
+      |            |
+      |            unsigned char *
+In file included from ../Core/Src/main.c:29:
+d:\stm\stm32cubeide_1.12.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\arm-none-eabi\include\stdio.h:204:13: note: expected 'const char * restrict' but argument is of type 'unsigned char *'
+  204 | int sscanf (const char *__restrict, const char *__restrict, ...)
+      |             ^
+../Core/Src/main.c:277:32: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'uint8_t *' {aka 'unsigned char *'} [-Wformat=]
+  277 |     sscanf(UART2_Rx_Buf, "set %d %d", &real_dest_addr, &state);
+      |                               ~^      ~~~~~~~~~~~~~~~
+      |                                |      |
+      |                                int *  uint8_t * {aka unsigned char *}
+      |                               %hhd
+../Core/Src/main.c:277:35: warning: format '%d' expects argument of type 'int *', but argument 4 has type 'uint8_t *' {aka 'unsigned char *'} [-Wformat=]
+  277 |     sscanf(UART2_Rx_Buf, "set %d %d", &real_dest_addr, &state);
+      |                                  ~^                    ~~~~~~
+      |                                   |                    |
+      |                                   int *                uint8_t * {aka unsigned char *}
+      |                                  %hhd
+arm-none-eabi-gcc -o "BasicLora.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STFile\BasicLora\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BasicLora.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BasicLora.elf
+ 
+arm-none-eabi-size   BasicLora.elf 
+arm-none-eabi-objdump -h -S  BasicLora.elf  > "BasicLora.list"
+   text	   data	    bss	    dec	    hex	filename
+  42076	    752	   8840	  51668	   c9d4	BasicLora.elf
+Finished building: default.size.stdout
+ 
+Finished building: BasicLora.list
+ 
+
+19:46:21 Build Finished. 0 errors, 13 warnings. (took 1s.39ms)
+

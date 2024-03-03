@@ -1,0 +1,16 @@
+freertos.c:165:6:MX_FREERTOS_Init	4
+freertos.c:248:6:StartDefaultTask	1
+freertos.c:262:6:vLEDTaskStart	1
+freertos.c:280:6:GpioSwitchToInput	1
+freertos.c:296:6:GpioSwitchToOutput	1
+freertos.c:307:6:Delay_us	6
+freertos.c:321:6:vDH11SignalStart	1
+freertos.c:333:9:CheckResponseSignal	6
+freertos.c:355:9:DH11BitRead	7
+freertos.c:384:9:DH11ByteRead	2
+freertos.c:397:9:DH11AllConnect	4
+freertos.c:430:6:vDH11TaskStart	2
+freertos.c:451:6:vDisplayTaskStart	1
+freertos.c:494:6:OneDigit	1
+freertos.c:508:6:DiffDigit	1
+freertos.c:579:6:OneDigit_SameLight	8

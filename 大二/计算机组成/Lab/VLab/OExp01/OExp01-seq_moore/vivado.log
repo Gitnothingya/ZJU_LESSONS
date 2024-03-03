@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Mar 16 16:09:34 2022
+# Process ID: 4040
+# Current directory: D:/Vteacher/OExp01/OExp01-seq_moore
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3772 D:\Vteacher\OExp01\OExp01-seq_moore\seq_moore.xpr
+# Log file: D:/Vteacher/OExp01/OExp01-seq_moore/vivado.log
+# Journal file: D:/Vteacher/OExp01/OExp01-seq_moore\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vteacher/OExp01/OExp01-seq_moore/seq_moore.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp01/OExp01-seq_moore' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-230] Project 'seq_moore.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:36 ; elapsed = 00:00:13 . Memory (MB): peak = 1111.566 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 16 16:41:48 2022...

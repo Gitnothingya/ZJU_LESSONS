@@ -1,0 +1,413 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue May  3 12:05:52 2022
+# Process ID: 19620
+# Current directory: D:/Vteacher/DPath
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28892 D:\Vteacher\DPath\DPath.xpr
+# Log file: D:/Vteacher/DPath/vivado.log
+# Journal file: D:/Vteacher/DPath\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vteacher/DPath/DPath.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Vteacher/DPath/DPath.srcs/sources_1'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Vfile'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:06 . Memory (MB): peak = 1110.957 ; gain = 0.000
+update_compile_order -fileset sources_1
+ipx::open_ipxact_file D:/Vteacher/DPath/DPath.srcs/sources_1/component.xml
+WARNING: [IP_Flow 19-5226] Project source file 'd:/Vteacher/DPath/DPath.srcs/sources_1/component.xml' ignored by IP packager.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'd:/Vteacher/DPath/DPath.srcs/sources_1/new/ALUT.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'd:/Vteacher/DPath/DPath.srcs/sources_1/new/ImmGen.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'd:/Vteacher/DPath/DPath.srcs/sources_1/new/PCReg.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'd:/Vteacher/DPath/DPath.srcs/sources_1/new/RegFile32.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'd:/Vteacher/DPath/DPath.srcs/sources_1/new/DataPath.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'd:/Vteacher/DPath/DPath.srcs/sources_1/new/ALUT.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'd:/Vteacher/DPath/DPath.srcs/sources_1/new/ImmGen.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'd:/Vteacher/DPath/DPath.srcs/sources_1/new/PCReg.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'd:/Vteacher/DPath/DPath.srcs/sources_1/new/RegFile32.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'd:/Vteacher/DPath/DPath.srcs/sources_1/new/DataPath.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+set_property core_revision 3 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed.
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/Vteacher/DPath/DPath.srcs/sources_1
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/Vteacher/DPath/DPath.srcs/sources_1'
+export_ip_user_files -of_objects  [get_files D:/Vteacher/DPath/DPath.srcs/sources_1/component.xml] -no_script -reset -force -quiet
+remove_files  D:/Vteacher/DPath/DPath.srcs/sources_1/component.xml
+file delete -force D:/Vteacher/DPath/DPath.srcs/sources_1/component.xml
+set_property core_revision 4 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed.
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/Vteacher/DPath/DPath.srcs/sources_1
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/Vteacher/DPath/DPath.srcs/sources_1'
+set_property core_revision 5 [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+WARNING: [IP_Flow 19-867] Referenced XGUI file does not exist: xgui/DataPath_v1_0.tcl
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+CRITICAL WARNING: [IP_Flow 19-530] File Group 'xilinx_xpgui (UI Layout)': Component file 'xgui/DataPath_v1_0.tcl' (d:/Vteacher/DPath/DPath.srcs/sources_1/xgui/DataPath_v1_0.tcl) does not exist.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed.
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/Vteacher/DPath/DPath.srcs/sources_1
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/Vteacher/DPath/DPath.srcs/sources_1'
+ipx::package_project -root_dir d:/vteacher/dpath/dpath.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rst' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'rst'.
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed.
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/Vteacher/DPath/DPath.srcs/sources_1
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/Vteacher/DPath/DPath.srcs/sources_1'
+set_property core_revision 3 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed.
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/Vteacher/DPath/DPath.srcs/sources_1
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/Vteacher/DPath/DPath.srcs/sources_1'
+set_property core_revision 4 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed.
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/Vteacher/DPath/DPath.srcs/sources_1
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/Vteacher/DPath/DPath.srcs/sources_1'
+set_property core_revision 5 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed.
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/Vteacher/DPath/DPath.srcs/sources_1
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/Vteacher/DPath/DPath.srcs/sources_1'
+ipx::package_project -root_dir d:/vteacher/dpath/dpath.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -force
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rst' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'rst'.
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed.
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/Vteacher/DPath/DPath.srcs/sources_1
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/Vteacher/DPath/DPath.srcs/sources_1'
+set_property core_revision 3 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed.
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/Vteacher/DPath/DPath.srcs/sources_1
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/Vteacher/DPath/DPath.srcs/sources_1'
+ipx::unload_core d:/vteacher/dpath/dpath.srcs/sources_1/new/component.xml
+ipx::unload_core d:/Vteacher/DPath/DPath.srcs/sources_1/component.xml
+ipx::open_ipxact_file d:/vteacher/dpath/dpath.srcs/sources_1/new/component.xml
+WARNING: [IP_Flow 19-5226] Project source file 'd:/vteacher/dpath/dpath.srcs/sources_1/new/component.xml' ignored by IP packager.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'd:/vteacher/dpath/dpath.srcs/sources_1/new/ALUT.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'd:/vteacher/dpath/dpath.srcs/sources_1/new/ImmGen.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'd:/vteacher/dpath/dpath.srcs/sources_1/new/PCReg.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'd:/vteacher/dpath/dpath.srcs/sources_1/new/RegFile32.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'd:/vteacher/dpath/dpath.srcs/sources_1/new/DataPath.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'd:/vteacher/dpath/dpath.srcs/sources_1/new/ALUT.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'd:/vteacher/dpath/dpath.srcs/sources_1/new/ImmGen.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'd:/vteacher/dpath/dpath.srcs/sources_1/new/PCReg.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'd:/vteacher/dpath/dpath.srcs/sources_1/new/RegFile32.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'd:/vteacher/dpath/dpath.srcs/sources_1/new/DataPath.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+ipx::unload_core d:/vteacher/dpath/dpath.srcs/sources_1/new/component.xml
+file mkdir D:/Vteacher/DPath/DPath.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/Vteacher/DPath/DPath.srcs/sim_1/new/tb_DataPath.v w ]
+add_files -fileset sim_1 D:/Vteacher/DPath/DPath.srcs/sim_1/new/tb_DataPath.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Vteacher/DPath/DPath.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_DataPath' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Vteacher/DPath/DPath.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_DataPath_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vteacher/DPath/DPath.srcs/sources_1/new/ALUT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUT
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vteacher/DPath/DPath.srcs/sources_1/new/DataPath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath
+INFO: [VRFC 10-2458] undeclared symbol mux4T1_o0, assumed default net type wire [D:/Vteacher/DPath/DPath.srcs/sources_1/new/DataPath.v:77]
+INFO: [VRFC 10-2458] undeclared symbol mu4, assumed default net type wire [D:/Vteacher/DPath/DPath.srcs/sources_1/new/DataPath.v:87]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vteacher/DPath/DPath.srcs/sources_1/new/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vteacher/DPath/DPath.srcs/sources_1/new/PCReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vteacher/DPath/DPath.srcs/sources_1/new/RegFile32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vteacher/DPath/DPath.srcs/sim_1/new/tb_DataPath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_DataPath
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vteacher/DPath/DPath.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Vteacher/DPath/DPath.sim/sim_1/behav/xsim'
+"xelab -wto c2c17e0e9552463a9517eff891220c08 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_DataPath_behav xil_defaultlib.tb_DataPath xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto c2c17e0e9552463a9517eff891220c08 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_DataPath_behav xil_defaultlib.tb_DataPath xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'Wt_data' [D:/Vteacher/DPath/DPath.srcs/sources_1/new/DataPath.v:87]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ImmGen
+Compiling module xil_defaultlib.RegFile32
+Compiling module xil_defaultlib.PCReg
+Compiling module xil_defaultlib.ALUT
+Compiling module xil_defaultlib.DataPath
+Compiling module xil_defaultlib.tb_DataPath
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_DataPath_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source D:/Vteacher/DPath/DPath.sim/sim_1/behav/xsim/xsim.dir/tb_DataPath_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'D:/Vteacher/DPath/DPath.sim/sim_1/behav/xsim/xsim.dir/tb_DataPath_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue May  3 16:13:23 2022. For additional details about this file, please refer to the WebTalk help file at D:/vivado/Vivado/2020.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Tue May  3 16:13:23 2022...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1184.453 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Vteacher/DPath/DPath.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_DataPath_behav -key {Behavioral:sim_1:Functional:tb_DataPath} -tclbatch {tb_DataPath.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source tb_DataPath.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_DataPath_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 1197.445 ; gain = 12.992
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_DataPath/u_DataPath/ALU}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_DataPath/u_DataPath/Regs}} 
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1736.320 ; gain = 0.000
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Vteacher/DPath/DPath.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_DataPath' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Vteacher/DPath/DPath.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_DataPath_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vteacher/DPath/DPath.srcs/sources_1/new/ALUT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUT
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vteacher/DPath/DPath.srcs/sources_1/new/DataPath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath
+INFO: [VRFC 10-2458] undeclared symbol mux4T1_o0, assumed default net type wire [D:/Vteacher/DPath/DPath.srcs/sources_1/new/DataPath.v:77]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vteacher/DPath/DPath.srcs/sources_1/new/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vteacher/DPath/DPath.srcs/sources_1/new/PCReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vteacher/DPath/DPath.srcs/sources_1/new/RegFile32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vteacher/DPath/DPath.srcs/sim_1/new/tb_DataPath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_DataPath
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Vteacher/DPath/DPath.sim/sim_1/behav/xsim'
+"xelab -wto c2c17e0e9552463a9517eff891220c08 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_DataPath_behav xil_defaultlib.tb_DataPath xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto c2c17e0e9552463a9517eff891220c08 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_DataPath_behav xil_defaultlib.tb_DataPath xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'Wt_data' [D:/Vteacher/DPath/DPath.srcs/sources_1/new/DataPath.v:87]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ImmGen
+Compiling module xil_defaultlib.RegFile32
+Compiling module xil_defaultlib.PCReg
+Compiling module xil_defaultlib.ALUT
+Compiling module xil_defaultlib.DataPath
+Compiling module xil_defaultlib.tb_DataPath
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_DataPath_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Vteacher/DPath/DPath.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_DataPath_behav -key {Behavioral:sim_1:Functional:tb_DataPath} -tclbatch {tb_DataPath.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source tb_DataPath.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_DataPath_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/Vteacher/DPath/DPath.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Tue May  3 16:20:06 2022] Launched synth_1...
+Run output will be captured here: D:/Vteacher/DPath/DPath.runs/synth_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+launch_runs synth_1 -jobs 4
+[Tue May  3 16:20:11 2022] Launched synth_1...
+Run output will be captured here: D:/Vteacher/DPath/DPath.runs/synth_1/runme.log
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Vteacher/DPath/DPath.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_DataPath' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Vteacher/DPath/DPath.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_DataPath_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vteacher/DPath/DPath.srcs/sources_1/new/ALUT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUT
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vteacher/DPath/DPath.srcs/sources_1/new/DataPath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vteacher/DPath/DPath.srcs/sources_1/new/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vteacher/DPath/DPath.srcs/sources_1/new/PCReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vteacher/DPath/DPath.srcs/sources_1/new/RegFile32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vteacher/DPath/DPath.srcs/sim_1/new/tb_DataPath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_DataPath
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Vteacher/DPath/DPath.sim/sim_1/behav/xsim'
+"xelab -wto c2c17e0e9552463a9517eff891220c08 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_DataPath_behav xil_defaultlib.tb_DataPath xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto c2c17e0e9552463a9517eff891220c08 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_DataPath_behav xil_defaultlib.tb_DataPath xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ImmGen
+Compiling module xil_defaultlib.RegFile32
+Compiling module xil_defaultlib.PCReg
+Compiling module xil_defaultlib.ALUT
+Compiling module xil_defaultlib.DataPath
+Compiling module xil_defaultlib.tb_DataPath
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_DataPath_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Vteacher/DPath/DPath.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_DataPath_behav -key {Behavioral:sim_1:Functional:tb_DataPath} -tclbatch {tb_DataPath.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source tb_DataPath.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_DataPath_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue May  3 16:22:24 2022...

@@ -1,0 +1,18 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/Vteacher/Lab4_3/Lab2.srcs/sim_1/new/tb_ALU.v,1652088777,verilog,,,,tb_ALU,,,,,,,,
+D:/Vteacher/Lab4_4/Lab2.gen/sources_1/ip/ram_b/sim/ram_b.v,1653475032,verilog,,D:/Vteacher/Lab4_4/Lab2.srcs/sources_1/imports/new/ALUT.v,,ram_b,,,,,,,,
+D:/Vteacher/Lab4_4/Lab2.gen/sources_1/ip/rom_d/sim/rom_d.v,1653475929,verilog,,D:/Vteacher/Lab4_4/Lab2.gen/sources_1/ip/ram_b/sim/ram_b.v,,rom_d,,,,,,,,
+D:/Vteacher/Lab4_4/Lab2.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+D:/Vteacher/Lab4_4/Lab2.srcs/sim_1/new/cpu_tb.v,1655224633,verilog,,,,tb_CPUT,,,,,,,,
+D:/Vteacher/Lab4_4/Lab2.srcs/sources_1/imports/new/ALUT.v,1652075006,verilog,,D:/Vteacher/Lab4_4/Lab2.srcs/sources_1/new/CPUT.v,,ALUT,,,,,,,,
+D:/Vteacher/Lab4_4/Lab2.srcs/sources_1/imports/new/DataPath.v,1653477745,verilog,,D:/Vteacher/Lab4_4/Lab2.srcs/sources_1/imports/new/ImmGen.v,,DataPath,,,,,,,,
+D:/Vteacher/Lab4_4/Lab2.srcs/sources_1/imports/new/ImmGen.v,1651982462,verilog,,D:/Vteacher/Lab4_4/Lab2.srcs/sources_1/new/Load_Ctrl.v,,ImmGen,,,,,,,,
+D:/Vteacher/Lab4_4/Lab2.srcs/sources_1/imports/new/PCReg.v,1651374094,verilog,,D:/Vteacher/Lab4_4/Lab2.srcs/sources_1/new/RV_INT.v,,PCReg,,,,,,,,
+D:/Vteacher/Lab4_4/Lab2.srcs/sources_1/imports/new/RegFile32.v,1651130302,verilog,,D:/Vteacher/Lab4_4/Lab2.srcs/sources_1/imports/new/cpu_ctrl.v,,RegFile32,,,,,,,,
+D:/Vteacher/Lab4_4/Lab2.srcs/sources_1/imports/new/cpu_ctrl.v,1653478868,verilog,,D:/Vteacher/Lab4_4/Lab2.srcs/sim_1/new/cpu_tb.v,,cpu_ctrl,,,,,,,,
+D:/Vteacher/Lab4_4/Lab2.srcs/sources_1/new/CPUT.v,1653480461,verilog,,D:/Vteacher/Lab4_4/Lab2.srcs/sources_1/imports/new/DataPath.v,,CPUT,,,,,,,,
+D:/Vteacher/Lab4_4/Lab2.srcs/sources_1/new/Load_Ctrl.v,1652074767,verilog,,D:/Vteacher/Lab4_4/Lab2.srcs/sources_1/imports/new/PCReg.v,,Load_Ctrl,,,,,,,,
+D:/Vteacher/Lab4_4/Lab2.srcs/sources_1/new/RV_INT.v,1653551031,verilog,,D:/Vteacher/Lab4_4/Lab2.srcs/sources_1/imports/new/RegFile32.v,,RV_INT,,,,,,,,

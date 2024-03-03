@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Jun 15 10:47:17 2022
+# Process ID: 3548
+# Current directory: D:/Vteacher/Lab4_3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16740 D:\Vteacher\Lab4_3\Lab2.xpr
+# Log file: D:/Vteacher/Lab4_3/vivado.log
+# Journal file: D:/Vteacher/Lab4_3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vteacher/Lab4_3/Lab2.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source cpu_tb.tcl
+close_sim
+launch_simulation
+source cpu_tb.tcl
+close_sim
+launch_simulation
+source cpu_tb.tcl
+current_wave_config {Untitled 3}
+add_wave {{/cpu_tb/u_CPUT/datapath/Regs/Wt_addr}} {{/cpu_tb/u_CPUT/datapath/Regs/Wt_data}} 
+relaunch_sim
+close_sim

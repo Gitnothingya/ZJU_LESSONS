@@ -1,0 +1,12 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+C:/Users/Zonghui Wang/Desktop/risc v/Code4Teach/Exp4/Exp4.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+C:/Users/Zonghui Wang/Desktop/risc v/Code4Teach/Exp4/code/cache/addr_define.vh,1630841752,verilog,,,,,,,,,,,,
+C:/Users/Zonghui Wang/Desktop/risc v/Code4Teach/Exp4/code/cache/cache.v,1630841847,verilog,,C:/Users/Zonghui Wang/Desktop/risc v/Code4Teach/Exp4/code/cache/cmu.v,C:/Users/Zonghui Wang/Desktop/risc v/Code4Teach/Exp4/code/cache/addr_define.vh,cache,,,../../../../code/auxillary;../../../../code/cache,,,,,
+C:/Users/Zonghui Wang/Desktop/risc v/Code4Teach/Exp4/code/cache/cmu.v,1630841752,verilog,,C:/Users/Zonghui Wang/Desktop/risc v/Code4Teach/Exp4/code/cache/sim/cmu_sim.v,C:/Users/Zonghui Wang/Desktop/risc v/Code4Teach/Exp4/code/cache/addr_define.vh,cmu,,,../../../../code/auxillary;../../../../code/cache,,,,,
+C:/Users/Zonghui Wang/Desktop/risc v/Code4Teach/Exp4/code/cache/sim/cmu_sim.v,1630842840,verilog,,C:/Users/Zonghui Wang/Desktop/risc v/Code4Teach/Exp4/code/cache/sim/data_ram.v,,cmu_sim,,,../../../../code/auxillary;../../../../code/cache,,,,,
+C:/Users/Zonghui Wang/Desktop/risc v/Code4Teach/Exp4/code/cache/sim/data_ram.v,1630308262,verilog,,C:/Users/Zonghui Wang/Desktop/risc v/Code4Teach/Exp4/code/cache/sim/inst.v,,data_ram,,,../../../../code/auxillary;../../../../code/cache,,,,,
+C:/Users/Zonghui Wang/Desktop/risc v/Code4Teach/Exp4/code/cache/sim/inst.v,1628581609,verilog,,C:/Users/Zonghui Wang/Desktop/risc v/Code4Teach/Exp4/code/cache/sim/sim_top.v,,inst,,,../../../../code/auxillary;../../../../code/cache,,,,,
+C:/Users/Zonghui Wang/Desktop/risc v/Code4Teach/Exp4/code/cache/sim/sim_top.v,1630842833,verilog,,,,sim_top,,,../../../../code/auxillary;../../../../code/cache,,,,,

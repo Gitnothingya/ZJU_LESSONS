@@ -1,0 +1,484 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Mar 30 20:32:24 2022
+# Process ID: 2748
+# Current directory: D:/Vfile/ALU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28388 D:\Vfile\ALU\ALU.xpr
+# Log file: D:/Vfile/ALU/vivado.log
+# Journal file: D:/Vfile/ALU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vfile/ALU/ALU.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Vfile'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository 'd:/Vfile' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is 'd:/Vfile/ALU'.)
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2020.2/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'orl_0' is locked:
+* IP definition 'orl_v1_0 (1.0)' for IP 'orl_0' (customized with software release 2020.2) has a different revision in the IP Catalog.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 1110.805 ; gain = 0.000
+update_compile_order -fileset sources_1
+ipx::open_ipxact_file D:/Vfile/ALU/ALU.srcs/component.xml
+WARNING: [IP_Flow 19-5226] Project source file 'd:/Vfile/ALU/ALU.srcs/component.xml' ignored by IP packager.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/mux8132_0/mux8132_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/srl_0/srl_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/xor32_0/xor32_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/nor32_0/nor32_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/adc_1/adc_1.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/or32_0/or32_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/and32_0/and32_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/new/ALU32.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/mux8132_0/mux8132_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/srl_0/srl_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/xor32_0/xor32_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/nor32_0/nor32_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/adc_1/adc_1.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/or32_0/or32_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/and32_0/and32_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/new/ALU32.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_testbench (Test Bench)': File 'd:/Vfile/ALU/ALU.srcs/sim_1/new/tb_ALU32.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+ipx::unload_core d:/Vfile/ALU/ALU.srcs/component.xml
+export_ip_user_files -of_objects  [get_files D:/Vfile/ALU/ALU.srcs/sources_1/ip/orl_0/orl_0.xci] -no_script -reset -force -quiet
+remove_files  D:/Vfile/ALU/ALU.srcs/sources_1/ip/orl_0/orl_0.xci
+file delete -force D:/Vfile/ALU/ALU.srcs/sources_1/ip/orl_0
+file delete -force d:/Vfile/ALU/ALU.gen/sources_1/ip/orl_0
+create_ip -name orl -vendor xilinx.com -library user -version 1.0 -module_name orl_0
+generate_target {instantiation_template} [get_files d:/Vfile/ALU/ALU.srcs/sources_1/ip/orl_0/orl_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'orl_0'...
+generate_target all [get_files  d:/Vfile/ALU/ALU.srcs/sources_1/ip/orl_0/orl_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'orl_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'orl_0'...
+catch { config_ip_cache -export [get_ips -all orl_0] }
+export_ip_user_files -of_objects [get_files d:/Vfile/ALU/ALU.srcs/sources_1/ip/orl_0/orl_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] d:/Vfile/ALU/ALU.srcs/sources_1/ip/orl_0/orl_0.xci]
+launch_runs orl_0_synth_1 -jobs 4
+[Wed Mar 30 20:34:03 2022] Launched orl_0_synth_1...
+Run output will be captured here: D:/Vfile/ALU/ALU.runs/orl_0_synth_1/runme.log
+export_simulation -of_objects [get_files d:/Vfile/ALU/ALU.srcs/sources_1/ip/orl_0/orl_0.xci] -directory D:/Vfile/ALU/ALU.ip_user_files/sim_scripts -ip_user_files_dir D:/Vfile/ALU/ALU.ip_user_files -ipstatic_source_dir D:/Vfile/ALU/ALU.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Vfile/ALU/ALU.cache/compile_simlib/modelsim} {questa=D:/Vfile/ALU/ALU.cache/compile_simlib/questa} {riviera=D:/Vfile/ALU/ALU.cache/compile_simlib/riviera} {activehdl=D:/Vfile/ALU/ALU.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+ipx::open_ipxact_file D:/Vfile/ALU/ALU.srcs/component.xml
+WARNING: [IP_Flow 19-5226] Project source file 'd:/Vfile/ALU/ALU.srcs/component.xml' ignored by IP packager.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/orl_0/orl_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/mux8132_0/mux8132_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/srl_0/srl_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/xor32_0/xor32_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/nor32_0/nor32_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/adc_1/adc_1.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/or32_0/or32_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/and32_0/and32_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/new/ALU32.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/orl_0/orl_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/mux8132_0/mux8132_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/srl_0/srl_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/xor32_0/xor32_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/nor32_0/nor32_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/adc_1/adc_1.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/or32_0/or32_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/and32_0/and32_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/new/ALU32.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_testbench (Test Bench)': File 'd:/Vfile/ALU/ALU.srcs/sim_1/new/tb_ALU32.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+set_property core_revision 3 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed.
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/Vfile
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/Vfile'
+ipx::unload_core d:/Vfile/ALU/ALU.srcs/component.xml
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Vfile/ALU/ALU.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/vivado/Vivado/2020.2/data/xsim/xsim.ini' copied to run dir:'D:/Vfile/ALU/ALU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_ALU32' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Vfile/ALU/ALU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_ALU32_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/orl_0/orl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module orl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/orl_0/sim/orl_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module orl_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/mux8132_0/mux8132.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux8132
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/mux8132_0/sim/mux8132_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux8132_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/srl_0/srl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module srl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/srl_0/sim/srl_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module srl_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/xor32_0/xor32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xor32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/xor32_0/sim/xor32_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xor32_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/nor32_0/nor32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nor32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/nor32_0/sim/nor32_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nor32_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/adc_1/adc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adc
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/adc_1/sim/adc_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adc_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/or32_0/or32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module or32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/or32_0/sim/or32_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module or32_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/and32_0/and32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module and32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/and32_0/sim/and32_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module and32_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.srcs/sources_1/new/ALU32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.srcs/sim_1/new/tb_ALU32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_ALU32
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Vfile/ALU/ALU.sim/sim_1/behav/xsim'
+"xelab -wto 76a2c0b231bd4afe8e19b76c83877aa2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_ALU32_behav xil_defaultlib.tb_ALU32 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 76a2c0b231bd4afe8e19b76c83877aa2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_ALU32_behav xil_defaultlib.tb_ALU32 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.and32
+Compiling module xil_defaultlib.and32_0
+Compiling module xil_defaultlib.or32
+Compiling module xil_defaultlib.or32_0
+Compiling module xil_defaultlib.adc
+Compiling module xil_defaultlib.adc_1
+Compiling module xil_defaultlib.nor32
+Compiling module xil_defaultlib.nor32_0
+Compiling module xil_defaultlib.xor32
+Compiling module xil_defaultlib.xor32_0
+Compiling module xil_defaultlib.srl
+Compiling module xil_defaultlib.srl_0
+Compiling module xil_defaultlib.mux8132
+Compiling module xil_defaultlib.mux8132_0
+Compiling module xil_defaultlib.orl
+Compiling module xil_defaultlib.orl_0
+Compiling module xil_defaultlib.ALU32
+Compiling module xil_defaultlib.tb_ALU32
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_ALU32_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source D:/Vfile/ALU/ALU.sim/sim_1/behav/xsim/xsim.dir/tb_ALU32_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'D:/Vfile/ALU/ALU.sim/sim_1/behav/xsim/xsim.dir/tb_ALU32_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Wed Mar 30 21:07:56 2022. For additional details about this file, please refer to the WebTalk help file at D:/vivado/Vivado/2020.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Wed Mar 30 21:07:56 2022...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1110.805 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Vfile/ALU/ALU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_ALU32_behav -key {Behavioral:sim_1:Functional:tb_ALU32} -tclbatch {tb_ALU32.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source tb_ALU32.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_ALU32_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 1130.582 ; gain = 19.777
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Vfile'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository 'd:/Vfile' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is 'd:/Vfile/ALU'.)
+export_ip_user_files -of_objects  [get_files d:/Vfile/ALU/ALU.srcs/sources_1/ip/orl_0/orl_0.xci] -no_script -reset -force -quiet
+remove_files  -fileset orl_0 d:/Vfile/ALU/ALU.srcs/sources_1/ip/orl_0/orl_0.xci
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/Vfile/ALU/ALU.runs/orl_0_synth_1
+
+INFO: [Project 1-386] Moving file 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/orl_0/orl_0.xci' from fileset 'orl_0' to fileset 'sources_1'.
+file delete -force d:/Vfile/ALU/ALU.srcs/sources_1/ip/orl_0
+file delete -force d:/Vfile/ALU/ALU.gen/sources_1/ip/orl_0
+create_ip -name orl -vendor xilinx.com -library user -version 1.0 -module_name orl_0
+generate_target {instantiation_template} [get_files d:/Vfile/ALU/ALU.srcs/sources_1/ip/orl_0/orl_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'orl_0'...
+generate_target all [get_files  d:/Vfile/ALU/ALU.srcs/sources_1/ip/orl_0/orl_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'orl_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'orl_0'...
+catch { config_ip_cache -export [get_ips -all orl_0] }
+export_ip_user_files -of_objects [get_files d:/Vfile/ALU/ALU.srcs/sources_1/ip/orl_0/orl_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] d:/Vfile/ALU/ALU.srcs/sources_1/ip/orl_0/orl_0.xci]
+launch_runs orl_0_synth_1 -jobs 4
+[Wed Mar 30 21:11:28 2022] Launched orl_0_synth_1...
+Run output will be captured here: D:/Vfile/ALU/ALU.runs/orl_0_synth_1/runme.log
+export_simulation -of_objects [get_files d:/Vfile/ALU/ALU.srcs/sources_1/ip/orl_0/orl_0.xci] -directory D:/Vfile/ALU/ALU.ip_user_files/sim_scripts -ip_user_files_dir D:/Vfile/ALU/ALU.ip_user_files -ipstatic_source_dir D:/Vfile/ALU/ALU.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Vfile/ALU/ALU.cache/compile_simlib/modelsim} {questa=D:/Vfile/ALU/ALU.cache/compile_simlib/questa} {riviera=D:/Vfile/ALU/ALU.cache/compile_simlib/riviera} {activehdl=D:/Vfile/ALU/ALU.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+ipx::open_ipxact_file D:/Vfile/ALU/ALU.srcs/component.xml
+WARNING: [IP_Flow 19-5226] Project source file 'd:/Vfile/ALU/ALU.srcs/component.xml' ignored by IP packager.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/orl_0/orl_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/mux8132_0/mux8132_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/srl_0/srl_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/xor32_0/xor32_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/nor32_0/nor32_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/adc_1/adc_1.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/or32_0/or32_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/and32_0/and32_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/new/ALU32.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/orl_0/orl_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/mux8132_0/mux8132_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/srl_0/srl_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/xor32_0/xor32_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/nor32_0/nor32_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/adc_1/adc_1.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/or32_0/or32_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/ip/and32_0/and32_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'd:/Vfile/ALU/ALU.srcs/sources_1/new/ALU32.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_testbench (Test Bench)': File 'd:/Vfile/ALU/ALU.srcs/sim_1/new/tb_ALU32.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+set_property core_revision 4 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed.
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/Vfile
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/Vfile'
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1706.539 ; gain = 0.000
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Vfile/ALU/ALU.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/vivado/Vivado/2020.2/data/xsim/xsim.ini' copied to run dir:'D:/Vfile/ALU/ALU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_ALU32' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Vfile/ALU/ALU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_ALU32_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/orl_0/orl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module orl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/orl_0/sim/orl_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module orl_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/mux8132_0/mux8132.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux8132
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/mux8132_0/sim/mux8132_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux8132_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/srl_0/srl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module srl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/srl_0/sim/srl_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module srl_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/xor32_0/xor32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xor32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/xor32_0/sim/xor32_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xor32_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/nor32_0/nor32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nor32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/nor32_0/sim/nor32_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nor32_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/adc_1/adc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adc
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/adc_1/sim/adc_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adc_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/or32_0/or32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module or32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/or32_0/sim/or32_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module or32_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/and32_0/and32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module and32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/and32_0/sim/and32_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module and32_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.srcs/sources_1/new/ALU32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.srcs/sim_1/new/tb_ALU32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_ALU32
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Vfile/ALU/ALU.sim/sim_1/behav/xsim'
+"xelab -wto 76a2c0b231bd4afe8e19b76c83877aa2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_ALU32_behav xil_defaultlib.tb_ALU32 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 76a2c0b231bd4afe8e19b76c83877aa2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_ALU32_behav xil_defaultlib.tb_ALU32 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.and32
+Compiling module xil_defaultlib.and32_0
+Compiling module xil_defaultlib.or32
+Compiling module xil_defaultlib.or32_0
+Compiling module xil_defaultlib.adc
+Compiling module xil_defaultlib.adc_1
+Compiling module xil_defaultlib.nor32
+Compiling module xil_defaultlib.nor32_0
+Compiling module xil_defaultlib.xor32
+Compiling module xil_defaultlib.xor32_0
+Compiling module xil_defaultlib.srl
+Compiling module xil_defaultlib.srl_0
+Compiling module xil_defaultlib.mux8132
+Compiling module xil_defaultlib.mux8132_0
+Compiling module xil_defaultlib.orl
+Compiling module xil_defaultlib.orl_0
+Compiling module xil_defaultlib.ALU32
+Compiling module xil_defaultlib.tb_ALU32
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_ALU32_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Vfile/ALU/ALU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_ALU32_behav -key {Behavioral:sim_1:Functional:tb_ALU32} -tclbatch {tb_ALU32.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source tb_ALU32.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_ALU32_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1706.539 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Vfile/ALU/ALU.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/vivado/Vivado/2020.2/data/xsim/xsim.ini' copied to run dir:'D:/Vfile/ALU/ALU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_ALU32' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Vfile/ALU/ALU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_ALU32_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/orl_0/orl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module orl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/orl_0/sim/orl_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module orl_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/mux8132_0/mux8132.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux8132
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/mux8132_0/sim/mux8132_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux8132_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/srl_0/srl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module srl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/srl_0/sim/srl_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module srl_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/xor32_0/xor32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xor32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/xor32_0/sim/xor32_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xor32_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/nor32_0/nor32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nor32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/nor32_0/sim/nor32_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nor32_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/adc_1/adc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adc
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/adc_1/sim/adc_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adc_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/or32_0/or32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module or32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/or32_0/sim/or32_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module or32_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/and32_0/and32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module and32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.gen/sources_1/ip/and32_0/sim/and32_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module and32_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.srcs/sources_1/new/ALU32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/ALU/ALU.srcs/sim_1/new/tb_ALU32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_ALU32
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Vfile/ALU/ALU.sim/sim_1/behav/xsim'
+"xelab -wto 76a2c0b231bd4afe8e19b76c83877aa2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_ALU32_behav xil_defaultlib.tb_ALU32 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 76a2c0b231bd4afe8e19b76c83877aa2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_ALU32_behav xil_defaultlib.tb_ALU32 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.and32
+Compiling module xil_defaultlib.and32_0
+Compiling module xil_defaultlib.or32
+Compiling module xil_defaultlib.or32_0
+Compiling module xil_defaultlib.adc
+Compiling module xil_defaultlib.adc_1
+Compiling module xil_defaultlib.nor32
+Compiling module xil_defaultlib.nor32_0
+Compiling module xil_defaultlib.xor32
+Compiling module xil_defaultlib.xor32_0
+Compiling module xil_defaultlib.srl
+Compiling module xil_defaultlib.srl_0
+Compiling module xil_defaultlib.mux8132
+Compiling module xil_defaultlib.mux8132_0
+Compiling module xil_defaultlib.orl
+Compiling module xil_defaultlib.orl_0
+Compiling module xil_defaultlib.ALU32
+Compiling module xil_defaultlib.tb_ALU32
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_ALU32_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Vfile/ALU/ALU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_ALU32_behav -key {Behavioral:sim_1:Functional:tb_ALU32} -tclbatch {tb_ALU32.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source tb_ALU32.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_ALU32_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 30 22:06:49 2022...

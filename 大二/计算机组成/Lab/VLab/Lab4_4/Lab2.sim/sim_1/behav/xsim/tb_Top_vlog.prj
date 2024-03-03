@@ -1,0 +1,43 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Lab2.gen/sources_1/ip/VGA_0/Hex2Ascii.v" \
+"../../../../Lab2.gen/sources_1/ip/VGA_0/VgaController.v" \
+"../../../../Lab2.gen/sources_1/ip/VGA_0/VgaDebugger.v" \
+"../../../../Lab2.gen/sources_1/ip/VGA_0/VgaDisplay.v" \
+"../../../../Lab2.gen/sources_1/ip/VGA_0/VGA.v" \
+"../../../../Lab2.gen/sources_1/ip/VGA_0/sim/VGA_0.v" \
+"../../../../Lab2.gen/sources_1/ip/SSeg7_Dev_0/HexTo8SEG.v" \
+"../../../../Lab2.gen/sources_1/ip/SSeg7_Dev_0/MC14495_ZJU.v" \
+"../../../../Lab2.gen/sources_1/ip/SSeg7_Dev_0/MUX2T1_64.v" \
+"../../../../Lab2.gen/sources_1/ip/SSeg7_Dev_0/P2S.v" \
+"../../../../Lab2.gen/sources_1/ip/SSeg7_Dev_0/SSeg_map.v" \
+"../../../../Lab2.gen/sources_1/ip/SSeg7_Dev_0/SSeg7_Dev.v" \
+"../../../../Lab2.gen/sources_1/ip/SSeg7_Dev_0/sim/SSeg7_Dev_0.v" \
+"../../../../Lab2.gen/sources_1/ip/Multi_8CH32_0/Multi_8CH32_0_sim_netlist.v" \
+"../../../../Lab2.gen/sources_1/ip/SPIO_0/SPIO_0_sim_netlist.v" \
+"../../../../Lab2.gen/sources_1/ip/MIO_BUS_0/MIO_BUS_0_sim_netlist.v" \
+"../../../../Lab2.gen/sources_1/ip/Counter_x_0/Counter_x_0_sim_netlist.v" \
+"../../../../Lab2.gen/sources_1/ip/ram_b/sim/ram_b.v" \
+"../../../../Lab2.gen/sources_1/ip/rom_d/sim/rom_d.v" \
+"../../../../Lab2.gen/sources_1/ip/clk_div_0/sources_1/new/clk_div.v" \
+"../../../../Lab2.gen/sources_1/ip/clk_div_0/sim/clk_div_0.v" \
+"../../../../Lab2.gen/sources_1/ip/SAnti_jitter_0/SAnti_jitter_0_sim_netlist.v" \
+"../../../../Lab2.srcs/sources_1/imports/new/ALUT.v" \
+"../../../../Lab2.srcs/sources_1/new/CPUT.v" \
+"../../../../Lab2.srcs/sources_1/imports/new/DataPath.v" \
+"../../../../Lab2.srcs/sources_1/imports/new/ImmGen.v" \
+"../../../../Lab2.srcs/sources_1/new/Load_Ctrl.v" \
+"../../../../Lab2.srcs/sources_1/imports/new/PCReg.v" \
+"../../../../Lab2.srcs/sources_1/new/RV_INT.v" \
+"../../../../Lab2.srcs/sources_1/imports/new/RegFile32.v" \
+"../../../../Lab2.srcs/sources_1/new/Store_ctrl.v" \
+"../../../../Lab2.srcs/sources_1/new/Top.v" \
+"../../../../Lab2.srcs/sources_1/imports/new/cpu_ctrl.v" \
+"../../../../Lab2.srcs/sources_1/new/pbdebounce.v" \
+"../../../../Lab2.srcs/sim_1/new/tb_ALU.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,7 @@
+Running: xsim.dir/nor32_behav/xsimk.exe -simmode gui -wdb nor32_behav.wdb -simrunnum 0 -socket 6561
+Design successfully loaded
+Design Loading Memory Usage: 6668 KB (Peak: 6668 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 7228 KB (Peak: 7228 KB)
+Simulation CPU Usage: 15 ms

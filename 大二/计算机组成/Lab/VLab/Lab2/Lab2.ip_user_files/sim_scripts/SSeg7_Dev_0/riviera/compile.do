@@ -1,0 +1,20 @@
+vlib work
+vlib riviera
+
+vlib riviera/xil_defaultlib
+
+vmap xil_defaultlib riviera/xil_defaultlib
+
+vlog -work xil_defaultlib  -v2k5 \
+"../../../../Lab2.gen/sources_1/ip/SSeg7_Dev_0/HexTo8SEG.v" \
+"../../../../Lab2.gen/sources_1/ip/SSeg7_Dev_0/MC14495_ZJU.v" \
+"../../../../Lab2.gen/sources_1/ip/SSeg7_Dev_0/MUX2T1_64.v" \
+"../../../../Lab2.gen/sources_1/ip/SSeg7_Dev_0/P2S.v" \
+"../../../../Lab2.gen/sources_1/ip/SSeg7_Dev_0/SSeg_map.v" \
+"../../../../Lab2.gen/sources_1/ip/SSeg7_Dev_0/SSeg7_Dev.v" \
+"../../../../Lab2.gen/sources_1/ip/SSeg7_Dev_0/sim/SSeg7_Dev_0.v" \
+
+
+vlog -work xil_defaultlib \
+"glbl.v"
+

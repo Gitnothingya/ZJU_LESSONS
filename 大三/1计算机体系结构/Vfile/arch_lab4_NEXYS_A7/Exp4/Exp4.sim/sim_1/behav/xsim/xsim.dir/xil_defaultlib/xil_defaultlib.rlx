@@ -1,0 +1,12 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/Vfile/arch_lab4_NEXYS_A7/Exp4/Exp4.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/cache/addr_define.vh,1630841752,verilog,,,,,,,,,,,,
+D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/cache/cache.v,1670401549,verilog,,D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/cache/cmu.v,D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/cache/addr_define.vh,cache,,,../../../../code/auxillary;../../../../code/cache,,,,,
+D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/cache/cmu.v,1670402846,verilog,,D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/cache/sim/cmu_sim.v,D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/cache/addr_define.vh,cmu,,,../../../../code/auxillary;../../../../code/cache,,,,,
+D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/cache/sim/cmu_sim.v,1669806471,verilog,,D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/cache/sim/data_ram.v,,cmu_sim,,,../../../../code/auxillary;../../../../code/cache,,,,,
+D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/cache/sim/data_ram.v,1630308262,verilog,,D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/cache/sim/inst.v,,data_ram,,,../../../../code/auxillary;../../../../code/cache,,,,,
+D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/cache/sim/inst.v,1628581609,verilog,,D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/cache/sim/sim_top.v,,inst,,,../../../../code/auxillary;../../../../code/cache,,,,,
+D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/cache/sim/sim_top.v,1630842833,verilog,,,,sim_top,,,../../../../code/auxillary;../../../../code/cache,,,,,

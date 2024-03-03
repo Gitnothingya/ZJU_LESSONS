@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Apr 20 21:41:00 2022
+# Process ID: 8116
+# Current directory: D:/Vteacher/IP/CPU/SCPU2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4264 D:\Vteacher\IP\CPU\SCPU2\SCPU2.xpr
+# Log file: D:/Vteacher/IP/CPU/SCPU2/vivado.log
+# Journal file: D:/Vteacher/IP/CPU/SCPU2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vteacher/IP/CPU/SCPU2/SCPU2.xpr
+update_compile_order -fileset sources_1
+ipx::open_ipxact_file D:/Vteacher/IP/CPU/SCPU2/SCPU2.srcs/sources_1/component.xml
+set_property core_revision 3 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/Vteacher/IP/CPU/SCPU2/SCPU2.srcs/sources_1

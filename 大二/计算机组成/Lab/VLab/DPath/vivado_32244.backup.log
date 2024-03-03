@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Apr 21 12:16:39 2022
+# Process ID: 32244
+# Current directory: D:/Vteacher/DPath
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7832 D:\Vteacher\DPath\DPath.xpr
+# Log file: D:/Vteacher/DPath/vivado.log
+# Journal file: D:/Vteacher/DPath\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vteacher/DPath/DPath.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/Vteacher/DPath/DPath.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:34 ; elapsed = 00:00:17 . Memory (MB): peak = 1110.410 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 21 12:51:19 2022...

@@ -1,0 +1,46 @@
+module Lampcontrol(S1, 
+                   S2, 
+                   S3, 
+                   F);
+
+    input S1;
+    input S2;
+    input S3;
+   output F;
+   
+   wire NS1;
+   wire NS2;
+   wire NS3;
+   wire S1NS2NS3;
+   wire S1S2S3;
+   wire S2NS1NS3;
+   wire S3NS1NS2;
+   
+   AND3  AND3_1 (.I0(NS3), 
+                .I1(NS2), 
+                .I2(S1), 
+                .O(S1NS2NS3));
+   AND3  AND3_2 (.I0(NS3), 
+                .I1(S2), 
+                .I2(NS1), 
+                .O(S2NS1NS3));
+   AND3  AND3_3 (.I0(S3), 
+                .I1(NS2), 
+                .I2(NS1), 
+                .O(S3NS1NS2));
+   AND3  AND3_4 (.I0(S1), 
+                .I1(S2), 
+                .I2(S3), 
+                .O(S1S2S3));
+   INV  INV_1 (.I(S1), 
+              .O(NS1));
+   INV  INV_2 (.I(S2), 
+              .O(NS2));
+   INV  INV_3 (.I(S3), 
+              .O(NS3));
+   OR4  OR4_1 (.I0(S1S2S3), 
+              .I1(S3NS1NS2), 
+              .I2(S2NS1NS3), 
+              .I3(S1NS2NS3), 
+              .O(F));
+endmodule

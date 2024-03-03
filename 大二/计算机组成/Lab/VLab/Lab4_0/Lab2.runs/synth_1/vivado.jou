@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue May  3 09:46:51 2022
+# Process ID: 22396
+# Current directory: D:/Vteacher/Lab4_0/Lab2.runs/synth_1
+# Command line: vivado.exe -log Top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Top.tcl
+# Log file: D:/Vteacher/Lab4_0/Lab2.runs/synth_1/Top.vds
+# Journal file: D:/Vteacher/Lab4_0/Lab2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Top.tcl -notrace

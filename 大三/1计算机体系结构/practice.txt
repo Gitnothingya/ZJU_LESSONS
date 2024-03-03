@@ -1,0 +1,49 @@
+Stack:
+    Push A
+    Push B
+    Mul
+    Push A
+    Push C
+    Push B
+    Mul
+    Add
+    Sub
+    Pop D
+Accumulator:
+    Load A
+    Mul B
+    Store D
+    Load C
+    Mul B
+    Add A
+    Store E
+    Load D
+    Sub E
+    Store D
+(改变计算顺序？) D=(A-C)*B-A
+    Load A
+    Sub C
+    Mul B
+    Sub A
+    Store D
+register-memory:
+    Load R1, B
+    Mul R1, C
+    Add R1, A
+    Store D, R1
+    Load R1, A
+    Mul  R1, B
+    Sub R1, D
+    Store D, R1
+register:
+    Load R1, A
+    Load R2, B
+    Load R3, C
+    Mul R4, R1, R2
+    Mul R5, R2, R3
+    Add R5, R5, R1
+    Sub R4, R4, R5
+    Store D, R4
+
+
+

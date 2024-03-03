@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Nov  7 21:47:04 2022
+# Process ID: 14408
+# Current directory: D:/Vfile/Exp3_NEXYS_A7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9284 D:\Vfile\Exp3_NEXYS_A7\Exp2.xpr
+# Log file: D:/Vfile/Exp3_NEXYS_A7/vivado.log
+# Journal file: D:/Vfile/Exp3_NEXYS_A7\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'D:/vivado/Vivado/2020.2/scripts/Vivado_init.tcl'
+start_gui
+open_project D:/Vfile/Exp3_NEXYS_A7/Exp2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:09 . Memory (MB): peak = 1110.715 ; gain = 0.000
+exit
+INFO: reset_run synth_1
+launch_runs synth_1 -jobs 4
+CRITICAL WARNING: [filemgmt 20-730] Could not find a top module in the fileset sources_1.
+Resolution: With the gui up, review the source files in the Sources window. Use Add Sources to add any needed sources. If the files are disabled, enable them. You can also select the file and choose Set Used In from the pop-up menu. Review if they are being used at the proper points of the flow.
+ERROR: [Common 17-53] User Exception: Unable to launch Synthesis run. No Verilog or VHDL sources found in project
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Nov  7 23:57:59 2022...

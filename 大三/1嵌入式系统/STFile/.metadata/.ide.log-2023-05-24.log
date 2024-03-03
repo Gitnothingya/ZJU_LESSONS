@@ -1,0 +1,74 @@
+2023-05-24 16:54:48,166 [INFO] Activator:176 - 
+
+
+2023-05-24 16:54:48,176 [INFO] Activator:177 - !SESSION log4j initialized
+2023-05-24 16:54:54,543 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2023-05-24 16:54:55,179 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 16:54:55,182 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 16:54:55,187 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 16:55:17,627 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-05-24 16:55:17,628 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-05-24 16:55:17,630 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-05-24 17:03:35,264 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 17:03:35,266 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 17:03:35,269 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 17:03:41,486 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 17:03:41,487 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 17:03:41,488 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 17:06:21,912 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 17:06:21,914 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 17:06:21,918 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 17:06:22,192 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 17:06:22,193 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 17:06:22,194 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 17:07:50,225 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 17:07:50,227 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 17:07:50,230 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 17:07:50,456 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 17:07:50,476 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 17:07:50,483 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 17:08:42,249 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 17:08:42,275 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 17:08:42,280 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 17:08:42,421 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 17:08:42,422 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 17:08:42,422 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 18:25:59,099 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 18:25:59,103 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 18:25:59,107 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 18:26:06,298 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 18:26:06,302 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 18:26:06,302 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 18:26:51,540 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 18:26:51,540 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 18:26:51,555 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 18:26:52,054 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 18:26:52,058 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 18:26:52,058 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 18:29:37,229 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 18:29:37,237 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 18:29:37,237 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 18:29:37,693 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 18:29:37,697 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 18:29:37,701 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 18:30:40,720 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 18:30:40,748 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 18:30:40,795 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 18:30:41,285 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 18:30:41,290 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 18:30:41,293 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 18:34:12,498 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 18:34:12,506 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 18:34:12,512 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 18:34:12,896 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 18:34:12,896 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 18:34:12,896 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 18:54:30,950 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 18:54:30,957 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 18:54:30,962 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 18:54:31,242 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 18:54:31,246 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 18:54:31,246 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 20:00:06,809 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 20:00:06,810 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect
+2023-05-24 20:00:06,811 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection refused: connect

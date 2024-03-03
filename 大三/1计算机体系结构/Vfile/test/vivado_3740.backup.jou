@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Nov  7 22:16:43 2022
+# Process ID: 3740
+# Current directory: D:/Vfile/test
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1652 D:\Vfile\test\test.xpr
+# Log file: D:/Vfile/test/vivado.log
+# Journal file: D:/Vfile/test\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vfile/test/test.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source sim_top.tcl
+close_sim
+launch_simulation
+source sim_top.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+launch_simulation
+source sim_top.tcl
+run 50 us
+restart
+run 50 us
+close_sim

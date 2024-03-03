@@ -1,0 +1,63 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Oct 12 11:02:24 2022
+# Process ID: 8972
+# Current directory: D:/Vfile/Exp1_NEXYS_A7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent31020 D:\Vfile\Exp1_NEXYS_A7\Exp1.xpr
+# Log file: D:/Vfile/Exp1_NEXYS_A7/vivado.log
+# Journal file: D:/Vfile/Exp1_NEXYS_A7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vfile/Exp1_NEXYS_A7/Exp1.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_simulation
+open_wave_config D:/Vfile/Exp1_NEXYS_A7/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/register}} 
+close_sim
+launch_simulation
+open_wave_config D:/Vfile/Exp1_NEXYS_A7/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/register}} 
+run all
+run all
+run all
+restart
+run all
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/hazard_unit}} 
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/alu}} 
+restart
+run all
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+launch_simulation
+open_wave_config D:/Vfile/Exp1_NEXYS_A7/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/register}} 
+restart
+run all
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+close_sim

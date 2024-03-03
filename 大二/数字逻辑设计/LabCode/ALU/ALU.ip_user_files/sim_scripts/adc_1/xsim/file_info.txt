@@ -1,0 +1,3 @@
+adc.v,verilog,xil_defaultlib,../../../../ALU.gen/sources_1/ip/adc_1/adc.v,
+adc_1.v,verilog,xil_defaultlib,../../../../ALU.gen/sources_1/ip/adc_1/sim/adc_1.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

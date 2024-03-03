@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Mar 15 22:45:56 2022
+# Process ID: 27380
+# Current directory: D:/1学习文件/计组/Lab/Lab02 CPU实验环境搭建（学生版）(刘)/OExp02-IP2SOC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5752 D:\1学习文件\计组\Lab\Lab02 CPU实验环境搭建（学生版）(刘)\OExp02-IP2SOC\OExp02-IP2SOC.xpr
+# Log file: D:/1学习文件/计组/Lab/Lab02 CPU实验环境搭建（学生版）(刘)/OExp02-IP2SOC/vivado.log
+# Journal file: D:/1学习文件/计组/Lab/Lab02 CPU实验环境搭建（学生版）(刘)/OExp02-IP2SOC\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/1学习文件/计组/Lab/Lab02 CPU实验环境搭建（学生版）(刘)/OExp02-IP2SOC/OExp02-IP2SOC.xpr}
+INFO: [Project 1-313] Project file moved from 'F:/项目/6 CPU--2020/计算机组成与设计 软硬件接口 第5版/计组 ZJU--RISCV版本/实验/实验2021.02_V1/Lab02 CPU实验环境搭建（学生版）/OExp02-IP2SOC' since last save.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/ASUS/Desktop/I_mem.coe'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/1学习文件/计组/Lab/Lab02 CPU实验环境搭建（学生版）(刘)/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_RAM_B_0_0/RAM_B.srcs/D_mem.coe', nor could it be found using path 'F:/项目/6 CPU--2020/计算机组成与设计 软硬件接口 第5版/计组 ZJU--RISCV版本/实验/实验2021.02_V1/Lab02 CPU实验环境搭建（学生版）/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_RAM_B_0_0/RAM_B.srcs/D_mem.coe'.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-230] Project 'OExp02-IP2SOC.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/1学习文件/计组/Lab/Lab02 CPU实验环境搭建（学生版）(刘)/OExp02-IP2SOC/IP'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 1110.883 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 15 22:46:30 2022...

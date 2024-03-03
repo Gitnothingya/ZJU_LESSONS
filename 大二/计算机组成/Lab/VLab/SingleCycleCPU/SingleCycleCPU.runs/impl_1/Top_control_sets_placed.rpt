@@ -1,0 +1,228 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu May  5 15:21:16 2022
+| Host         : LAPTOP-G8SE1MMQ running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Top_control_sets_placed.rpt
+| Design       : Top
+| Device       : xc7k160t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |   160 |
+| Unused register locations in slices containing registers |    80 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             437 |          207 |
+| No           | No                    | Yes                    |              59 |           24 |
+| No           | Yes                   | No                     |              39 |           11 |
+| Yes          | No                    | No                     |              78 |           42 |
+| Yes          | No                    | Yes                    |            1188 |          592 |
+| Yes          | Yes                   | No                     |              79 |           23 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++--------------------------------+---------------------------------+-------------------------------------------+------------------+----------------+
+|          Clock Signal          |          Enable Signal          |              Set/Reset Signal             | Slice Load Count | Bel Load Count |
++--------------------------------+---------------------------------+-------------------------------------------+------------------+----------------+
+|  core/pc_0/dbg_csr_wen         |                                 |                                           |                1 |              1 |
+|  core/pc_0/regs_reg[31][31]_6  |                                 |                                           |                1 |              1 |
+| ~clk_cpu_BUFG                  |                                 |                                           |                1 |              1 |
+|  clk_100mhz_IBUF_BUFG          | inputter/sw[0]_i_1_n_3          |                                           |                1 |              1 |
+|  coren_0_2005_BUFG             |                                 | core/reg_file/AR[0]                       |                2 |              2 |
+|  core/pc_0/temp_reg[13]_0[0]   |                                 |                                           |                1 |              2 |
+|  core/pc_0/PC_out_reg[11]_2[0] |                                 |                                           |                2 |              3 |
+|  clk_100mhz_IBUF_BUFG          | inputter/key_temp2[4]_i_2_n_3   | inputter/key_temp2_0                      |                2 |              5 |
+|  clk_100mhz_IBUF_BUFG          | inputter/key_row[4]_i_1_n_3     |                                           |                2 |              5 |
+|  coren_0_2005_BUFG             | core/csr/mcause_o[31]_i_1_n_3   | core/reg_file/AR[0]                       |                2 |              6 |
+|  clock_dividor/out[1]          | vga/vga_controller/v_count      | core/reg_file/AR[0]                       |                5 |             10 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_75    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_76    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_32    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_42    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_47    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_72    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_63    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_36    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_49    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_38    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_39    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_51    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_30    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_54    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_61    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_37    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_41    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_52    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_57    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_43    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_58    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_31    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_64    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_33    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_35    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_40    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_45    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_46    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_26    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_44    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_50    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_53    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_27    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_55    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_59    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_66    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_67    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_34    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_68    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_56    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_62    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_69    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_70    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_28    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_65    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_71    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_73    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_74    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_84    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_85    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_77    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_79    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_86    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_83    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_89    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_81    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_80    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_82    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_88    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_78    |                                           |                4 |             12 |
+|  clock_dividor/out[1]          |                                 | core/reg_file/AR[0]                       |                6 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_29    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_48    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_60    |                                           |                4 |             12 |
+|  display_addr_reg[11]_i_3_n_3  | vga/vga_debugger/vga_r[3]_87    |                                           |                4 |             12 |
+|  core/pc_0/E[0]                |                                 |                                           |                7 |             14 |
+|  clk_100mhz_IBUF_BUFG          |                                 |                                           |                9 |             23 |
+|  clk_100mhz_IBUF_BUFG          |                                 | core/reg_file/AR[0]                       |                7 |             25 |
+|  display_addr_reg[11]_i_3_n_3  |                                 | vga/vga_debugger/display_addr[11]_i_1_n_3 |                5 |             27 |
+|  coren_0_2005_BUFG             | core/pc_0/mstatus_o_reg[8][0]   | core/reg_file/AR[0]                       |               16 |             30 |
+|  coren_0_2005_BUFG             | core/pc_0/regs_reg[11][31][0]   | core/reg_file/AR[0]                       |               15 |             32 |
+|  coren_0_2005_BUFG             | core/pc_0/regs_reg[10][31][0]   | core/reg_file/AR[0]                       |               13 |             32 |
+|  coren_0_2005_BUFG             | core/pc_0/regs_reg[12][31][0]   | core/reg_file/AR[0]                       |               13 |             32 |
+|  coren_0_2005_BUFG             | core/pc_0/regs_reg[22][31][0]   | core/reg_file/AR[0]                       |               17 |             32 |
+|  coren_0_2005_BUFG             | core/pc_0/regs_reg[13][31][0]   | core/reg_file/AR[0]                       |               15 |             32 |
+|  coren_0_2005_BUFG             | core/pc_0/regs_reg[20][31][0]   | core/reg_file/AR[0]                       |               10 |             32 |
+|  coren_0_2005_BUFG             | core/pc_0/regs_reg[1][31][0]    | core/reg_file/AR[0]                       |               15 |             32 |
+|  coren_0_2005_BUFG             | core/pc_0/regs_reg[24][31][0]   | core/reg_file/AR[0]                       |               13 |             32 |
+|  coren_0_2005_BUFG             | core/pc_0/regs_reg[19][31][0]   | core/reg_file/AR[0]                       |               15 |             32 |
+|  coren_0_2005_BUFG             | core/pc_0/regs_reg[21][31][0]   | core/reg_file/AR[0]                       |               13 |             32 |
+|  coren_0_2005_BUFG             | core/pc_0/regs_reg[23][31][0]   | core/reg_file/AR[0]                       |               18 |             32 |
+|  coren_0_2005_BUFG             | core/pc_0/regs_reg[14][31][0]   | core/reg_file/AR[0]                       |               14 |             32 |
+|  coren_0_2005_BUFG             | core/pc_0/regs_reg[25][31][0]   | core/reg_file/AR[0]                       |               15 |             32 |
+|  coren_0_2005_BUFG             | core/pc_0/regs_reg[29][31][0]   | core/reg_file/AR[0]                       |               13 |             32 |
+|  coren_0_2005_BUFG             | core/pc_0/regs_reg[16][31][0]   | core/reg_file/AR[0]                       |               12 |             32 |
+|  coren_0_2005_BUFG             | core/pc_0/regs_reg[18][31][0]   | core/reg_file/AR[0]                       |               14 |             32 |
+|  coren_0_2005_BUFG             | core/pc_0/regs_reg[28][31][0]   | core/reg_file/AR[0]                       |               17 |             32 |
+|  coren_0_2005_BUFG             | core/pc_0/regs_reg[27][31][0]   | core/reg_file/AR[0]                       |               18 |             32 |
+|  coren_0_2005_BUFG             | core/pc_0/regs_reg[15][31][0]   | core/reg_file/AR[0]                       |               14 |             32 |
+|  coren_0_2005_BUFG             | core/pc_0/regs_reg[17][31][0]   | core/reg_file/AR[0]                       |               16 |             32 |
+|  coren_0_2005_BUFG             | core/pc_0/regs_reg[26][31][0]   | core/reg_file/AR[0]                       |               17 |             32 |
+|  coren_0_2005_BUFG             | core/pc_0/regs_reg[2][31][0]    | core/reg_file/AR[0]                       |               22 |             32 |
+|  coren_0_2005_BUFG             | core/pc_0/regs_reg[30][31][0]   | core/reg_file/AR[0]                       |               15 |             32 |
+|  coren_0_2005_BUFG             | core/pc_0/regs_reg[5][31][0]    | core/reg_file/AR[0]                       |               16 |             32 |
+|  coren_0_2005_BUFG             | core/pc_0/regs_reg[4][31][0]    | core/reg_file/AR[0]                       |               14 |             32 |
+|  coren_0_2005_BUFG             | core/pc_0/regs_reg[7][31][0]    | core/reg_file/AR[0]                       |               20 |             32 |
+|  coren_0_2005_BUFG             | core/pc_0/regs_reg[9][31][0]    | core/reg_file/AR[0]                       |               11 |             32 |
+|  coren_0_2005_BUFG             | core/pc_0/regs_reg[8][31][0]    | core/reg_file/AR[0]                       |               17 |             32 |
+|  coren_0_2005_BUFG             | core/pc_0/regs_reg[3][31][0]    | core/reg_file/AR[0]                       |               14 |             32 |
+|  coren_0_2005_BUFG             | core/pc_0/regs_reg[31][31]_8[0] | core/reg_file/AR[0]                       |               17 |             32 |
+|  coren_0_2005_BUFG             | core/pc_0/regs_reg[6][31][0]    | core/reg_file/AR[0]                       |               19 |             32 |
+|  coren_0_2005_BUFG             | core/csr/mtval_o[31]_i_1_n_3    | core/reg_file/AR[0]                       |               24 |             32 |
+|  coren_0_2005_BUFG             | core/csr/temp[31]_i_1_n_3       | core/reg_file/AR[0]                       |               22 |             32 |
+|  clk_100mhz_IBUF_BUFG          | inputter/key_counter[0]_i_1_n_3 | inputter/key_temp2_0                      |                8 |             32 |
+|  coren_0_2005_BUFG             | core/csr/csr_pc[31]_i_1_n_3     |                                           |               11 |             32 |
+|  coren_0_2005_BUFG             | core/csr/mepc_o[31]_i_1_n_3     | core/reg_file/AR[0]                       |               22 |             32 |
+|  clk_100mhz_IBUF_BUFG          | inputter/sw_counter[0]_i_1_n_3  | inputter/sw_counter0_carry__0_n_5         |                8 |             32 |
+|  coren_0_2005_BUFG             | core/pc_0/mie_o_reg[31][0]      | core/reg_file/AR[0]                       |               18 |             32 |
+|  wen_BUFG                      |                                 |                                           |               30 |             32 |
+| ~clk_100mhz_IBUF_BUFG          | memacc/regs_reg[31][21]_32      |                                           |               32 |             32 |
+|  clk_cpu_BUFG                  |                                 | core/reg_file/AR[0]                       |               15 |             32 |
+|  coren_0_2005_BUFG             | core/pc_0/mtvec_o_reg[31]_1[0]  | core/reg_file/AR[0]                       |               16 |             32 |
+|  o_dr1wen                      |                                 |                                           |               15 |             32 |
+|  n_2_3498_BUFG                 |                                 |                                           |               11 |             32 |
+|  n_1_1542_BUFG                 |                                 |                                           |               25 |             32 |
+| ~clk_100mhz_IBUF_BUFG          | o_dr1wen                        |                                           |               28 |             40 |
+| ~clk_100mhz_IBUF_BUFG          | memacc/regs_reg[31][21]_31      |                                           |               32 |             64 |
+| ~clk_100mhz_IBUF_BUFG          | memacc/regs_reg[31][21]_11      |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG          | memacc/regs_reg[31][21]_14      |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG          | memacc/regs_reg[31][21]_19      |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG          | memacc/regs_reg[31][21]_22      |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG          | memacc/regs_reg[31][21]_25      |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG          | memacc/regs_reg[31][21]_26      |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG          | memacc/regs_reg[31][21]_17      |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG          | memacc/regs_reg[31][21]_12      |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG          | memacc/regs_reg[31][21]_20      |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG          | memacc/regs_reg[31][21]_27      |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG          | memacc/regs_reg[31][21]_28      |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG          | memacc/regs_reg[31][21]_18      |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG          | memacc/regs_reg[31][21]_16      |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG          | memacc/regs_reg[31][21]_13      |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG          | memacc/regs_reg[31][21]_5       |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG          | memacc/regs_reg[31][21]_3       |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG          | memacc/regs_reg[31][21]_1       |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG          | memacc/regs_reg[31][21]_7       |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG          | memacc/regs_reg[31][21]_2       |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG          | memacc/regs_reg[31][21]_6       |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG          | memacc/regs_reg[31][21]_4       |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG          | memacc/regs_reg[31][21]_8       |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG          | memacc/regs_reg[31][21]_9       |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG          | memacc/regs_reg[31][21]_30      |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG          | memacc/regs_reg[31][21]_24      |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG          | memacc/regs_reg[31][21]_23      |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG          | memacc/regs_reg[31][21]_0       |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG          | memacc/regs_reg[31][21]_10      |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG          | memacc/regs_reg[31][21]_15      |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG          | memacc/regs_reg[31][21]_21      |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG          | memacc/regs_reg[31][21]_29      |                                           |               32 |            128 |
+|  n_0_3349_BUFG                 |                                 |                                           |              104 |            264 |
++--------------------------------+---------------------------------+-------------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                     4 |
+| 2      |                     2 |
+| 3      |                     1 |
+| 5      |                     2 |
+| 6      |                     1 |
+| 10     |                     1 |
+| 12     |                    65 |
+| 14     |                     1 |
+| 16+    |                    83 |
++--------+-----------------------+
+
+

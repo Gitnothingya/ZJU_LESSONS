@@ -1,0 +1,39 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 6b382772ef754ad2ae155e9aebccdccf --incr --debug typical --relax --mt 8 -L xil_defaultlib -L dist_mem_gen_v8_0_12 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot core_sim_behav xil_defaultlib.core_sim xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 7 for port 'debug_addr' [D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/sim/core_sim.v:14]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'PCSource' [D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/core/RV32core.v:206]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'Addr' [D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/core/RV32core.v:219]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'DatatoReg' [D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/core/RV32core.v:223]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.debug_clk
+Compiling module xil_defaultlib.REG32
+Compiling module xil_defaultlib.add_32
+Compiling module xil_defaultlib.MUX2T1_32
+Compiling module dist_mem_gen_v8_0_12.dist_mem_gen_v8_0_12(C_FAMILY="k...
+Compiling module xil_defaultlib.ROM_D
+Compiling module xil_defaultlib.REG_IF_ID
+Compiling module xil_defaultlib.CtrlUnit
+Compiling module xil_defaultlib.Regs
+Compiling module xil_defaultlib.ImmGen
+Compiling module xil_defaultlib.MUX4T1_32
+Compiling module xil_defaultlib.cmp_32
+Compiling module xil_defaultlib.HazardDetectionUnit
+Compiling module xil_defaultlib.REG_ID_EX
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.REG_EX_MEM
+Compiling module xil_defaultlib.cache_default
+Compiling module xil_defaultlib.cmu_default
+Compiling module xil_defaultlib.data_ram
+Compiling module xil_defaultlib.REG_MEM_WB
+Compiling module xil_defaultlib.CPUTEST
+Compiling module xil_defaultlib.RV32core
+Compiling module xil_defaultlib.core_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot core_sim_behav

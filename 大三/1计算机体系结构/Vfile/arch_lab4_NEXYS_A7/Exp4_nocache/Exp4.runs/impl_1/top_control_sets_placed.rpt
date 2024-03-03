@@ -1,0 +1,134 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Mon Nov 28 15:12:42 2022
+| Host         : DESKTOP-715IQOV running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    56 |
+|    Minimum number of control sets                        |    56 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    69 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    56 |
+| >= 0 to < 4        |     1 |
+| >= 4 to < 6        |     4 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     4 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     1 |
+| >= 16              |    46 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             113 |           44 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             249 |           78 |
+| Yes          | No                    | No                     |            2394 |         1460 |
+| Yes          | No                    | Yes                    |              32 |           12 |
+| Yes          | Yes                   | No                     |            1175 |          516 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------+----------------------------------------+--------------------------------+------------------+----------------+--------------+
+|     Clock Signal     |              Enable Signal             |        Set/Reset Signal        | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------------+----------------------------------------+--------------------------------+------------------+----------------+--------------+
+|  CLK_GEN/clk_disp    | BTN_SCAN/p_0_in                        |                                |                1 |              1 |         1.00 |
+|  CLK100MHZ_IBUF_BUFG |                                        |                                |                2 |              4 |         2.00 |
+|  debug_clk           |                                        |                                |                3 |              4 |         1.33 |
+|  CLK_GEN/clk_cpu     | DEBUG_CTRL/beat_counter                | rst_all                        |                3 |              5 |         1.67 |
+|  CLK_GEN/clk_cpu     | DEBUG_CTRL/reg_counter                 | rst_all                        |                2 |              5 |         2.50 |
+|  CLK_GEN/clk_cpu     | uart_tx_ctrl/update_head               | rst_all                        |                2 |              8 |         4.00 |
+|  CLK_GEN/clk_cpu     | DEBUG_CTRL/uart_valid_debug            | rst_all                        |                3 |              8 |         2.67 |
+|  CLK100MHZ_IBUF_BUFG | UART_BUFF/send_reg_0[0]                |                                |                3 |              8 |         2.67 |
+|  led_clk_BUFG        |                                        | DISPLAY/seg_an_shift           |                2 |              8 |         4.00 |
+|  CLK100MHZ_IBUF_BUFG |                                        | uart_tx_ctrl/bitTmr            |                4 |             14 |         3.50 |
+|  CLK_GEN/clk_disp    |                                        |                                |                6 |             19 |         3.17 |
+|  debug_clk           | core/reg_IF_ID/rst_all_reg             | core/reg_IF_ID/rst_all_reg_0   |                8 |             20 |         2.50 |
+|  CLK_GEN/clk_cpu     |                                        |                                |               10 |             26 |         2.60 |
+|  CLK100MHZ_IBUF_BUFG |                                        | CLK_GEN/led_clk_0              |                8 |             31 |         3.88 |
+|  CLK100MHZ_IBUF_BUFG | uart_tx_ctrl/bitIndex                  | uart_tx_ctrl/uart_ready        |                9 |             32 |         3.56 |
+| ~debug_clk           | core/reg_MEM_WB/RegWrite_WB_reg_5[0]   | rst_all                        |               23 |             32 |         1.39 |
+| ~debug_clk           | core/reg_MEM_WB/RegWrite_WB_reg_11[0]  | rst_all                        |               13 |             32 |         2.46 |
+| ~debug_clk           | core/reg_MEM_WB/RegWrite_WB_reg_16[0]  | rst_all                        |               15 |             32 |         2.13 |
+|  debug_clk           | core/reg_EXE_MEM/rst_all_reg           | core/reg_EXE_MEM/rst_all_reg_0 |               15 |             32 |         2.13 |
+| ~debug_clk           | core/reg_MEM_WB/RegWrite_WB_reg_10[0]  | rst_all                        |                9 |             32 |         3.56 |
+|  debug_clk           | core/reg_IF_ID/PCurrent_ID[31]_i_1_n_0 | rst_all                        |               10 |             32 |         3.20 |
+| ~debug_clk           | core/reg_MEM_WB/RegWrite_WB_reg_27[0]  | rst_all                        |               12 |             32 |         2.67 |
+| ~debug_clk           | core/reg_MEM_WB/RegWrite_WB_reg_29[0]  | rst_all                        |               25 |             32 |         1.28 |
+| ~debug_clk           | core/reg_MEM_WB/E[0]                   | rst_all                        |                9 |             32 |         3.56 |
+| ~debug_clk           | core/reg_MEM_WB/RegWrite_WB_reg_21[0]  | rst_all                        |               13 |             32 |         2.46 |
+| ~debug_clk           | core/reg_MEM_WB/RegWrite_WB_reg_3[0]   | rst_all                        |               17 |             32 |         1.88 |
+| ~debug_clk           | core/reg_MEM_WB/RegWrite_WB_reg_28[0]  | rst_all                        |               16 |             32 |         2.00 |
+| ~debug_clk           | core/reg_MEM_WB/RegWrite_WB_reg_0[0]   | rst_all                        |               16 |             32 |         2.00 |
+| ~debug_clk           | core/reg_MEM_WB/RegWrite_WB_reg_15[0]  | rst_all                        |               15 |             32 |         2.13 |
+| ~debug_clk           | core/reg_MEM_WB/RegWrite_WB_reg_4[0]   | rst_all                        |               19 |             32 |         1.68 |
+| ~debug_clk           | core/reg_MEM_WB/RegWrite_WB_reg_7[0]   | rst_all                        |               14 |             32 |         2.29 |
+| ~debug_clk           | core/reg_MEM_WB/RegWrite_WB_reg_18[0]  | rst_all                        |               17 |             32 |         1.88 |
+| ~debug_clk           | core/reg_MEM_WB/RegWrite_WB_reg_13[0]  | rst_all                        |               18 |             32 |         1.78 |
+| ~debug_clk           | core/reg_MEM_WB/RegWrite_WB_reg_9[0]   | rst_all                        |               14 |             32 |         2.29 |
+| ~debug_clk           | core/reg_MEM_WB/RegWrite_WB_reg_6[0]   | rst_all                        |                8 |             32 |         4.00 |
+| ~debug_clk           | core/reg_MEM_WB/RegWrite_WB_reg_12[0]  | rst_all                        |               11 |             32 |         2.91 |
+| ~debug_clk           | core/reg_MEM_WB/RegWrite_WB_reg_22[0]  | rst_all                        |               11 |             32 |         2.91 |
+| ~debug_clk           | core/reg_MEM_WB/RegWrite_WB_reg_8[0]   | rst_all                        |               10 |             32 |         3.20 |
+| ~debug_clk           | core/reg_MEM_WB/RegWrite_WB_reg_23[0]  | rst_all                        |               13 |             32 |         2.46 |
+| ~debug_clk           | core/reg_MEM_WB/RegWrite_WB_reg_14[0]  | rst_all                        |                5 |             32 |         6.40 |
+| ~debug_clk           | core/reg_MEM_WB/RegWrite_WB_reg_1[0]   | rst_all                        |               17 |             32 |         1.88 |
+| ~debug_clk           | core/reg_MEM_WB/RegWrite_WB_reg_17[0]  | rst_all                        |               13 |             32 |         2.46 |
+| ~debug_clk           | core/reg_MEM_WB/RegWrite_WB_reg_2[0]   | rst_all                        |               12 |             32 |         2.67 |
+| ~debug_clk           | core/reg_MEM_WB/RegWrite_WB_reg_20[0]  | rst_all                        |               13 |             32 |         2.46 |
+| ~debug_clk           | core/reg_MEM_WB/RegWrite_WB_reg_19[0]  | rst_all                        |               17 |             32 |         1.88 |
+| ~debug_clk           | core/reg_MEM_WB/RegWrite_WB_reg_25[0]  | rst_all                        |               19 |             32 |         1.68 |
+| ~debug_clk           | core/reg_MEM_WB/RegWrite_WB_reg_24[0]  | rst_all                        |               18 |             32 |         1.78 |
+| ~debug_clk           | core/reg_MEM_WB/RegWrite_WB_reg_26[0]  | rst_all                        |               14 |             32 |         2.29 |
+|  debug_clk           |                                        | core/reg_IF_ID/rst_all_reg_1   |               16 |             34 |         2.12 |
+|  debug_clk           | core/reg_IF_ID/E[0]                    | rst_all                        |               14 |             36 |         2.57 |
+|  debug_clk           | core/reg_IF_ID/IR_ID[31]_i_1_n_0       | rst_all                        |               16 |             37 |         2.31 |
+|  led_clk_BUFG        |                                        |                                |               23 |             60 |         2.61 |
+|  debug_clk           | core/reg_IF_ID/rst_all_reg             |                                |               39 |             87 |         2.23 |
+|  debug_clk           |                                        | rst_all                        |               48 |            162 |         3.38 |
+|  debug_clk           | core/reg_EXE_MEM/rst_all_reg           |                                |              126 |            250 |         1.98 |
+| ~debug_clk           | core/reg_EXE_MEM/E[0]                  |                                |             1291 |           2048 |         1.59 |
++----------------------+----------------------------------------+--------------------------------+------------------+----------------+--------------+
+
+

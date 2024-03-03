@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Nov 28 15:06:58 2022
+# Process ID: 2024
+# Current directory: D:/Vfile/arch_lab4_NEXYS_A7/Exp4_nocache/Exp4.runs/ROM_D_synth_1
+# Command line: vivado.exe -log ROM_D.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ROM_D.tcl
+# Log file: D:/Vfile/arch_lab4_NEXYS_A7/Exp4_nocache/Exp4.runs/ROM_D_synth_1/ROM_D.vds
+# Journal file: D:/Vfile/arch_lab4_NEXYS_A7/Exp4_nocache/Exp4.runs/ROM_D_synth_1\vivado.jou
+#-----------------------------------------------------------
+source ROM_D.tcl -notrace

@@ -1,0 +1,5 @@
+main.c:47:1:__io_putchar	1
+main.c:89:5:main	3
+main.c:144:6:SystemClock_Config	3
+main.c:181:6:HAL_UART_RxCpltCallback	3
+main.c:199:6:Error_Handler	1

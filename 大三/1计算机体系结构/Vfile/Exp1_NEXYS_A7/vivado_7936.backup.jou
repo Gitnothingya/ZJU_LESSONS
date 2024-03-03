@@ -1,0 +1,98 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Oct 12 14:16:23 2022
+# Process ID: 7936
+# Current directory: D:/Vfile/Exp1_NEXYS_A7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11808 D:\Vfile\Exp1_NEXYS_A7\Exp1.xpr
+# Log file: D:/Vfile/Exp1_NEXYS_A7/vivado.log
+# Journal file: D:/Vfile/Exp1_NEXYS_A7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vfile/Exp1_NEXYS_A7/Exp1.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+copy_run -name synth_1_copy_1 [get_runs synth_1] 
+set_property part xc7a100tcsg324-1 [current_project]
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/Vfile/Exp1_NEXYS_A7/Exp1.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+launch_simulation
+open_wave_config D:/Vfile/Exp1_NEXYS_A7/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/register}} 
+restart
+run all
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/imm_gen}} 
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/alu}} 
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/mux_A_EXE}} 
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/mux_B_EXE}} 
+restart
+run all
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/Vfile/Exp1_NEXYS_A7/Exp1.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_sim
+launch_simulation
+open_wave_config D:/Vfile/Exp1_NEXYS_A7/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/register}} 
+restart
+run all
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+close_sim
+launch_simulation
+open_wave_config D:/Vfile/Exp1_NEXYS_A7/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/register}} 
+restart
+run all
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_param general.maxThreads 8
+close_sim
+get_param general.maxThreads

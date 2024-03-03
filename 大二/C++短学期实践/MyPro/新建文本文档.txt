@@ -1,0 +1,1 @@
+setFocusPolicy(Qt::StrongFocus);//获取焦点，方向键和空格可用

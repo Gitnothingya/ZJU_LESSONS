@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Mar 28 15:09:23 2022
+# Process ID: 30024
+# Current directory: D:/Vfile/ALU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6812 D:\Vfile\ALU\ALU.xpr
+# Log file: D:/Vfile/ALU/vivado.log
+# Journal file: D:/Vfile/ALU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vfile/ALU/ALU.xpr
+update_compile_order -fileset sources_1

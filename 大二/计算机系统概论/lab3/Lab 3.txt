@@ -1,0 +1,115 @@
+            .ORIG   x0200
+        LD     R6, OS_SP
+        LD     R0, USER_PSR
+        ADD    R6, R6, #-1
+        STR    R0, R6, #0
+        LD     R0, USER_PC
+        ADD    R6, R6, #-1      
+        STR    R0, R6, #0
+        LD     R1,INT           ;键盘中断地址
+        LD     R2,INT_START
+        STR    R2,R1,#0         ;中断权限
+        LD     R2,KB_EN
+        STI    R2,KBSR2
+        RTI   
+OS_SP       .FILL   x3000
+USER_PSR    .FILL   x8002
+USER_PC     .FILL   x3000
+INT         .FILL   x0180
+INT_START   .FILL   x0800
+KBSR2       .FILL   xFE00
+KB_EN       .FILL   x4000
+            .END 
+            .ORIG   X0800
+        ST    R0, SAVER0        ;输入非数字，需要暂时将当前数字存起来
+        ST    R1, SAVER1        ;如果处于delay中，要将R1暂时存起来
+        ST    R7, SAVER7        ;中断内函数干扰delay函数的返回，
+        AND   R5, R5, #0        ;发生中断就换行重新计数
+        LD    R0, NEWL          
+        OUT                     ;换行
+        GETC                    ;获取字符
+        ADD   R3, R0, #-10      ;enter判断
+        BRz   FUN1
+        LD    R4, INF           ;通过48，57的比较（减法）
+        ADD   R3, R0, R4        ;结果正负跳转至不同函数
+        BRn   FUN3              ;R3存结果，R4存比较数
+        LD    R4, SUB
+        ADD   R3, R0, R4
+        BRp   FUN3
+        BRnz  FUN2
+FUN1    JSR   TASK
+        BRnzp INT_END
+FUN2    BRnzp INT_END           ;新的任务数直接改变R0，退出就好
+FUN3    JSR   CH
+INT_END AND  R3, R3, #0         ;通过R3判断是否进入过中断
+        ADD  R3, R3, #1         
+        LD   R1, SAVER1         ;
+        LD   R7, SAVER7         ;恢复R1,R7
+        RTI
+TASK    LD   R0, SAVER0         ;任务数减1
+        LD   R4, INF
+        ADD  R4, R0, R4         
+        BRz  TE                 ;字符为0，不再减1
+        ADD  R0, R0, #-1
+TE      RET
+CH      AND  R1, R1, #0
+CHOUT   OUT  
+        ADD  R1, R1, #1
+        LD   R2, FORTY
+        ADD  R2, R2, R1
+        BRz  FUNN
+        BRn  CHOUT
+FUNN    AND  R0, R0, #0
+        ADD  R0, R0, #10
+        OUT
+        LD   R0, SAVER0
+        RET
+KBSR        .FILL   xFE00
+KBDR        .FILL   xFE02
+DSR         .FILL   xFE04
+DDR         .FILL   xFE06
+NEWL        .FILL   x000A
+INF         .FILL   #-48
+SUB         .FILL   #-57
+SAVER0      .BLKW   #1
+SAVER1      .BLKW   #1
+SAVER7      .BLKW   #1
+FORTY       .FILL   #-40
+            .END
+            .ORIG X3000
+        AND   R1, R1, #0
+        AND   R5, R5, #0
+        LD    R2, MINER
+        LD    R0, NUM
+LOOP    JSR   DELAY         
+        OUT
+        ADD   R5, R5, #1
+        LD    R2, MINER
+        ADD   R2, R2, R5
+        BRz   FUN
+        BRn   LOOP
+FUN     JSR   SKIP          ;换行函数跳转
+        BRnzP LOOP
+        HALT
+SKIP    ST   R0, SV0        ;达到40换行函数
+        LD   R0, ENTER      
+        OUT
+        LD   R0, SV0
+        AND  R5, R5, #0
+        RET
+DELAY   ST    R1, DELAY_R1
+        LD    R1, DELAY_COUNT
+DELAY_LOOP    ADD   R1, R1, #-1
+        BRnp  DELAY_LOOP
+        ADD   R3, R3, #-1
+        BRnp  A
+        ST    R3, DELAY_R1
+A       LD    R1, DELAY_R1
+E        RET
+NUM         .FILL x0037
+ENTER       .FILL x000A
+MINER       .FILL #-40
+SV0         .BLKW #1
+DELAY_COUNT .FILL #2000
+DELAY_R1    .BLKW #1
+            .END

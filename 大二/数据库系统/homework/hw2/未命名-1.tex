@@ -1,0 +1,53 @@
+\documentclass{article}
+\usepackage[UTF8]{ctex}
+\usepackage{setspace}
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{enumitem} 
+\geometry{a4paper,left=1.5cm,right=3.18cm,top=2cm,bottom=2cm}
+
+\begin{document}	
+\Large		
+\noindent\textbf{2.7}\par
+\begin{enumerate}
+\item $\Pi_{branch\_name}(\sigma_{branch\_city=``Chicago"}(branch))$
+\item \(\Pi_{ID}(\sigma_{branch\_name=``Downtown"}(borrower\bowtie_{borrower.loan\_number=loan.loan\_number}loan))\)
+\end{enumerate}
+
+\noindent\textbf{2.12}\par
+\setlength{\parindent}{1em}
+\textbf{a.} 主键即选定的唯一标识，部分关系存在多个主键可选择。
+\begin{enumerate}[itemindent=1em]
+\item branch:branch\_name;\quad
+\item customer:ID or customer\_name;\quad
+\item loan:loan\_number;\quad
+\item borrower:ID and loan\_name;\quad
+\item account:account\_number;\quad
+\item despositor:ID and account\_number.
+\end{enumerate}
+
+
+\textbf{b.} branch 与 customer 关系没有外键
+\begin{enumerate}[itemindent=1em]
+\item loan: branch\_name referencing branch
+\item borrower: customer\_name referencing customer ; loan\_number referencing loan
+\item account: branch\_name referencing branch
+\item depositor: customer\_name referencing customer ; account\_number referencing account
+\end{enumerate}
+
+\newpage
+\noindent\textbf{2.13}\par
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.1]{1.jpg}
+    %\caption{Elliptic Paraboloid}
+    \end{figure} 
+
+\noindent\textbf{2.15}\par
+\textbf{a.} \(\Pi_{loan\_number}(\sigma_{amount>10000}(loan))\)\par
+\textbf{b.} \( \Pi_{ID}(\sigma_{balance>6000}(depositor\bowtie_{depositor . account\_number=account . account\_number }account)) \)\par
+\large
+\textbf{c.} \( \Pi_{ID}(\sigma_{balance>6000\wedge branch\_name=``Uptown"}(depositor\bowtie_{depositor. account\_number = account . account\_number}account)) \)
+
+\end{document}

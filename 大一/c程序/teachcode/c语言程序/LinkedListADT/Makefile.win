@@ -1,0 +1,46 @@
+# Project: MyProject
+# Makefile created by Dev-C++ 5.5.3
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = lib/exceptio.o lib/genlib.o lib/random.o lib/simpio.o lib/strlib.o linkedlist.o testldouble.o
+LINKOBJ  = lib/exceptio.o lib/genlib.o lib/random.o lib/simpio.o lib/strlib.o linkedlist.o testldouble.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW32/mingw32/lib" -static-libstdc++ -static-libgcc -g3
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW32/include" -I"./include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib/gcc/mingw32/4.7.2/include/c++" -I"./include"
+BIN      = MyProject.exe
+CXXFLAGS = $(CXXINCS) -g3
+CFLAGS   = $(INCS) -g3
+RM       = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+lib/exceptio.o: lib/exceptio.c
+	$(CC) -c lib/exceptio.c -o lib/exceptio.o $(CFLAGS)
+
+lib/genlib.o: lib/genlib.c
+	$(CC) -c lib/genlib.c -o lib/genlib.o $(CFLAGS)
+
+lib/random.o: lib/random.c
+	$(CC) -c lib/random.c -o lib/random.o $(CFLAGS)
+
+lib/simpio.o: lib/simpio.c
+	$(CC) -c lib/simpio.c -o lib/simpio.o $(CFLAGS)
+
+lib/strlib.o: lib/strlib.c
+	$(CC) -c lib/strlib.c -o lib/strlib.o $(CFLAGS)
+
+linkedlist.o: linkedlist.c
+	$(CC) -c linkedlist.c -o linkedlist.o $(CFLAGS)
+
+testldouble.o: testldouble.c
+	$(CC) -c testldouble.c -o testldouble.o $(CFLAGS)

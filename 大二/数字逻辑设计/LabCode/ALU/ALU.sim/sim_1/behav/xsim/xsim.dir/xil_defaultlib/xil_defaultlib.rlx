@@ -1,0 +1,23 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/Vfile/ALU/ALU.gen/sources_1/ip/adc_1/adc.v,1647317137,verilog,,D:/Vfile/ALU/ALU.gen/sources_1/ip/adc_1/sim/adc_1.v,,adc,,,,,,,,
+D:/Vfile/ALU/ALU.gen/sources_1/ip/adc_1/sim/adc_1.v,1647317137,verilog,,D:/Vfile/ALU/ALU.gen/sources_1/ip/or32_0/or32.v,,adc_1,,,,,,,,
+D:/Vfile/ALU/ALU.gen/sources_1/ip/and32_0/and32.v,1647352510,verilog,,D:/Vfile/ALU/ALU.gen/sources_1/ip/and32_0/sim/and32_0.v,,and32,,,,,,,,
+D:/Vfile/ALU/ALU.gen/sources_1/ip/and32_0/sim/and32_0.v,1647315948,verilog,,D:/Vfile/ALU/ALU.srcs/sources_1/new/ALU32.v,,and32_0,,,,,,,,
+D:/Vfile/ALU/ALU.gen/sources_1/ip/mux8132_0/mux8132.v,1647354201,verilog,,D:/Vfile/ALU/ALU.gen/sources_1/ip/mux8132_0/sim/mux8132_0.v,,mux8132,,,,,,,,
+D:/Vfile/ALU/ALU.gen/sources_1/ip/mux8132_0/sim/mux8132_0.v,1647352628,verilog,,D:/Vfile/ALU/ALU.gen/sources_1/ip/srl_0/srl.v,,mux8132_0,,,,,,,,
+D:/Vfile/ALU/ALU.gen/sources_1/ip/nor32_0/nor32.v,1647352577,verilog,,D:/Vfile/ALU/ALU.gen/sources_1/ip/nor32_0/sim/nor32_0.v,,nor32,,,,,,,,
+D:/Vfile/ALU/ALU.gen/sources_1/ip/nor32_0/sim/nor32_0.v,1647316061,verilog,,D:/Vfile/ALU/ALU.gen/sources_1/ip/adc_1/adc.v,,nor32_0,,,,,,,,
+D:/Vfile/ALU/ALU.gen/sources_1/ip/or32_0/or32.v,1647316070,verilog,,D:/Vfile/ALU/ALU.gen/sources_1/ip/or32_0/sim/or32_0.v,,or32,,,,,,,,
+D:/Vfile/ALU/ALU.gen/sources_1/ip/or32_0/sim/or32_0.v,1647316070,verilog,,D:/Vfile/ALU/ALU.gen/sources_1/ip/and32_0/and32.v,,or32_0,,,,,,,,
+D:/Vfile/ALU/ALU.gen/sources_1/ip/orl_0/orl.v,1648645887,verilog,,D:/Vfile/ALU/ALU.gen/sources_1/ip/orl_0/sim/orl_0.v,,orl,,,,,,,,
+D:/Vfile/ALU/ALU.gen/sources_1/ip/orl_0/sim/orl_0.v,1648645887,verilog,,D:/Vfile/ALU/ALU.gen/sources_1/ip/mux8132_0/mux8132.v,,orl_0,,,,,,,,
+D:/Vfile/ALU/ALU.gen/sources_1/ip/srl_0/sim/srl_0.v,1647352607,verilog,,D:/Vfile/ALU/ALU.gen/sources_1/ip/xor32_0/xor32.v,,srl_0,,,,,,,,
+D:/Vfile/ALU/ALU.gen/sources_1/ip/srl_0/srl.v,1647352607,verilog,,D:/Vfile/ALU/ALU.gen/sources_1/ip/srl_0/sim/srl_0.v,,srl,,,,,,,,
+D:/Vfile/ALU/ALU.gen/sources_1/ip/xor32_0/sim/xor32_0.v,1647352594,verilog,,D:/Vfile/ALU/ALU.gen/sources_1/ip/nor32_0/nor32.v,,xor32_0,,,,,,,,
+D:/Vfile/ALU/ALU.gen/sources_1/ip/xor32_0/xor32.v,1647352594,verilog,,D:/Vfile/ALU/ALU.gen/sources_1/ip/xor32_0/sim/xor32_0.v,,xor32,,,,,,,,
+D:/Vfile/ALU/ALU.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+D:/Vfile/ALU/ALU.srcs/sim_1/new/tb_ALU32.v,1647352405,verilog,,,,tb_ALU32,,,,,,,,
+D:/Vfile/ALU/ALU.srcs/sources_1/new/ALU32.v,1647352136,verilog,,D:/Vfile/ALU/ALU.srcs/sim_1/new/tb_ALU32.v,,ALU32,,,,,,,,

@@ -1,0 +1,51 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Mar 15 11:30:30 2022
+# Process ID: 17712
+# Current directory: D:/Vfile/Lab0
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24484 D:\Vfile\Lab0\Lab0.xpr
+# Log file: D:/Vfile/Lab0/vivado.log
+# Journal file: D:/Vfile/Lab0\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vfile/Lab0/Lab0.xpr
+update_compile_order -fileset sources_1
+open_project D:/Vfile/mux415/mux415.xpr
+ipx::open_ipxact_file D:/Vfile/mux415/mux415.srcs/component.xml
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/Vfile/mux415/mux415.srcs/sim_1/new/sim415.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 D:/Vfile/mux415/mux415.srcs/sim_1/new/sim415.v
+file delete -force D:/Vfile/mux415/mux415.srcs/sim_1/new/sim415.v
+set_property core_revision 3 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/Vfile/mux415/mux415.srcs
+set_property core_revision 4 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/Vfile/mux415/mux415.srcs
+ipx::package_project -root_dir d:/vfile/mux415/mux415.srcs -vendor xilinx.com -library user -taxonomy /UserIP -force
+current_project Lab0
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+current_project mux415
+current_project Lab0
+update_ip_catalog -rebuild
+upgrade_ip -vlnv xilinx.com:user:mux415:1.0 [get_ips  mux415_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips mux415_0] -no_script -sync -force -quiet
+set_property generate_synth_checkpoint true [get_files  D:/Vfile/Lab0/Lab0.srcs/sources_1/ip/mux415_0/mux415_0.xci]
+generate_target all [get_files  D:/Vfile/Lab0/Lab0.srcs/sources_1/ip/mux415_0/mux415_0.xci]
+catch { config_ip_cache -export [get_ips -all mux415_0] }
+export_ip_user_files -of_objects [get_files D:/Vfile/Lab0/Lab0.srcs/sources_1/ip/mux415_0/mux415_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/Vfile/Lab0/Lab0.srcs/sources_1/ip/mux415_0/mux415_0.xci]
+launch_runs mux415_0_synth_1 -jobs 4
+wait_on_run mux415_0_synth_1
+export_simulation -of_objects [get_files D:/Vfile/Lab0/Lab0.srcs/sources_1/ip/mux415_0/mux415_0.xci] -directory D:/Vfile/Lab0/Lab0.ip_user_files/sim_scripts -ip_user_files_dir D:/Vfile/Lab0/Lab0.ip_user_files -ipstatic_source_dir D:/Vfile/Lab0/Lab0.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Vfile/Lab0/Lab0.cache/compile_simlib/modelsim} {questa=D:/Vfile/Lab0/Lab0.cache/compile_simlib/questa} {riviera=D:/Vfile/Lab0/Lab0.cache/compile_simlib/riviera} {activehdl=D:/Vfile/Lab0/Lab0.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+current_project mux415
+close_project

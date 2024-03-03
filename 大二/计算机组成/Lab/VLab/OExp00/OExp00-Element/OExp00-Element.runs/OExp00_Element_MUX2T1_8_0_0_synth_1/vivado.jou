@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Mar 10 18:06:00 2022
+# Process ID: 10488
+# Current directory: D:/Vteacher/OExp00/OExp00-Element/OExp00-Element.runs/OExp00_Element_MUX2T1_8_0_0_synth_1
+# Command line: vivado.exe -log OExp00_Element_MUX2T1_8_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source OExp00_Element_MUX2T1_8_0_0.tcl
+# Log file: D:/Vteacher/OExp00/OExp00-Element/OExp00-Element.runs/OExp00_Element_MUX2T1_8_0_0_synth_1/OExp00_Element_MUX2T1_8_0_0.vds
+# Journal file: D:/Vteacher/OExp00/OExp00-Element/OExp00-Element.runs/OExp00_Element_MUX2T1_8_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source OExp00_Element_MUX2T1_8_0_0.tcl -notrace

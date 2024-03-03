@@ -1,0 +1,16 @@
+00:23:02 **** Incremental Build of configuration Debug for project Lora-main ****
+make -j8 all 
+arm-none-eabi-gcc -o "Lora-main.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STFile\Lora-main\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lora-main.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lora-main.elf
+ 
+arm-none-eabi-size   Lora-main.elf 
+arm-none-eabi-objdump -h -S  Lora-main.elf  > "Lora-main.list"
+   text	   data	    bss	    dec	    hex	filename
+  35944	    756	   8740	  45440	   b180	Lora-main.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lora-main.list
+ 
+
+00:23:04 Build Finished. 0 errors, 0 warnings. (took 1s.901ms)
+

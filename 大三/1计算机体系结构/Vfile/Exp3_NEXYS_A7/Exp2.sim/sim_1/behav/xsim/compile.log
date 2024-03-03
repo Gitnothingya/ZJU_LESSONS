@@ -1,0 +1,49 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp3_NEXYS_A7/code/core/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp3_NEXYS_A7/code/core/BranchPredictUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BranchPredictUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp3_NEXYS_A7/code/auxillary/CPUTEST.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPUTEST
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp3_NEXYS_A7/code/core/CSRRegs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSRRegs
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp3_NEXYS_A7/code/core/CtrlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CtrlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp3_NEXYS_A7/code/core/ExceptionUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ExceptionUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp3_NEXYS_A7/code/core/HazardDetectionUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HazardDetectionUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp3_NEXYS_A7/code/core/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp3_NEXYS_A7/code/common/MUX2T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp3_NEXYS_A7/code/common/MUX4T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX4T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp3_NEXYS_A7/code/core/RAM_B.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM_B
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp3_NEXYS_A7/code/common/REG32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp3_NEXYS_A7/code/core/REG_EX_MEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG_EX_MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp3_NEXYS_A7/code/core/REG_ID_EX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG_ID_EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp3_NEXYS_A7/code/core/REG_IF_ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG_IF_ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp3_NEXYS_A7/code/core/REG_MEM_WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG_MEM_WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp3_NEXYS_A7/code/core/ROM_D.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM_D
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp3_NEXYS_A7/code/core/RV32core.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RV32core
+INFO: [VRFC 10-2458] undeclared symbol Addr, assumed default net type wire [D:/Vfile/Exp3_NEXYS_A7/code/core/RV32core.v:255]
+INFO: [VRFC 10-2458] undeclared symbol MWR, assumed default net type wire [D:/Vfile/Exp3_NEXYS_A7/code/core/RV32core.v:256]
+WARNING: [VRFC 10-3380] identifier 'PC_WB' is used before its declaration [D:/Vfile/Exp3_NEXYS_A7/code/core/RV32core.v:16]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp3_NEXYS_A7/code/core/Regs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Regs
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp3_NEXYS_A7/code/common/add_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp3_NEXYS_A7/code/common/cmp_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmp_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp3_NEXYS_A7/code/auxillary/debug_clk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debug_clk
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/Exp3_NEXYS_A7/code/sim/core_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module core_sim

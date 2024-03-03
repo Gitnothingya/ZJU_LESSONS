@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu May  5 10:12:26 2022
+# Process ID: 45104
+# Current directory: D:/EDAFile_vivado/LAB4/SingleCycleCPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent52896 D:\EDAFile_vivado\LAB4\SingleCycleCPU\SingleCycleCPU.xpr
+# Log file: D:/EDAFile_vivado/LAB4/SingleCycleCPU/vivado.log
+# Journal file: D:/EDAFile_vivado/LAB4/SingleCycleCPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/EDAFile_vivado/LAB4/SingleCycleCPU/SingleCycleCPU.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/install/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 814.871 ; gain = 94.953
+update_compile_order -fileset sources_1
+import_files -norecurse D:/EDAFile_vivado/LAB4/Materials/Mem/imem_data3.mem
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu May  5 10:15:51 2022] Launched synth_1...
+Run output will be captured here: D:/EDAFile_vivado/LAB4/SingleCycleCPU/SingleCycleCPU.runs/synth_1/runme.log
+[Thu May  5 10:15:51 2022] Launched impl_1...
+Run output will be captured here: D:/EDAFile_vivado/LAB4/SingleCycleCPU/SingleCycleCPU.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu May  5 10:28:12 2022...

@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Mar 17 17:07:34 2022
+# Process ID: 35232
+# Current directory: D:/Vteacher/IP/Supplementary/VGA/VGA
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent36132 D:\Vteacher\IP\Supplementary\VGA\VGA\VGA.xpr
+# Log file: D:/Vteacher/IP/Supplementary/VGA/VGA/vivado.log
+# Journal file: D:/Vteacher/IP/Supplementary/VGA/VGA\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vteacher/IP/Supplementary/VGA/VGA/VGA.xpr
+update_compile_order -fileset sources_1update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1

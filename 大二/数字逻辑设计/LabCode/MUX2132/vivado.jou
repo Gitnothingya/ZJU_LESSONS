@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Mar 28 18:44:02 2022
+# Process ID: 1660
+# Current directory: D:/Vfile/MUX2132
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12540 D:\Vfile\MUX2132\MUX2132.xpr
+# Log file: D:/Vfile/MUX2132/vivado.log
+# Journal file: D:/Vfile/MUX2132\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vfile/MUX2132/MUX2132.xpr
+update_compile_order -fileset sources_1
+file mkdir D:/Vfile/MUX2132/MUX2132.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/Vfile/MUX2132/MUX2132.srcs/sim_1/new/sim2132.v w ]
+add_files -fileset sim_1 D:/Vfile/MUX2132/MUX2132.srcs/sim_1/new/sim2132.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source sim2132.tcl
+close_sim

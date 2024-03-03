@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Nov 29 00:38:03 2022
+# Process ID: 22684
+# Current directory: D:/Vfile/arch_lab4_NEXYS_A7/Exp4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent29236 D:\Vfile\arch_lab4_NEXYS_A7\Exp4\Exp4.xpr
+# Log file: D:/Vfile/arch_lab4_NEXYS_A7/Exp4/vivado.log
+# Journal file: D:/Vfile/arch_lab4_NEXYS_A7/Exp4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vfile/arch_lab4_NEXYS_A7/Exp4/Exp4.xpr
+update_compile_order -fileset sources_1
+report_ip_status -name ip_status 
+reset_run synth_1
+reset_run ROM_D_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1

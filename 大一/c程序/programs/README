@@ -1,0 +1,91 @@
+README file for the programs subdirectory
+Last modified on Thu Oct 20 00:01:22 1994 by eroberts
+________________________________________________________________________
+
+The programs subdirectory contains all of the sample programs used in
+this text, arranged into subdirectories by chapter, as follows:
+
+     02-Learning-by-Example 03-Problem-Solving 04-Statement-Forms 05-
+     Functions 06-Algorithms 07-Graphics 08-Random-Numbers 09-Strings
+     10-Modular-Development 11-Arrays 12-Sorting 13-Pointers 14-
+     Strings-Revisited 15-Text-Files 16-Records 17-Looking-Ahead
+
+In addition to the source files, each chapter directory also contains a
+Unix-style Makefile that creates each of the applications.  On systems
+that don't support a make facility, the Makefile cannot be used directly
+but nonetheless illustrates how the individual source files are combined
+to form complete programs.  The Makefile is written to assume the
+existence of a command script called gccx, which is described in the
+README file for the unix-xwindows implementation.
+
+To simplify the process of copying the source programs, the programs
+directory also contains an archive subdirectory, which includes the
+following three files:
+
+programs.shar   This file is a text archive of the entire set of
+(Unix systems)  programs created using a Unix utility called shar.
+
+                TO RECREATE THE programs DIRECTORY ON YOUR UNIX SYSTEM:
+
+                1.  Connect your FTP application to the archive
+                    subdirectory.
+
+                2.  Retrieve the programs.shar file.
+
+                3.  Unpack the programs.shar archive by typing the
+                    following Unix command:
+
+                         sh programs.shar
+
+                    The effect of this command is to create a directory
+                    named programs containing the entire directory tree.
+
+programs.hqx    This file is a compressed archive of the entire set of
+(Macintosh)     programs created using a combination of two utilities
+                for the Macintosh: CompactPro and BinHex4.
+
+                TO RECREATE THE programs DIRECTORY ON YOUR MACINTOSH:
+
+                1.  Connect your FTP application to the archive
+                    subdirectory.
+
+                2.  If your version of FTP allows you to do so, set the
+                    transfer type to BinHex4 and retrieve the file; then
+                    skip ahead to step 4.
+
+                3.  If you cannot find a way to retrieve BinHex4 files
+                    directly, retrieve the programs.hqx archive in ASCII
+                    mode, and then run it through the public-domain
+                    BinHex4 conversion utility, which you will have to
+                    obtain for your Macintosh.
+
+                4.  At this point, you should have an application file
+                    on your Macintosh called programs.sea, which is the
+                    output of the BinHex4 conversion.  Run the
+                    programs.sea application by double-clicking its
+                    icon.
+
+                5.  When the file dialog for the CompactPro utility
+                    appears, select a folder into which you would like
+                    to install the programs tree and click the Extract
+                    button.
+
+programs.exe    This file is a compressed archive of the entire set of
+(IBM PC)        programs created using an archive utility called LHA.
+                Because the IBM PC does not support file names longer
+                than eight characters, the names of the directories are
+                formed simply by taking the letters CH and following it
+                with a two-digit chapter number.  For example, the
+                programs for Chapter 7 are in the subdirectory CH07.
+
+                TO RECREATE THE programs DIRECTORY ON YOUR PC:
+
+                1.  Connect your FTP application to the archive
+                    subdirectory.
+
+                2.  Retrieve the programs.exe file in binary mode.
+
+                3.  Unpack the archive file by typing the following DOS
+                    command:
+
+                         programs

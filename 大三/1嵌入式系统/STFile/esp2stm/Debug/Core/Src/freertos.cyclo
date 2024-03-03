@@ -1,0 +1,6 @@
+freertos.c:96:6:MX_FREERTOS_Init	3
+freertos.c:163:6:StartDefaultTask	1
+freertos.c:178:6:Callback01	1
+freertos.c:190:6:StartSerialWithESP	3
+freertos.c:212:6:StartTxWithESP	2
+freertos.c:226:6:vTestTimerCallback	1

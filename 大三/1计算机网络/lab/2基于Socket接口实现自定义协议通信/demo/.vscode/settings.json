@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "Makefile": "makefile",
+        "*.c": "c",
+        "time.h": "c",
+        "stdio.h": "c",
+        "winsock.h": "c",
+        "thread": "cpp",
+        "fcntl.h": "c",
+        "inet.h": "c"
+    }
+}

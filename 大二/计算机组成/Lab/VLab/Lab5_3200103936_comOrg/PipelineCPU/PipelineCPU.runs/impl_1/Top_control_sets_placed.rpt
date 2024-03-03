@@ -1,0 +1,202 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Wed Jun  1 18:56:14 2022
+| Host         : LAPTOP-G8SE1MMQ running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Top_control_sets_placed.rpt
+| Design       : Top
+| Device       : xc7k160t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |   132 |
+| Unused register locations in slices containing registers |   119 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             312 |          188 |
+| No           | No                    | Yes                    |             613 |          246 |
+| No           | Yes                   | No                     |              33 |           12 |
+| Yes          | No                    | No                     |              46 |           35 |
+| Yes          | No                    | Yes                    |            1094 |          506 |
+| Yes          | Yes                   | No                     |              79 |           21 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------------------------+--------------------------------------------+-------------------------------------------+------------------+----------------+
+|           Clock Signal           |                Enable Signal               |              Set/Reset Signal             | Slice Load Count | Bel Load Count |
++----------------------------------+--------------------------------------------+-------------------------------------------+------------------+----------------+
+|  clk_100mhz_IBUF_BUFG            | inputter/sw[0]_i_1_n_1                     |                                           |                1 |              1 |
+|  clk_cpu_BUFG                    | core/EX_MEM_0/en_IF                        | core/EX_MEM_0/rs2_val_out_reg[3]_0        |                2 |              2 |
+|  ID_0n_0_1192_BUFG               | core/MEM_WB_0/regs_reg[2][0][0]            | core/ID_0/reg_file/regs[1][31]_i_3_n_1    |                2 |              2 |
+|  core/IF_ID_0/E[0]               |                                            |                                           |                3 |              3 |
+|  ID_0n_0_1192_BUFG               | core/MEM_WB_0/regs_reg[8][0][0]            | core/ID_0/reg_file/regs[8][3]_i_1_n_1     |                4 |              4 |
+|  clk_100mhz_IBUF_BUFG            | inputter/key_row[4]_i_1_n_1                |                                           |                2 |              5 |
+|  clk_100mhz_IBUF_BUFG            | inputter/key_temp2[4]_i_2_n_1              | inputter/key_temp2_0                      |                2 |              5 |
+|  ID_0n_0_1192_BUFG               | core/MEM_WB_0/regs_reg[31][0]_5[0]         | core/ID_0/reg_file/regs[23][19]_i_1_n_1   |                2 |              6 |
+|  ID_0n_0_1192_BUFG               | core/MEM_WB_0/regs_reg[7][0][0]            | core/ID_0/reg_file/regs[7][7]_i_1_n_1     |                3 |              8 |
+|  vga/clk_div_IBUF_BUFG[0]        | vga/vga_debugger/display_addr_reg[9]_5     |                                           |                3 |             10 |
+|  vga/clk_div_IBUF_BUFG[0]        | vga/vga_debugger/display_addr_reg[9]_0     |                                           |                3 |             10 |
+|  vga/clk_div_IBUF_BUFG[0]        | vga/vga_debugger/display_addr_reg[8]_1     |                                           |                3 |             10 |
+|  vga/clk_div_IBUF_BUFG[0]        | vga/vga_debugger/display_addr_reg[8]_4     |                                           |                3 |             10 |
+|  vga/clk_div_IBUF_BUFG[0]        | vga/vga_debugger/display_addr_reg[6]_rep_4 |                                           |                3 |             10 |
+|  vga/clk_div_IBUF_BUFG[0]        | vga/vga_debugger/display_addr_reg[8]_2     |                                           |                3 |             10 |
+|  vga/clk_div_IBUF_BUFG[0]        | vga/vga_debugger/display_addr_reg[6]_rep_5 |                                           |                3 |             10 |
+|  vga/clk_div_IBUF_BUFG[0]        | vga/vga_debugger/display_addr_reg[7]_2     |                                           |                3 |             10 |
+|  clk_cpu_BUFG                    | core/EX_MEM_0/en_IF                        | core/ID_0/reg_file/AR[0]                  |                8 |             10 |
+|  vga/clk_div_IBUF_BUFG[0]        | vga/vga_debugger/display_addr_reg[8]_3     |                                           |                3 |             10 |
+|  vga/clk_div_IBUF_BUFG[0]        | vga/vga_debugger/display_addr_reg[9]_2     |                                           |                3 |             10 |
+|  vga/clk_div_IBUF_BUFG[0]        | vga/vga_debugger/display_addr_reg[7]_1     |                                           |                3 |             10 |
+|  vga/clk_div_IBUF_BUFG[0]        | vga/vga_debugger/display_addr_reg[6]_rep_3 |                                           |                3 |             10 |
+|  vga/clk_div_IBUF_BUFG[0]        | vga/vga_debugger/display_addr_reg[7]_0     |                                           |                3 |             10 |
+|  vga/clk_div_IBUF_BUFG[0]        | vga/vga_debugger/display_addr_reg[9]_1     |                                           |                3 |             10 |
+|  vga/clk_div_IBUF_BUFG[0]        | vga/vga_debugger/display_addr_reg[7]_3     |                                           |                3 |             10 |
+|  vga/clk_div_IBUF_BUFG[0]        | vga/vga_debugger/display_addr_reg[10]_0    |                                           |                3 |             10 |
+|  vga/clk_div_IBUF_BUFG[0]        | vga/vga_debugger/display_addr_reg[6]_rep_2 |                                           |                3 |             10 |
+|  vga/clk_div_IBUF_BUFG[0]        | vga/vga_debugger/display_addr_reg[11]_0    |                                           |                3 |             10 |
+|  vga/clk_div_IBUF_BUFG[0]        | vga/vga_debugger/display_addr_reg[10]_6    |                                           |                3 |             10 |
+|  ID_0n_0_1192_BUFG               | core/MEM_WB_0/regs_reg[16][0][0]           | core/ID_0/reg_file/regs[16][9]_i_1_n_1    |                6 |             10 |
+|  vga/clk_div_IBUF_BUFG[0]        | vga/vga_debugger/display_addr_reg[10]_8    |                                           |                3 |             10 |
+|  vga/clk_div_IBUF_BUFG[0]        | vga/vga_debugger/display_addr_reg[6]_rep_1 |                                           |                3 |             10 |
+|  vga/clk_div_IBUF_BUFG[0]        | vga/vga_debugger/display_addr_reg[6]_rep_0 |                                           |                3 |             10 |
+|  vga/clk_div_IBUF_BUFG[0]        | vga/vga_debugger/display_addr_reg[10]_5    |                                           |                3 |             10 |
+|  vga/clk_div_IBUF_BUFG[0]        | vga/vga_debugger/display_addr_reg[10]_7    |                                           |                3 |             10 |
+|  vga/clk_div_IBUF_BUFG[0]        | vga/vga_debugger/display_addr_reg[10]_3    |                                           |                3 |             10 |
+|  vga/clk_div_IBUF_BUFG[0]        | vga/vga_debugger/display_addr_reg[10]_4    |                                           |                3 |             10 |
+|  vga/clk_div_IBUF_BUFG[0]        | vga/vga_debugger/display_addr_reg[10]_1    |                                           |                3 |             10 |
+|  vga/clk_div_IBUF_BUFG[0]        | vga/vga_debugger/display_addr_reg[10]_2    |                                           |                3 |             10 |
+|  vga/clk_div_IBUF_BUFG[0]        | vga/vga_debugger/display_addr_reg[11]_1    |                                           |                3 |             10 |
+|  vga/clk_div_IBUF_BUFG[1]        | vga/vga_controller/v_count[9]_i_1_n_0      | core/ID_EX_0/AR[0]                        |                3 |             10 |
+|  vga/clk_div_IBUF_BUFG[0]        | vga/vga_debugger/display_addr_reg[9]_3     |                                           |                3 |             10 |
+|  vga/clk_div_IBUF_BUFG[0]        | vga/vga_debugger/display_addr_reg[9]_4     |                                           |                3 |             10 |
+|  vga/clk_div_IBUF_BUFG[0]        | vga/vga_debugger/display_addr_reg[8]_0     |                                           |                3 |             10 |
+|  vga/clk_div_IBUF_BUFG[1]        |                                            | core/ID_EX_0/AR[0]                        |                5 |             12 |
+|  ID_0n_0_1192_BUFG               | core/MEM_WB_0/regs_reg[23][0][0]           | core/ID_0/reg_file/regs[15][13]_i_1_n_1   |                5 |             12 |
+|  ID_0n_0_1192_BUFG               | core/MEM_WB_0/regs_reg[15][0][0]           | core/ID_0/reg_file/regs[15][13]_i_1_n_1   |               11 |             14 |
+|  ID_0n_0_1192_BUFG               | core/MEM_WB_0/regs_reg[24][0][0]           | core/ID_0/reg_file/AR[0]                  |                7 |             16 |
+|  ID_0n_0_1192_BUFG               | core/MEM_WB_0/regs_reg[24][0][0]           | core/ID_0/reg_file/regs[16][9]_i_1_n_1    |                8 |             16 |
+|  ID_0n_0_1192_BUFG               | core/MEM_WB_0/regs_reg[15][0][0]           | core/ID_0/reg_file/regs[7][7]_i_1_n_1     |                5 |             18 |
+|  ID_0n_0_1192_BUFG               | core/MEM_WB_0/regs_reg[23][0][0]           | core/ID_0/reg_file/regs[23][19]_i_1_n_1   |                7 |             20 |
+|  vga/clk_div_IBUF_BUFG[0]        |                                            | vga/vga_debugger/display_addr[11]_i_1_n_0 |                7 |             21 |
+|  ID_0n_0_1192_BUFG               | core/MEM_WB_0/regs_reg[16][0][0]           | core/ID_0/reg_file/regs[8][3]_i_1_n_1     |               11 |             22 |
+|  clk_100mhz_IBUF_BUFG            |                                            |                                           |                6 |             22 |
+|  ID_0n_0_1192_BUFG               | core/MEM_WB_0/regs_reg[7][0][0]            | core/ID_0/reg_file/regs[1][31]_i_3_n_1    |               13 |             24 |
+|  ID_0n_0_1192_BUFG               | core/MEM_WB_0/regs_reg[31][0]_5[0]         | core/IF_0/pc_0/AR[0]                      |               12 |             26 |
+|  ID_0n_0_1192_BUFG               | core/MEM_WB_0/regs_reg[8][0][0]            | core/ID_0/reg_file/regs[2][29]_i_1_n_1    |               15 |             28 |
+|  clk_100mhz_IBUF_BUFG            |                                            | core/IF_0/pc_0/AR[0]                      |                7 |             28 |
+|  ID_0n_0_1192_BUFG               | core/MEM_WB_0/regs_reg[2][0][0]            | core/ID_0/reg_file/regs[2][29]_i_1_n_1    |               19 |             30 |
+|  ID_0n_0_1192_BUFG               | core/MEM_WB_0/regs_reg[20][0][0]           | core/ID_0/reg_file/regs[16][9]_i_1_n_1    |               12 |             32 |
+|  ID_0n_0_1192_BUFG               | core/MEM_WB_0/regs_reg[13][0][0]           | core/ID_0/reg_file/regs[7][7]_i_1_n_1     |               13 |             32 |
+|  ID_0n_0_1192_BUFG               | core/MEM_WB_0/regs_reg[29][0][0]           | core/ID_0/reg_file/regs[23][19]_i_1_n_1   |               10 |             32 |
+|  ID_0n_0_1192_BUFG               | core/MEM_WB_0/regs_reg[11][0][0]           | core/ID_0/reg_file/regs[7][7]_i_1_n_1     |               13 |             32 |
+|  ID_0n_0_1192_BUFG               | core/MEM_WB_0/regs_reg[21][0][0]           | core/ID_0/reg_file/regs[15][13]_i_1_n_1   |               13 |             32 |
+|  ID_0n_0_1192_BUFG               | core/MEM_WB_0/regs_reg[25][0][0]           | core/ID_0/reg_file/regs[23][19]_i_1_n_1   |               10 |             32 |
+|  ID_0n_0_1192_BUFG               | core/MEM_WB_0/regs_reg[26][0][0]           | core/ID_0/reg_file/AR[0]                  |               19 |             32 |
+| ~core/EX_MEM_0/data_reg[31]_BUFG |                                            |                                           |               22 |             32 |
+|  ID_0n_0_1192_BUFG               | core/MEM_WB_0/regs_reg[27][0][0]           | core/ID_0/reg_file/regs[23][19]_i_1_n_1   |               14 |             32 |
+|  ID_0n_0_1192_BUFG               | core/MEM_WB_0/regs_reg[14][0][0]           | core/ID_0/reg_file/regs[8][3]_i_1_n_1     |               12 |             32 |
+|  ID_0n_0_1192_BUFG               | core/MEM_WB_0/regs_reg[17][0][0]           | core/ID_0/reg_file/regs[15][13]_i_1_n_1   |               21 |             32 |
+|  ID_0n_0_1192_BUFG               | core/MEM_WB_0/regs_reg[28][0][0]           | core/ID_0/reg_file/AR[0]                  |               11 |             32 |
+|  ID_0n_0_1192_BUFG               | core/MEM_WB_0/regs_reg[22][0][0]           | core/ID_0/reg_file/regs[16][9]_i_1_n_1    |               18 |             32 |
+|  ID_0n_0_1192_BUFG               | core/MEM_WB_0/regs_reg[12][0][0]           | core/ID_0/reg_file/regs[8][3]_i_1_n_1     |               17 |             32 |
+|  ID_0n_0_1192_BUFG               | core/MEM_WB_0/regs_reg[30][0]_0[0]         | core/ID_0/reg_file/AR[0]                  |               14 |             32 |
+|  ID_0n_0_1192_BUFG               | core/MEM_WB_0/regs_reg[1][0][0]            | core/ID_0/reg_file/regs[1][31]_i_3_n_1    |               17 |             32 |
+|  ID_0n_0_1192_BUFG               | core/MEM_WB_0/regs_reg[19][0][0]           | core/ID_0/reg_file/regs[15][13]_i_1_n_1   |               14 |             32 |
+|  ID_0n_0_1192_BUFG               | core/MEM_WB_0/regs_reg[10][0][0]           | core/ID_0/reg_file/regs[8][3]_i_1_n_1     |               15 |             32 |
+|  ID_0n_0_1192_BUFG               | core/MEM_WB_0/regs_reg[18][0][0]           | core/ID_0/reg_file/regs[16][9]_i_1_n_1    |               18 |             32 |
+|  ID_0n_0_1192_BUFG               | core/MEM_WB_0/regs_reg[4][0][0]            | core/ID_0/reg_file/regs[2][29]_i_1_n_1    |               11 |             32 |
+|  ID_0n_0_1192_BUFG               | core/MEM_WB_0/regs_reg[6][0][0]            | core/ID_0/reg_file/regs[2][29]_i_1_n_1    |               19 |             32 |
+|  ID_0n_0_1192_BUFG               | core/MEM_WB_0/regs_reg[3][0][0]            | core/ID_0/reg_file/regs[1][31]_i_3_n_1    |               15 |             32 |
+|  ID_0n_0_1192_BUFG               | core/MEM_WB_0/regs_reg[9][0][0]            | core/ID_0/reg_file/regs[7][7]_i_1_n_1     |               10 |             32 |
+|  ID_0n_0_1192_BUFG               | core/MEM_WB_0/regs_reg[5][0][0]            | core/ID_0/reg_file/regs[1][31]_i_3_n_1    |               12 |             32 |
+|  clk_cpu_BUFG                    | core/EX_MEM_0/PC_out_reg[0]_9[0]           | core/IF_0/pc_0/AR[0]                      |                9 |             32 |
+|  clk_100mhz_IBUF_BUFG            | inputter/key_counter[0]_i_1_n_1            | inputter/key_temp2_0                      |                8 |             32 |
+|  clk_100mhz_IBUF_BUFG            | inputter/sw_counter[0]_i_1_n_1             | inputter/sw_counter0_carry__0_n_3         |                8 |             32 |
+| ~clk_100mhz_IBUF_BUFG            | memacc/dmem_o_data_out_reg[31]             |                                           |               32 |             32 |
+|  o_dr1wen                        |                                            |                                           |               29 |             32 |
+|  wen_BUFG                        |                                            |                                           |               32 |             32 |
+|  clk_cpu_BUFG                    |                                            | core/IF_0/pc_0/AR[0]                      |               18 |             36 |
+|  clk_cpu_BUFG                    |                                            | core/ID_EX_0/AR[0]                        |               17 |             39 |
+| ~clk_100mhz_IBUF_BUFG            | o_dr1wen                                   |                                           |               32 |             40 |
+|  clk_cpu_BUFG                    | core/EX_MEM_0/en_IF                        | core/ID_EX_0/inst_out_reg[7]_0            |               29 |             58 |
+|  clk_cpu_BUFG                    |                                            | core/ID_EX_0/inst_out_reg[7]_0            |               23 |             64 |
+| ~clk_100mhz_IBUF_BUFG            | memacc/dmem_o_data_out_reg[31]_8           |                                           |               32 |             64 |
+|  clk_cpu_BUFG                    |                                            | core/MEM_WB_0/pcp4_out_reg[22]_0[1]       |               54 |            109 |
+|  clk_cpu_BUFG                    |                                            | core/MEM_WB_0/pcp4_out_reg[22]_0[0]       |               46 |            109 |
+|  clk_cpu_BUFG                    |                                            | core/ID_EX_0/MemtoReg_out_reg[0]_0[0]     |               31 |            109 |
+|  clk_cpu_BUFG                    |                                            | core/EX_MEM_0/rs2_val_out_reg[3]_0        |               50 |            119 |
+| ~clk_100mhz_IBUF_BUFG            | memacc/dmem_o_data_out_reg[31]_26          |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG            | memacc/dmem_o_data_out_reg[31]_21          |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG            | memacc/dmem_o_data_out_reg[31]_3           |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG            | memacc/dmem_o_data_out_reg[31]_5           |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG            | memacc/dmem_o_data_out_reg[31]_24          |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG            | memacc/dmem_o_data_out_reg[31]_11          |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG            | memacc/dmem_o_data_out_reg[31]_10          |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG            | memacc/dmem_o_data_out_reg[31]_1           |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG            | memacc/dmem_o_data_out_reg[31]_20          |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG            | memacc/dmem_o_data_out_reg[31]_2           |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG            | memacc/dmem_o_data_out_reg[31]_14          |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG            | memacc/dmem_o_data_out_reg[31]_19          |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG            | memacc/dmem_o_data_out_reg[31]_18          |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG            | memacc/dmem_o_data_out_reg[31]_17          |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG            | memacc/dmem_o_data_out_reg[31]_15          |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG            | memacc/dmem_o_data_out_reg[31]_12          |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG            | memacc/dmem_o_data_out_reg[31]_22          |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG            | memacc/dmem_o_data_out_reg[31]_13          |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG            | memacc/dmem_o_data_out_reg[31]_30          |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG            | memacc/dmem_o_data_out_reg[31]_34          |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG            | memacc/dmem_o_data_out_reg[31]_31          |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG            | memacc/dmem_o_data_out_reg[31]_23          |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG            | memacc/dmem_o_data_out_reg[31]_6           |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG            | memacc/dmem_o_data_out_reg[31]_29          |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG            | memacc/dmem_o_data_out_reg[31]_28          |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG            | memacc/dmem_o_data_out_reg[31]_27          |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG            | memacc/dmem_o_data_out_reg[31]_32          |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG            | memacc/dmem_o_data_out_reg[31]_25          |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG            | memacc/dmem_o_data_out_reg[31]_7           |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG            | memacc/dmem_o_data_out_reg[31]_4           |                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG            | memacc/dmem_o_data_out_reg[31]_33          |                                           |               32 |            128 |
+|  n_0_2546_BUFG                   |                                            |                                           |               96 |            191 |
+|  vga/clk_div_IBUF_BUFG[0]        |                                            |                                           |               80 |            320 |
++----------------------------------+--------------------------------------------+-------------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                     1 |
+| 2      |                     2 |
+| 3      |                     1 |
+| 4      |                     1 |
+| 5      |                     2 |
+| 6      |                     1 |
+| 8      |                     1 |
+| 10     |                    35 |
+| 12     |                     2 |
+| 14     |                     1 |
+| 16+    |                    85 |
++--------+-----------------------+
+
+

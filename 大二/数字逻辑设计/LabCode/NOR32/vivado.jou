@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Mar 30 21:10:19 2022
+# Process ID: 7328
+# Current directory: D:/Vfile/NOR32
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2040 D:\Vfile\NOR32\NOR32.xpr
+# Log file: D:/Vfile/NOR32/vivado.log
+# Journal file: D:/Vfile/NOR32\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vfile/NOR32/NOR32.xpr
+update_compile_order -fileset sources_1

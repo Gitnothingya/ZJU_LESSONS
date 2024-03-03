@@ -1,0 +1,26 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../ALU.gen/sources_1/ip/orl_0/orl.v" \
+"../../../../ALU.gen/sources_1/ip/orl_0/sim/orl_0.v" \
+"../../../../ALU.gen/sources_1/ip/mux8132_0/mux8132.v" \
+"../../../../ALU.gen/sources_1/ip/mux8132_0/sim/mux8132_0.v" \
+"../../../../ALU.gen/sources_1/ip/srl_0/srl.v" \
+"../../../../ALU.gen/sources_1/ip/srl_0/sim/srl_0.v" \
+"../../../../ALU.gen/sources_1/ip/xor32_0/xor32.v" \
+"../../../../ALU.gen/sources_1/ip/xor32_0/sim/xor32_0.v" \
+"../../../../ALU.gen/sources_1/ip/nor32_0/nor32.v" \
+"../../../../ALU.gen/sources_1/ip/nor32_0/sim/nor32_0.v" \
+"../../../../ALU.gen/sources_1/ip/adc_1/adc.v" \
+"../../../../ALU.gen/sources_1/ip/adc_1/sim/adc_1.v" \
+"../../../../ALU.gen/sources_1/ip/or32_0/or32.v" \
+"../../../../ALU.gen/sources_1/ip/or32_0/sim/or32_0.v" \
+"../../../../ALU.gen/sources_1/ip/and32_0/and32.v" \
+"../../../../ALU.gen/sources_1/ip/and32_0/sim/and32_0.v" \
+"../../../../ALU.srcs/sources_1/new/ALU32.v" \
+"../../../../ALU.srcs/sim_1/new/tb_ALU32.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

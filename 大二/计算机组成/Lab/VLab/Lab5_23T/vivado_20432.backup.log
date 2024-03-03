@@ -1,0 +1,124 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Jun  2 12:09:18 2022
+# Process ID: 20432
+# Current directory: D:/Vteacher/Lab5_23T
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27856 D:\Vteacher\Lab5_23T\Lab5_23.xpr
+# Log file: D:/Vteacher/Lab5_23T/vivado.log
+# Journal file: D:/Vteacher/Lab5_23T\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vteacher/Lab5_23T/Lab5_23.xpr
+INFO: [Project 1-313] Project file moved from 'D:/Vteacher/Lab5_23' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Vteacher/IP'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Vteacher/VGA5'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2020.2/data/ip'.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:VGA:1.0'. The one found in IP location 'd:/Vteacher/VGA5/VGA/VGA.srcs/sources_1/imports/Framework' will take precedence over the same IP in location d:/Vteacher/IP/Supplementary/VGA/VGA/VGA.srcs/sources_1/new
+open_project: Time (s): cpu = 00:01:05 ; elapsed = 00:00:33 . Memory (MB): peak = 1106.453 ; gain = 0.000
+update_compile_order -fileset sources_1
+close [ open D:/Vteacher/Lab5_23T/Lab5_23.srcs/sources_1/new/Pipline_IF.v w ]
+add_files D:/Vteacher/Lab5_23T/Lab5_23.srcs/sources_1/new/Pipline_IF.v
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/Vteacher/Lab5_23T/Lab5_23.srcs/sources_1/new/Pipline_IF.v] -no_script -reset -force -quiet
+remove_files  D:/Vteacher/Lab5_23T/Lab5_23.srcs/sources_1/new/Pipline_IF.v
+file delete -force D:/Vteacher/Lab5_23T/Lab5_23.srcs/sources_1/new/Pipline_IF.v
+close [ open D:/Vteacher/Lab5_23T/Lab5_23.srcs/sources_1/new/Pipeline_IF.v w ]
+add_files D:/Vteacher/Lab5_23T/Lab5_23.srcs/sources_1/new/Pipeline_IF.v
+update_compile_order -fileset sources_1
+import_files -norecurse {D:/Vteacher/Lab4_4/Lab2.srcs/sources_1/imports/new/ALUT.v D:/Vteacher/Lab4_4/Lab2.srcs/sources_1/imports/new/PCReg.v D:/Vteacher/Lab4_4/Lab2.srcs/sources_1/imports/new/RegFile32.v D:/Vteacher/Lab4_4/Lab2.srcs/sources_1/imports/new/ImmGen.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open D:/Vteacher/Lab5_23T/Lab5_23.srcs/sources_1/new/IF_reg_ID.v w ]
+add_files D:/Vteacher/Lab5_23T/Lab5_23.srcs/sources_1/new/IF_reg_ID.v
+update_compile_order -fileset sources_1
+close [ open D:/Vteacher/Lab5_23T/Lab5_23.srcs/sources_1/new/Pipeline_ID.v w ]
+add_files D:/Vteacher/Lab5_23T/Lab5_23.srcs/sources_1/new/Pipeline_ID.v
+update_compile_order -fileset sources_1
+import_files -norecurse D:/Vteacher/Lab4_4/Lab2.srcs/sources_1/imports/new/cpu_ctrl.v
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/Vteacher/Lab5_23T/Lab5_23.srcs/sources_1/imports/new/cpu_ctrl.v] -no_script -reset -force -quiet
+remove_files  D:/Vteacher/Lab5_23T/Lab5_23.srcs/sources_1/imports/new/cpu_ctrl.v
+file delete -force D:/Vteacher/Lab5_23T/Lab5_23.srcs/sources_1/imports/new/cpu_ctrl.v
+import_files -norecurse D:/Vteacher/Lab4_3/Lab2.srcs/sources_1/imports/new/cpu_ctrl.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open D:/Vteacher/Lab5_23T/Lab5_23.srcs/sources_1/new/ID_reg_EX.v w ]
+add_files D:/Vteacher/Lab5_23T/Lab5_23.srcs/sources_1/new/ID_reg_EX.v
+update_compile_order -fileset sources_1
+close [ open D:/Vteacher/Lab5_23T/Lab5_23.srcs/sources_1/new/EX_reg_Mem.v w ]
+add_files D:/Vteacher/Lab5_23T/Lab5_23.srcs/sources_1/new/EX_reg_Mem.v
+update_compile_order -fileset sources_1
+close [ open D:/Vteacher/Lab5_23T/Lab5_23.srcs/sources_1/new/Mem_reg_WB.v w ]
+add_files D:/Vteacher/Lab5_23T/Lab5_23.srcs/sources_1/new/Mem_reg_WB.v
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/Vteacher/Lab5_23T/Lab5_23.srcs/sources_1/new/ID_reg_EX.v] -no_script -reset -force -quiet
+remove_files  D:/Vteacher/Lab5_23T/Lab5_23.srcs/sources_1/new/ID_reg_EX.v
+file delete -force D:/Vteacher/Lab5_23T/Lab5_23.srcs/sources_1/new/ID_reg_EX.v
+close [ open D:/Vteacher/Lab5_23T/Lab5_23.srcs/sources_1/new/ID_reg_EX.v w ]
+add_files D:/Vteacher/Lab5_23T/Lab5_23.srcs/sources_1/new/ID_reg_EX.v
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/Vteacher/Lab5_23T/Lab5_23.srcs/sources_1/new/ID_reg_EX.v] -no_script -reset -force -quiet
+remove_files  D:/Vteacher/Lab5_23T/Lab5_23.srcs/sources_1/new/ID_reg_EX.v
+file delete -force D:/Vteacher/Lab5_23T/Lab5_23.srcs/sources_1/new/ID_reg_EX.v
+export_ip_user_files -of_objects  [get_files D:/Vteacher/Lab5_23T/Lab5_23.srcs/sources_1/new/EX_reg_Mem.v] -no_script -reset -force -quiet
+remove_files  D:/Vteacher/Lab5_23T/Lab5_23.srcs/sources_1/new/EX_reg_Mem.v
+file delete -force D:/Vteacher/Lab5_23T/Lab5_23.srcs/sources_1/new/EX_reg_Mem.v
+close [ open D:/Vteacher/Lab5_23T/Lab5_23.srcs/sources_1/new/ID_reg_Ex.v w ]
+add_files D:/Vteacher/Lab5_23T/Lab5_23.srcs/sources_1/new/ID_reg_Ex.v
+update_compile_order -fileset sources_1
+close [ open D:/Vteacher/Lab5_23T/Lab5_23.srcs/sources_1/new/Ex_reg_Mem.v w ]
+add_files D:/Vteacher/Lab5_23T/Lab5_23.srcs/sources_1/new/Ex_reg_Mem.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open D:/Vteacher/Lab5_23T/Lab5_23.srcs/sources_1/new/Pipeline_Ex.v w ]
+add_files D:/Vteacher/Lab5_23T/Lab5_23.srcs/sources_1/new/Pipeline_Ex.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Jun  3 15:39:55 2022] Launched synth_1...
+Run output will be captured here: D:/Vteacher/Lab5_23T/Lab5_23.runs/synth_1/runme.log
+[Fri Jun  3 15:39:55 2022] Launched impl_1...
+Run output will be captured here: D:/Vteacher/Lab5_23T/Lab5_23.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Fri Jun  3 15:41:30 2022] Launched synth_1...
+Run output will be captured here: D:/Vteacher/Lab5_23T/Lab5_23.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Fri Jun  3 15:42:28 2022] Launched synth_1...
+Run output will be captured here: D:/Vteacher/Lab5_23T/Lab5_23.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Fri Jun  3 15:59:29 2022] Launched synth_1...
+Run output will be captured here: D:/Vteacher/Lab5_23T/Lab5_23.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Fri Jun  3 16:00:39 2022] Launched impl_1...
+Run output will be captured here: D:/Vteacher/Lab5_23T/Lab5_23.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Fri Jun  3 16:10:14 2022] Launched synth_1...
+Run output will be captured here: D:/Vteacher/Lab5_23T/Lab5_23.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Fri Jun  3 16:11:00 2022] Launched impl_1...
+Run output will be captured here: D:/Vteacher/Lab5_23T/Lab5_23.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+[Fri Jun  3 16:30:36 2022] Launched synth_1...
+Run output will be captured here: D:/Vteacher/Lab5_23T/Lab5_23.runs/synth_1/runme.log
+[Fri Jun  3 16:30:36 2022] Launched impl_1...
+Run output will be captured here: D:/Vteacher/Lab5_23T/Lab5_23.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Jun  3 16:32:23 2022] Launched impl_1...
+Run output will be captured here: D:/Vteacher/Lab5_23T/Lab5_23.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jun  3 20:56:09 2022...

@@ -1,0 +1,9 @@
+verilog xil_defaultlib  \
+"../../../../Lab2.gen/sources_1/ip/SCPU2_0/src/DataPath.v" \
+"../../../../Lab2.gen/sources_1/ip/SCPU2_0/src/SCPU_ctrl.v" \
+"../../../../Lab2.gen/sources_1/ip/SCPU2_0/new/SCPU2.v" \
+"../../../../Lab2.gen/sources_1/ip/SCPU2_0/sim/SCPU2_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

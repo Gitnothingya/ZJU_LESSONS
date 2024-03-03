@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Mar 15 11:16:02 2022
+# Process ID: 13196
+# Current directory: D:/Vfile/Lab0/Lab0.runs/mux818_0_synth_1
+# Command line: vivado.exe -log mux818_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mux818_0.tcl
+# Log file: D:/Vfile/Lab0/Lab0.runs/mux818_0_synth_1/mux818_0.vds
+# Journal file: D:/Vfile/Lab0/Lab0.runs/mux818_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source mux818_0.tcl -notrace

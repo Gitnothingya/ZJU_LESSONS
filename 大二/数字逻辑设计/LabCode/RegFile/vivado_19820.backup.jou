@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Mar 17 16:18:39 2022
+# Process ID: 19820
+# Current directory: D:/Vfile/RegFile
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22064 D:\Vfile\RegFile\RegFile.xpr
+# Log file: D:/Vfile/RegFile/vivado.log
+# Journal file: D:/Vfile/RegFile\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vfile/RegFile/RegFile.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source Regs_tb.tcl
+add_bp {D:/Vfile/RegFile/RegFile.srcs/sim_1/new/Regs_tb.v} 68
+remove_bps -file {D:/Vfile/RegFile/RegFile.srcs/sim_1/new/Regs_tb.v} -line 68
+close_sim
+launch_simulation
+source Regs_tb.tcl
+close_sim

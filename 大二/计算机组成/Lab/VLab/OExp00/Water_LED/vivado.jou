@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Mar  3 17:08:39 2022
+# Process ID: 26812
+# Current directory: D:/Vfile/OExp00/Water_LED
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent26496 D:\Vfile\OExp00\Water_LED\Water_LED.xpr
+# Log file: D:/Vfile/OExp00/Water_LED/vivado.log
+# Journal file: D:/Vfile/OExp00/Water_LED\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vfile/OExp00/Water_LED/Water_LED.xpr
+update_compile_order -fileset sources_1

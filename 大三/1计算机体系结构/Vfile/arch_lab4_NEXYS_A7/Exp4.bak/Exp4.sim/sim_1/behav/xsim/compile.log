@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/cache/cache.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cache
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/cache/cmu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/cache/sim/cmu_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmu_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/cache/sim/data_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/cache/sim/inst.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/cache/sim/sim_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_top

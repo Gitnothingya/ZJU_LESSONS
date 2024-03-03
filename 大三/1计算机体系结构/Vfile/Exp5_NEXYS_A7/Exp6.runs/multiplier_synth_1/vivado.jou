@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Dec  7 21:35:51 2022
+# Process ID: 10512
+# Current directory: D:/Vfile/Exp5_NEXYS_A7/Exp6.runs/multiplier_synth_1
+# Command line: vivado.exe -log multiplier.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source multiplier.tcl
+# Log file: D:/Vfile/Exp5_NEXYS_A7/Exp6.runs/multiplier_synth_1/multiplier.vds
+# Journal file: D:/Vfile/Exp5_NEXYS_A7/Exp6.runs/multiplier_synth_1\vivado.jou
+#-----------------------------------------------------------
+source multiplier.tcl -notrace

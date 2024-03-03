@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Mar 30 11:51:28 2022
+# Process ID: 22244
+# Current directory: D:/Vteacher/OExp03-float_add
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2032 D:\Vteacher\OExp03-float_add\float_add.xpr
+# Log file: D:/Vteacher/OExp03-float_add/vivado.log
+# Journal file: D:/Vteacher/OExp03-float_add\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vteacher/OExp03-float_add/float_add.xpr
+update_compile_order -fileset sources_1

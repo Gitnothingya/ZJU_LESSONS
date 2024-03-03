@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Mar  3 17:08:39 2022
+# Process ID: 26812
+# Current directory: D:/Vfile/OExp00/Water_LED
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent26496 D:\Vfile\OExp00\Water_LED\Water_LED.xpr
+# Log file: D:/Vfile/OExp00/Water_LED/vivado.log
+# Journal file: D:/Vfile/OExp00/Water_LED\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vfile/OExp00/Water_LED/Water_LED.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:35 ; elapsed = 00:00:14 . Memory (MB): peak = 1107.938 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Mar  3 17:11:09 2022...

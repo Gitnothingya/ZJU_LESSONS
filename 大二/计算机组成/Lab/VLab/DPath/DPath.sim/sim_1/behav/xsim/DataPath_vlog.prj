@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../DPath.srcs/sources_1/new/ALUT.v" \
+"../../../../DPath.srcs/sources_1/new/ImmGen.v" \
+"../../../../DPath.srcs/sources_1/new/PCReg.v" \
+"../../../../DPath.srcs/sources_1/new/RegFile32.v" \
+"../../../../DPath.srcs/sources_1/new/DataPath.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

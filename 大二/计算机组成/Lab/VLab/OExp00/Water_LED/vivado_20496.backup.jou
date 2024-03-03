@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Mar  3 12:06:16 2022
+# Process ID: 20496
+# Current directory: D:/1学习文件/计组/Lab/Lab0 Vivado介绍和模块封装（学生版） (2)/Lab0 Vivado介绍和模块封装（学生版）/OExp00/Water_LED
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18984 D:\1学习文件\计组\Lab\Lab0 Vivado介绍和模块封装（学生版） (2)\Lab0 Vivado介绍和模块封装（学生版）\OExp00\Water_LED\Water_LED.xpr
+# Log file: D:/1学习文件/计组/Lab/Lab0 Vivado介绍和模块封装（学生版） (2)/Lab0 Vivado介绍和模块封装（学生版）/OExp00/Water_LED/vivado.log
+# Journal file: D:/1学习文件/计组/Lab/Lab0 Vivado介绍和模块封装（学生版） (2)/Lab0 Vivado介绍和模块封装（学生版）/OExp00/Water_LED\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/1学习文件/计组/Lab/Lab0 Vivado介绍和模块封装（学生版） (2)/Lab0 Vivado介绍和模块封装（学生版）/OExp00/Water_LED/Water_LED.xpr}
+update_compile_order -fileset sources_1

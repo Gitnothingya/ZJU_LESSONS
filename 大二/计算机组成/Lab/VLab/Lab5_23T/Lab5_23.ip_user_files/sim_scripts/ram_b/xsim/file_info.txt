@@ -1,0 +1,2 @@
+ram_b.v,verilog,xil_defaultlib,../../../../Lab5_23.gen/sources_1/ip/ram_b/sim/ram_b.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

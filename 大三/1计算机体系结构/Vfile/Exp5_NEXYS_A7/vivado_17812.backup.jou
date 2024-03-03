@@ -1,0 +1,106 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Dec 14 20:33:06 2022
+# Process ID: 17812
+# Current directory: D:/Vfile/Exp5_NEXYS_A7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9208 D:\Vfile\Exp5_NEXYS_A7\Exp6.xpr
+# Log file: D:/Vfile/Exp5_NEXYS_A7/vivado.log
+# Journal file: D:/Vfile/Exp5_NEXYS_A7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vfile/Exp5_NEXYS_A7/Exp6.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config D:/Vfile/Exp5_NEXYS_A7/code/sim/sim_top_behav.wcfg
+source sim_top.tcl
+run 280 ns
+run 280 ns
+run 280 ns
+run 280 ns
+run 280 ns
+run 280 ns
+run 280 ns
+run 280 ns
+run 280 ns
+current_wave_config {sim_top_behav.wcfg}
+add_wave {{/sim_top/uut/rst_count}} 
+current_wave_config {sim_top_behav.wcfg}
+add_wave {{/sim_top/uut/rst_all}} 
+restart
+run 280 ns
+run 280 ns
+run 280 ns
+run 280 ns
+run 280 ns
+run 280 ns
+run 280 ns
+run 280 ns
+run 280 ns
+run 280 ns
+run 280 ns
+run 280 ns
+run 280 ns
+run 280 ns
+run 280 ns
+run 280 ns
+run 280 ns
+run 280 ns
+run 280 ns
+run 280 ns
+run 280 ns
+run 280 ns
+run 280 ns
+run 280 ns
+run 280 ns
+run 280 ns
+run 280 ns
+run 280 ns
+run 280 ns
+run 280 ns
+run 280 ns
+run 280 ns
+run 2800 ns
+current_wave_config {sim_top_behav.wcfg}
+add_wave {{/sim_top/uut/core/ctrl/FUS}} 
+restart
+run 2800 ns
+run 2800 ns
+run 2800 ns
+run 2800 ns
+run 2800 ns
+run 2800 ns
+current_wave_config {sim_top_behav.wcfg}
+add_wave {{/sim_top/uut/core/ctrl/MEM_WAR}} 
+restart
+run 8000 ns
+save_wave_config {D:/Vfile/Exp5_NEXYS_A7/code/sim/sim_top_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config D:/Vfile/Exp5_NEXYS_A7/code/sim/sim_top_behav.wcfg
+source sim_top.tcl
+run 8000 ns
+run 8000 ns
+run 8000 ns
+run 8000 ns
+run 8000 ns
+run 8000 ns
+current_wave_config {sim_top_behav.wcfg}
+add_wave {{/sim_top/uut/core/wt_data_WB}} 
+current_wave_config {sim_top_behav.wcfg}
+add_wave {{/sim_top/uut/core/rd_ctrl}} 
+save_wave_config {D:/Vfile/Exp5_NEXYS_A7/code/sim/sim_top_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config D:/Vfile/Exp5_NEXYS_A7/code/sim/sim_top_behav.wcfg
+source sim_top.tcl
+run 8000 ns
+run 8000 ns
+run 8000 ns
+run 8000 ns
+run 8000 ns
+run 8000 ns
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+close_sim

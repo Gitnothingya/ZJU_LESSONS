@@ -1,0 +1,211 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Nov  8 15:47:43 2022
+# Process ID: 18380
+# Current directory: D:/Vfile/Exp3_NEXYS_A7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent32796 D:\Vfile\Exp3_NEXYS_A7\Exp2.xpr
+# Log file: D:/Vfile/Exp3_NEXYS_A7/vivado.log
+# Journal file: D:/Vfile/Exp3_NEXYS_A7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vfile/Exp3_NEXYS_A7/Exp2.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation
+open_wave_config D:/Vfile/Exp3_NEXYS_A7/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+restart
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/sim_uart_char_out}} 
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/sim_uart_char_valid}} 
+run 50 us
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/branch_unit}} 
+restart
+run 50 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+launch_simulation
+open_wave_config D:/Vfile/Exp3_NEXYS_A7/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/sim_uart_char_out}} 
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/sim_uart_char_valid}} 
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/branch_unit}} 
+restart
+run 50 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+launch_simulation
+open_wave_config D:/Vfile/Exp3_NEXYS_A7/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+restart
+run 50 us
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/sim_uart_char_valid}} 
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/sim_uart_char_out}} 
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/branch_unit}} 
+restart
+run 50 us
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation
+open_wave_config D:/Vfile/Exp3_NEXYS_A7/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+restart
+run 50 us
+restart
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+launch_simulation
+open_wave_config D:/Vfile/Exp3_NEXYS_A7/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+restart
+run 50 us
+restart
+close_sim
+launch_simulation
+open_wave_config D:/Vfile/Exp3_NEXYS_A7/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+restart
+run 50 us
+close_sim
+launch_simulation
+open_wave_config D:/Vfile/Exp3_NEXYS_A7/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+restart
+run 50 us
+close_sim
+launch_simulation
+open_wave_config D:/Vfile/Exp3_NEXYS_A7/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+restart
+run 50 us
+restart
+run 50 us
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/register}} 
+restart
+run 50 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+launch_simulation
+open_wave_config D:/Vfile/Exp3_NEXYS_A7/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+restart
+run 50 us
+restart
+run 50 us
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/sim_uart_char_out}} 
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/sim_uart_char_valid}} 
+restart
+run 50 us
+restart
+run 50 us
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/branch_unit}} 
+restart
+run 50 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+launch_simulation
+open_wave_config D:/Vfile/Exp3_NEXYS_A7/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+restart
+run 50 us
+restart
+run 50 us
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/branch_unit}} 
+restart
+run 50 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+launch_simulation
+open_wave_config D:/Vfile/Exp3_NEXYS_A7/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+restart
+run 50 us
+restart
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/branch_unit}} 
+run 50 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+launch_simulation
+open_wave_config D:/Vfile/Exp3_NEXYS_A7/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+run 50 us
+restart
+restart
+run 50 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+launch_simulation
+open_wave_config D:/Vfile/Exp3_NEXYS_A7/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+restart
+run 50 us
+restart
+run 50 us
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/sim_uart_char_out}} 
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/sim_uart_char_valid}} 
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/jump_PC_ID}} 
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/branch_unit}} 
+restart
+run 50 us
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/mux_PC_IF}} 
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/mux_PC_ID}} 
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/mux_PC_IFID}} 
+restart
+run 50 us
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/redirectPC}} 
+restart
+run 50 us
+close_sim

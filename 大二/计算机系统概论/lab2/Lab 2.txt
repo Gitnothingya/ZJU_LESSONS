@@ -1,0 +1,100 @@
+        .ORIG   X3000
+; INPUT THE DATA
+        AND         R0, R0, #0      ;R0赋0
+        ST          R0, NUM         ; NUM计数，最后判断是否找到
+        LEA         R0, ENTER       ;输入提示符
+        PUTS
+        LEA         R1, DATA        ;R1标记录入数据地址
+        
+INPUT   GETC
+        OUT
+        STR         R0, R1, #0
+        ADD         R1, R1, #1
+        ADD         R0, R0, #-10    ;回车标志输入结束
+        BRnp        INPUT
+        ADD         R1, R1, #-1
+        STR         R0, R1, #0
+;check
+        LD          R1, BOOK
+        LDR         R1, R1, #0      ;载入0节点地址
+        BRz         ENDCH           ;空Book，结束
+LOOP    ST          R1, NODE_R1     ;NODE_R1暂时存储当前节点
+    ;first name
+        LDR         R1, R1, #2;
+        LEA         R3, DATA 
+FCHAR   LDR         R4, R3, #0  
+        LDR         R2, R1, #0
+        BRnp        CMP1            ;非零，进入比较
+        ADD         R4, R4, #0
+        BRnp        CMP1            ;非零，比较
+        JSR         YES             ;两字符串为零，相同，输出
+        BRnzp       NEXT            ;下一节点
+        
+CMP1    NOT         R2, R2
+        ADD         R2, R2, #1
+        ADD         R2, R4, R2
+        BRnp        LCHAR           ;;非零跳出
+        ADD         R1, R1, #1
+        ADD         R3, R3, #1
+        BRnzp       FCHAR           ;零再比较
+    ;LAST NAME
+LCHAR   LD          R1, NODE_R1
+        LDR         R1, R1, #3
+        LEA         R3, DATA
+LDL     LDR         R4, R3, #0
+        LDR         R2, R1, #0
+        BRnp        CMP2            ;非零，进入比较
+        ADD         R4, R4, #0
+        BRnp        CMP2            ;非零，进入比较
+        JSR         YES
+        BRnzp       NEXT            ;为零，输出后进入下一节点准备
+        
+CMP2    NOT         R2, R2
+        ADD         R2, R2, #1
+        ADD         R2, R4, R2      ;相减为0，相等
+        BRnp        NEXT            ;非零跳出，下一节点
+        ADD         R1, R1, #1
+        ADD         R3, R3, #1      ;R1,R3地址进1
+        BRnzp       LDL             ;为零，下一字符比较
+        
+    ;NEXT NODE
+        
+NEXT    LD          R1, NODE_R1
+        LDR         R1, R1, #0
+        BRz         ENDCH           ;下一节点为0,链表结束
+        BRnp        LOOP            ;下一节点循环
+        
+YES     LD          R1, NODE_R1
+        LDR         R0, R1, #2
+        PUTS
+        LD          R0, SPACE
+        OUT
+        LDR         R0, R1, #3
+        PUTS
+        LD          R0, SPACE
+        OUT
+        LDR         R0, R1, #1
+        PUTS
+        AND         R0, R0, #0
+        ADD         R0, R0, #10
+        OUT
+        LD          R0, NUM
+        ADD         R0, R0, #1
+        ST          R0, NUM
+        RET
+        
+ENDCH   LD          R0, NUM
+        BRnp        ENDP
+        LEA         R0, NOCH
+        PUTS
+        
+ENDP    HALT
+
+DATA    .BLKW       #20
+BOOK    .FILL       x4000
+ENTER   .STRINGZ    "Enter a name: "
+NOCH    .STRINGZ    "Not found"
+NODE_R1 .BLKW       #1          ;节点存储
+SPACE   .FILL       #32         ;空格键
+NUM     .BLKW       #1          ;个数存储
+        .END

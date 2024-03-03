@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Apr 21 12:16:39 2022
+# Process ID: 32244
+# Current directory: D:/Vteacher/DPath
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7832 D:\Vteacher\DPath\DPath.xpr
+# Log file: D:/Vteacher/DPath/vivado.log
+# Journal file: D:/Vteacher/DPath\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vteacher/DPath/DPath.xpr
+update_compile_order -fileset sources_1

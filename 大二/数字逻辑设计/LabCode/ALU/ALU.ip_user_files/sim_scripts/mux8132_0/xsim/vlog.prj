@@ -1,0 +1,7 @@
+verilog xil_defaultlib  \
+"../../../../ALU.gen/sources_1/ip/mux8132_0/mux8132.v" \
+"../../../../ALU.gen/sources_1/ip/mux8132_0/sim/mux8132_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

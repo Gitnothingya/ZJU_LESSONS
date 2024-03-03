@@ -1,0 +1,107 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xc7k160tffg676-2L",
+      "name": "OExp00_Element",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2020.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "Ext_imm16_0": "",
+      "MUX2T1_32_0": "",
+      "MUX2T1_5_0": "",
+      "MUX2T1_64_0": "",
+      "MUX2T1_8_0": "",
+      "MUX4T1_32_0": "",
+      "MUX4T1_5_0": "",
+      "MUX8T1_32_0": "",
+      "MUX8T1_8_0": "",
+      "SignalExt_32_0": "",
+      "add_32_0": "",
+      "addc_32_0": "",
+      "and32_0": "",
+      "nor32_0": "",
+      "or32_0": "",
+      "or_bit_32_0": "",
+      "srl32_0": "",
+      "xor32_0": ""
+    },
+    "components": {
+      "Ext_imm16_0": {
+        "vlnv": "xilinx.com:user:Ext_imm16:1.0",
+        "xci_name": "OExp00_Element_Ext_imm16_0_0"
+      },
+      "MUX2T1_32_0": {
+        "vlnv": "xilinx.com:user:MUX2T1_32:1.0",
+        "xci_name": "OExp00_Element_MUX2T1_32_0_0"
+      },
+      "MUX2T1_5_0": {
+        "vlnv": "xilinx.com:user:MUX2T1_5:1.0",
+        "xci_name": "OExp00_Element_MUX2T1_5_0_0"
+      },
+      "MUX2T1_64_0": {
+        "vlnv": "xilinx.com:user:MUX2T1_64:1.0",
+        "xci_name": "OExp00_Element_MUX2T1_64_0_0"
+      },
+      "MUX2T1_8_0": {
+        "vlnv": "xilinx.com:user:MUX2T1_8:1.0",
+        "xci_name": "OExp00_Element_MUX2T1_8_0_0"
+      },
+      "MUX4T1_32_0": {
+        "vlnv": "xilinx.com:user:MUX4T1_32:1.0",
+        "xci_name": "OExp00_Element_MUX4T1_32_0_0"
+      },
+      "MUX4T1_5_0": {
+        "vlnv": "xilinx.com:user:MUX4T1_5:1.0",
+        "xci_name": "OExp00_Element_MUX4T1_5_0_0"
+      },
+      "MUX8T1_32_0": {
+        "vlnv": "xilinx.com:user:MUX8T1_32:1.0",
+        "xci_name": "OExp00_Element_MUX8T1_32_0_0"
+      },
+      "MUX8T1_8_0": {
+        "vlnv": "xilinx.com:user:MUX8T1_8:1.0",
+        "xci_name": "OExp00_Element_MUX8T1_8_0_0"
+      },
+      "SignalExt_32_0": {
+        "vlnv": "xilinx.com:user:SignalExt_32:1.0",
+        "xci_name": "OExp00_Element_SignalExt_32_0_0"
+      },
+      "add_32_0": {
+        "vlnv": "xilinx.com:user:add_32:1.0",
+        "xci_name": "OExp00_Element_add_32_0_0"
+      },
+      "addc_32_0": {
+        "vlnv": "xilinx.com:user:addc_32:1.0",
+        "xci_name": "OExp00_Element_addc_32_0_0"
+      },
+      "and32_0": {
+        "vlnv": "xilinx.com:user:and32:1.0",
+        "xci_name": "OExp00_Element_and32_0_0"
+      },
+      "nor32_0": {
+        "vlnv": "xilinx.com:user:nor32:1.0",
+        "xci_name": "OExp00_Element_nor32_0_0"
+      },
+      "or32_0": {
+        "vlnv": "xilinx.com:user:or32:1.0",
+        "xci_name": "OExp00_Element_or32_0_0"
+      },
+      "or_bit_32_0": {
+        "vlnv": "xilinx.com:user:or_bit_32:1.0",
+        "xci_name": "OExp00_Element_or_bit_32_0_0"
+      },
+      "srl32_0": {
+        "vlnv": "xilinx.com:user:srl32:1.0",
+        "xci_name": "OExp00_Element_srl32_0_0"
+      },
+      "xor32_0": {
+        "vlnv": "xilinx.com:user:xor32:1.0",
+        "xci_name": "OExp00_Element_xor32_0_0"
+      }
+    }
+  }
+}

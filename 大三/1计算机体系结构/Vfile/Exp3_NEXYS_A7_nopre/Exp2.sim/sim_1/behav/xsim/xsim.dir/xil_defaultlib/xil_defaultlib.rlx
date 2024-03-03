@@ -1,0 +1,27 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/Vfile/Exp3_NEXYS_A7_nopre/Exp2.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+D:/Vfile/Exp3_NEXYS_A7_nopre/code/auxillary/CPUTEST.v,1628647838,verilog,,D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/CSRRegs.v,,CPUTEST,,,../../../../code/auxillary,,,,,
+D:/Vfile/Exp3_NEXYS_A7_nopre/code/auxillary/debug_clk.v,1628262876,verilog,,D:/Vfile/Exp3_NEXYS_A7_nopre/code/sim/core_sim.v,,debug_clk,,,../../../../code/auxillary,,,,,
+D:/Vfile/Exp3_NEXYS_A7_nopre/code/common/MUX2T1_32.v,1630067822,verilog,,D:/Vfile/Exp3_NEXYS_A7_nopre/code/common/MUX4T1_32.v,,MUX2T1_32,,,../../../../code/auxillary,,,,,
+D:/Vfile/Exp3_NEXYS_A7_nopre/code/common/MUX4T1_32.v,1628301716,verilog,,D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/RAM_B.v,,MUX4T1_32,,,../../../../code/auxillary,,,,,
+D:/Vfile/Exp3_NEXYS_A7_nopre/code/common/REG32.v,1630067817,verilog,,D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/REG_EX_MEM.v,,REG32,,,../../../../code/auxillary,,,,,
+D:/Vfile/Exp3_NEXYS_A7_nopre/code/common/add_32.v,1630067809,verilog,,D:/Vfile/Exp3_NEXYS_A7_nopre/code/common/cmp_32.v,,add_32,,,../../../../code/auxillary,,,,,
+D:/Vfile/Exp3_NEXYS_A7_nopre/code/common/cmp_32.v,1628609816,verilog,,D:/Vfile/Exp3_NEXYS_A7_nopre/code/auxillary/debug_clk.v,,cmp_32,,,../../../../code/auxillary,,,,,
+D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/ALU.v,1628609787,verilog,,D:/Vfile/Exp3_NEXYS_A7_nopre/code/auxillary/CPUTEST.v,,ALU,,,../../../../code/auxillary,,,,,
+D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/CSRRegs.v,1666785174,verilog,,D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/CtrlUnit.v,,CSRRegs,,,../../../../code/auxillary,,,,,
+D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/CtrlUnit.v,1662986572,verilog,,D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/ExceptionUnit.v,,CtrlUnit,,,../../../../code/auxillary,,,,,
+D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/ExceptionUnit.v,1666786744,verilog,,D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/HazardDetectionUnit.v,,ExceptionUnit,,,../../../../code/auxillary,,,,,
+D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/HazardDetectionUnit.v,1663036730,verilog,,D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/ImmGen.v,,HazardDetectionUnit,,,../../../../code/auxillary,,,,,
+D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/ImmGen.v,1630067830,verilog,,D:/Vfile/Exp3_NEXYS_A7_nopre/code/common/MUX2T1_32.v,,ImmGen,,,../../../../code/auxillary,,,,,
+D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/RAM_B.v,1666683085,verilog,,D:/Vfile/Exp3_NEXYS_A7_nopre/code/common/REG32.v,,RAM_B,,,../../../../code/auxillary,,,,,
+D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/REG_EX_MEM.v,1630068243,verilog,,D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/REG_ID_EX.v,,REG_EX_MEM,,,../../../../code/auxillary,,,,,
+D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/REG_ID_EX.v,1630068234,verilog,,D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/REG_IF_ID.v,,REG_ID_EX,,,../../../../code/auxillary,,,,,
+D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/REG_IF_ID.v,1629997584,verilog,,D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/REG_MEM_WB.v,,REG_IF_ID,,,../../../../code/auxillary,,,,,
+D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/REG_MEM_WB.v,1630068255,verilog,,D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/ROM_D.v,,REG_MEM_WB,,,../../../../code/auxillary,,,,,
+D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/ROM_D.v,1635089390,verilog,,D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/RV32core.v,,ROM_D,,,../../../../code/auxillary,,,,,
+D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/RV32core.v,1667897213,verilog,,D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/Regs.v,,RV32core,,,../../../../code/auxillary,,,,,
+D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/Regs.v,1629993973,verilog,,D:/Vfile/Exp3_NEXYS_A7_nopre/code/common/add_32.v,,Regs,,,../../../../code/auxillary,,,,,
+D:/Vfile/Exp3_NEXYS_A7_nopre/code/sim/core_sim.v,1667898951,verilog,,,,core_sim,,,../../../../code/auxillary,,,,,

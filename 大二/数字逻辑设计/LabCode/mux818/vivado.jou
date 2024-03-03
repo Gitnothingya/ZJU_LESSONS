@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Mar 28 18:52:28 2022
+# Process ID: 12604
+# Current directory: D:/Vfile/mux818
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7008 D:\Vfile\mux818\mux818.xpr
+# Log file: D:/Vfile/mux818/vivado.log
+# Journal file: D:/Vfile/mux818\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vfile/mux818/mux818.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source sim818.tcl
+close_sim

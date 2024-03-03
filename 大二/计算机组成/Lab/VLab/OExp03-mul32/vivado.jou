@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Mar 31 15:50:37 2022
+# Process ID: 20160
+# Current directory: D:/Vteacher/OExp03-mul32
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent36572 D:\Vteacher\OExp03-mul32\mul32.xpr
+# Log file: D:/Vteacher/OExp03-mul32/vivado.log
+# Journal file: D:/Vteacher/OExp03-mul32\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vteacher/OExp03-mul32/mul32.xpr
+launch_simulation
+source tb.tcl
+run 10 us
+close_sim

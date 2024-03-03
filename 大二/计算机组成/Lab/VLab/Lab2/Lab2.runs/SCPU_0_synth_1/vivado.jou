@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Mar 24 12:40:42 2022
+# Process ID: 9608
+# Current directory: D:/Vteacher/Lab2/Lab2.runs/SCPU_0_synth_1
+# Command line: vivado.exe -log SCPU_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source SCPU_0.tcl
+# Log file: D:/Vteacher/Lab2/Lab2.runs/SCPU_0_synth_1/SCPU_0.vds
+# Journal file: D:/Vteacher/Lab2/Lab2.runs/SCPU_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source SCPU_0.tcl -notrace

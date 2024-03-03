@@ -1,0 +1,107 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Dec  7 13:56:12 2022
+# Process ID: 26208
+# Current directory: D:/Vfile/arch_lab4_NEXYS_A7/Exp4/Exp4.runs/synth_1
+# Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: D:/Vfile/arch_lab4_NEXYS_A7/Exp4/Exp4.runs/synth_1/top.vds
+# Journal file: D:/Vfile/arch_lab4_NEXYS_A7/Exp4/Exp4.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'D:/vivado/Vivado/2020.2/scripts/Vivado_init.tcl'
+source top.tcl -notrace
+Command: synth_design -top top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 13088
+WARNING: [Synth 8-6901] identifier 'DATA_BITS' is used before its declaration [D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/auxillary/parallel2serial.v:10]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1115.996 ; gain = 5.992
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/top.v:8]
+INFO: [Synth 8-6157] synthesizing module 'my_clk_gen' [D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/auxillary/my_clk_gen.v:73]
+INFO: [Synth 8-6157] synthesizing module 'MMCME2_ADV' [D:/vivado/Vivado/2020.2/scripts/rt/data/unisim_comp.v:39998]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 10.000000 - type: double 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKFBOUT_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKIN1_PERIOD bound to: 10.000000 - type: double 
+	Parameter CLKIN2_PERIOD bound to: 0.000000 - type: double 
+	Parameter CLKOUT0_DIVIDE_F bound to: 10.000000 - type: double 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT0_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT1_DIVIDE bound to: 20 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT1_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT2_DIVIDE bound to: 40 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT2_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT3_DIVIDE bound to: 100 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT3_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT4_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT5_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT6_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT6_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT6_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT6_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter IS_CLKINSEL_INVERTED bound to: 1'b0 
+	Parameter IS_PSEN_INVERTED bound to: 1'b0 
+	Parameter IS_PSINCDEC_INVERTED bound to: 1'b0 
+	Parameter IS_PWRDWN_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: double 
+	Parameter REF_JITTER2 bound to: 0.010000 - type: double 
+	Parameter SS_EN bound to: FALSE - type: string 
+	Parameter SS_MODE bound to: CENTER_HIGH - type: string 
+	Parameter SS_MOD_PERIOD bound to: 10000 - type: integer 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'MMCME2_ADV' (1#1) [D:/vivado/Vivado/2020.2/scripts/rt/data/unisim_comp.v:39998]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [D:/vivado/Vivado/2020.2/scripts/rt/data/unisim_comp.v:1083]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (2#1) [D:/vivado/Vivado/2020.2/scripts/rt/data/unisim_comp.v:1083]
+INFO: [Synth 8-6155] done synthesizing module 'my_clk_gen' (3#1) [D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/auxillary/my_clk_gen.v:73]
+INFO: [Synth 8-6157] synthesizing module 'btn_scan' [D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/auxillary/btn_scan.v:8]
+	Parameter CLK_FREQ bound to: 25 - type: integer 
+	Parameter SCAN_INTERVAL bound to: 10 - type: integer 
+	Parameter COUNT_SCAN bound to: 250001 - type: integer 
+	Parameter COUNT_BITS bound to: 18 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'btn_scan' (4#1) [D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/auxillary/btn_scan.v:8]
+INFO: [Synth 8-6157] synthesizing module 'RV32core' [D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/core/RV32core.v:4]
+INFO: [Synth 8-6157] synthesizing module 'debug_clk' [D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/auxillary/debug_clk.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'debug_clk' (5#1) [D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/auxillary/debug_clk.v:3]
+INFO: [Synth 8-6157] synthesizing module 'REG32' [D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/common/REG32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'REG32' (6#1) [D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/common/REG32.v:23]
+INFO: [Synth 8-6157] synthesizing module 'add_32' [D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/common/add_32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'add_32' (7#1) [D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/common/add_32.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MUX2T1_32' [D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/common/MUX2T1_32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MUX2T1_32' (8#1) [D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/common/MUX2T1_32.v:23]
+ERROR: [Synth 8-439] module 'ROM_D' not found [D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/core/RV32core.v:73]
+ERROR: [Synth 8-6156] failed synthesizing module 'RV32core' [D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/core/RV32core.v:4]
+ERROR: [Synth 8-6156] failed synthesizing module 'top' [D:/Vfile/arch_lab4_NEXYS_A7/Exp4/code/top.v:8]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1169.879 ; gain = 59.875
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+24 Infos, 1 Warnings, 0 Critical Warnings and 4 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Wed Dec  7 13:56:26 2022...

@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Oct 25 00:36:20 2022
+# Process ID: 23524
+# Current directory: D:/Vfile/Exp1_NEXYS_A7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10844 D:\Vfile\Exp1_NEXYS_A7\Exp1.xpr
+# Log file: D:/Vfile/Exp1_NEXYS_A7/vivado.log
+# Journal file: D:/Vfile/Exp1_NEXYS_A7\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'D:/vivado/Vivado/2020.2/scripts/Vivado_init.tcl'
+start_gui
+open_project D:/Vfile/Exp1_NEXYS_A7/Exp1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2020.2/data/ip'.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Oct 25 00:36:45 2022...

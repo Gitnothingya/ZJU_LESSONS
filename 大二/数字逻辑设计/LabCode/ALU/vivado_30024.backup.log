@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Mar 28 15:09:23 2022
+# Process ID: 30024
+# Current directory: D:/Vfile/ALU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6812 D:\Vfile\ALU\ALU.xpr
+# Log file: D:/Vfile/ALU/vivado.log
+# Journal file: D:/Vfile/ALU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vfile/ALU/ALU.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Vfile'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository 'd:/Vfile' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is 'd:/Vfile/ALU'.)
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:29 ; elapsed = 00:00:12 . Memory (MB): peak = 1109.555 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 28 18:33:58 2022...

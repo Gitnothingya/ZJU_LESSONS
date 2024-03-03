@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Mar 16 15:37:37 2022
+# Process ID: 6220
+# Current directory: D:/Vteacher/OExp02-IP2SOC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9024 D:\Vteacher\OExp02-IP2SOC\OExp02-IP2SOC.xpr
+# Log file: D:/Vteacher/OExp02-IP2SOC/vivado.log
+# Journal file: D:/Vteacher/OExp02-IP2SOC\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vteacher/OExp02-IP2SOC/OExp02-IP2SOC.xpr
+
+update_compile_order -fileset sources_1

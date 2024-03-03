@@ -1,0 +1,39 @@
+insert into account values(12509999, "name99999", 745.432); // 检验主键
+insert into account values(9999999, "name9999", 60.985); // 检验unique
+
+select * from account where id = 12500011;
+select * from account where balance = 462.55;
+select * from account where name = "name8956";  // 时间大
+select * from account where id <> 12500013;
+select * from account where balance <> 66.66;
+select * from account where name <> "123";
+select id, name from account where balance = 666.64 and id = 12500008;
+select id, name from account where balance <= 200 and balance >= 100;
+
+create index idx01 on account(name); // 建索引
+
+insert into account values(32001, "name45678", 666.66);
+select * from account where name = "name56789";  // 时间变小
+select * from account where name = "name45678";  // 时间变小
+
+drop index idx01;  // 删索引
+select * from account where name = "name56789";  // 时间变大
+select * from account where name = "name45678";    // 时间变大
+
+insert into account values(32001, "name45678", 666.66);
+update account set balance = 0 where name = "name45678";  // 更新
+select * from account where name = "name45678";
+
+delete from account where name = "name45678"; // 单个删除
+delete from account where balance = 666.66; 
+select * from account where balance = 666.66; 
+
+delete from account where balance < 900 and balance > 0;
+select * from account;
+
+drop table account;
+show tables;
+show indexes;
+execfile "accounts.txt"; // 重新插入，检验数据持久性
+create index idx01 on account(name); //重建索引，检验数据持久性
+quit;

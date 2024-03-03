@@ -1,0 +1,53 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Nov  2 11:18:00 2022
+# Process ID: 10600
+# Current directory: D:/Vfile/Exp3_NEXYS_A7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7264 D:\Vfile\Exp3_NEXYS_A7\Exp2.xpr
+# Log file: D:/Vfile/Exp3_NEXYS_A7/vivado.log
+# Journal file: D:/Vfile/Exp3_NEXYS_A7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vfile/Exp3_NEXYS_A7/Exp2.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config D:/Vfile/Exp3_NEXYS_A7/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+restart
+run all
+close_sim
+launch_simulation
+open_wave_config D:/Vfile/Exp3_NEXYS_A7/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+restart
+run 100 us
+restart
+run 50 us
+restart
+run 10 us
+restart
+run 40 us
+restart
+run 50 us
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/sim_uart_char_out}} 
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/sim_uart_char_valid}} 
+restart
+run 50 us
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/Vfile/Exp3_NEXYS_A7/Exp2.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/Vfile/Exp3_NEXYS_A7/Exp2.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_sim

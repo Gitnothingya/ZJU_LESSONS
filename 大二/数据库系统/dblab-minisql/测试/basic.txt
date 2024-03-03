@@ -1,0 +1,115 @@
+create database db0;
+create database db1;
+create database db2;
+create database db3;
+create database db4;
+show databases;
+use db0;
+create table account(
+  id int, 
+  name char(16) unique, 
+  balance float, 
+  primary key(id)
+);
+
+
+
+
+
+
+create database db0;
+
+use db0;
+
+create table account(
+  id int, 
+  name char(16) unique, 
+  balance float, 
+  primary key(id)
+);
+
+select * from account;
+
+select * from account where id = 12500011 and balance=762.41;
+
+insert into account values(12500011, "name11", 539.08);
+
+select * from account where id = 12500011;
+select * from account where name = 12500011;
+
+insert into account values(12500012, "name11", 595.48);
+
+
+select * from account where name = "name11";
+select * from account where name = "name9999";
+delete from account where name = "name11";
+insert into account values(12500000, "name0", 514.35);
+
+
+
+insert into account values(12500000, "name9999", 514.35);
+select * from account where name = "name9999";
+
+select * from account where name = "name11";
+update account set balance = 0 where name = "name11";
+
+
+
+
+
+select * from account where id < 12500099;
+
+create index idx01 on account(name);
+create index idx02 on account(name);
+create index idx03 on account(name);
+create index idx04 on account(name);
+create index idx05 on account(name);
+
+drop index idx01;
+drop index idx02;
+drop index idx03;
+drop index idx04;
+
+
+insert into account values(12500051, "name11", 762.41);
+insert into account values(12500052, "name11", 463.32);
+insert into account values(12500053, "name11", 120.72);
+insert into account values(12500054, "name11", 603.41);
+insert into account values(12500055, "name11", 371.88);
+insert into account values(12500056, "name11", 377.50);
+insert into account values(12500057, "name11", 376.08);
+
+
+execfile "accounts.txt";
+execfile "accounts1.txt";
+execfile "accounts2.txt";
+
+
+select * from account where name = "name11";
+select * from account where n = "name11";
+
+
+
+select id,balance from account where balance = 12500011;
+
+
+select *from account where balance <100.5;
+
+
+update account set balance = 0,name = "1111" where name = "name45678" and id = 100;
+update account set balance = 0,name = "1111" where name = "name11";
+
+delete from account where balance = 666.66;
+
+delete from account where balance < 900 and balance > 0;
+
+delete from account where name = "name11";
+
+
+
+
+
+
+
+
+

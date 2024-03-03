@@ -1,0 +1,710 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Nov  8 16:47:03 2022
+# Process ID: 37556
+# Current directory: D:/Vfile/Exp3_NEXYS_A7_nopre/Exp2.runs/synth_1
+# Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: D:/Vfile/Exp3_NEXYS_A7_nopre/Exp2.runs/synth_1/top.vds
+# Journal file: D:/Vfile/Exp3_NEXYS_A7_nopre/Exp2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'D:/vivado/Vivado/2020.2/scripts/Vivado_init.tcl'
+source top.tcl -notrace
+Command: synth_design -top top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 31132
+WARNING: [Synth 8-6901] identifier 'PC_WB' is used before its declaration [D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/RV32core.v:16]
+WARNING: [Synth 8-6901] identifier 'DATA_BITS' is used before its declaration [D:/Vfile/Exp3_NEXYS_A7_nopre/code/auxillary/parallel2serial.v:10]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1115.426 ; gain = 5.328
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [D:/Vfile/Exp3_NEXYS_A7_nopre/code/auxillary/top.v:8]
+INFO: [Synth 8-6157] synthesizing module 'my_clk_gen' [D:/Vfile/Exp3_NEXYS_A7_nopre/code/auxillary/my_clk_gen.v:73]
+INFO: [Synth 8-6157] synthesizing module 'MMCME2_ADV' [D:/vivado/Vivado/2020.2/scripts/rt/data/unisim_comp.v:39998]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 10.000000 - type: double 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKFBOUT_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKIN1_PERIOD bound to: 10.000000 - type: double 
+	Parameter CLKIN2_PERIOD bound to: 0.000000 - type: double 
+	Parameter CLKOUT0_DIVIDE_F bound to: 10.000000 - type: double 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT0_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT1_DIVIDE bound to: 20 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT1_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT2_DIVIDE bound to: 40 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT2_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT3_DIVIDE bound to: 100 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT3_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT4_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT5_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT6_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT6_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT6_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT6_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter IS_CLKINSEL_INVERTED bound to: 1'b0 
+	Parameter IS_PSEN_INVERTED bound to: 1'b0 
+	Parameter IS_PSINCDEC_INVERTED bound to: 1'b0 
+	Parameter IS_PWRDWN_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: double 
+	Parameter REF_JITTER2 bound to: 0.010000 - type: double 
+	Parameter SS_EN bound to: FALSE - type: string 
+	Parameter SS_MODE bound to: CENTER_HIGH - type: string 
+	Parameter SS_MOD_PERIOD bound to: 10000 - type: integer 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'MMCME2_ADV' (1#1) [D:/vivado/Vivado/2020.2/scripts/rt/data/unisim_comp.v:39998]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [D:/vivado/Vivado/2020.2/scripts/rt/data/unisim_comp.v:1083]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (2#1) [D:/vivado/Vivado/2020.2/scripts/rt/data/unisim_comp.v:1083]
+INFO: [Synth 8-6155] done synthesizing module 'my_clk_gen' (3#1) [D:/Vfile/Exp3_NEXYS_A7_nopre/code/auxillary/my_clk_gen.v:73]
+INFO: [Synth 8-6157] synthesizing module 'btn_scan' [D:/Vfile/Exp3_NEXYS_A7_nopre/code/auxillary/btn_scan.v:8]
+	Parameter CLK_FREQ bound to: 25 - type: integer 
+	Parameter SCAN_INTERVAL bound to: 10 - type: integer 
+	Parameter COUNT_SCAN bound to: 250001 - type: integer 
+	Parameter COUNT_BITS bound to: 18 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'btn_scan' (4#1) [D:/Vfile/Exp3_NEXYS_A7_nopre/code/auxillary/btn_scan.v:8]
+INFO: [Synth 8-6157] synthesizing module 'RV32core' [D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/RV32core.v:4]
+INFO: [Synth 8-6157] synthesizing module 'debug_clk' [D:/Vfile/Exp3_NEXYS_A7_nopre/code/auxillary/debug_clk.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'debug_clk' (5#1) [D:/Vfile/Exp3_NEXYS_A7_nopre/code/auxillary/debug_clk.v:3]
+INFO: [Synth 8-6157] synthesizing module 'REG32' [D:/Vfile/Exp3_NEXYS_A7_nopre/code/common/REG32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'REG32' (6#1) [D:/Vfile/Exp3_NEXYS_A7_nopre/code/common/REG32.v:23]
+INFO: [Synth 8-6157] synthesizing module 'add_32' [D:/Vfile/Exp3_NEXYS_A7_nopre/code/common/add_32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'add_32' (7#1) [D:/Vfile/Exp3_NEXYS_A7_nopre/code/common/add_32.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MUX2T1_32' [D:/Vfile/Exp3_NEXYS_A7_nopre/code/common/MUX2T1_32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MUX2T1_32' (8#1) [D:/Vfile/Exp3_NEXYS_A7_nopre/code/common/MUX2T1_32.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ROM_D' [D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/ROM_D.v:3]
+INFO: [Synth 8-3876] $readmem data file 'rom.hex' is read successfully [D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/ROM_D.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'ROM_D' (9#1) [D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/ROM_D.v:3]
+INFO: [Synth 8-6157] synthesizing module 'REG_IF_ID' [D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/REG_IF_ID.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'REG_IF_ID' (10#1) [D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/REG_IF_ID.v:22]
+INFO: [Synth 8-6157] synthesizing module 'CtrlUnit' [D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/CtrlUnit.v:4]
+	Parameter Imm_type_I bound to: 3'b001 
+	Parameter Imm_type_B bound to: 3'b010 
+	Parameter Imm_type_J bound to: 3'b011 
+	Parameter Imm_type_S bound to: 3'b100 
+	Parameter Imm_type_U bound to: 3'b101 
+	Parameter cmp_EQ bound to: 3'b001 
+	Parameter cmp_NE bound to: 3'b010 
+	Parameter cmp_LT bound to: 3'b011 
+	Parameter cmp_LTU bound to: 3'b100 
+	Parameter cmp_GE bound to: 3'b101 
+	Parameter cmp_GEU bound to: 3'b110 
+	Parameter ALU_ADD bound to: 4'b0001 
+	Parameter ALU_SUB bound to: 4'b0010 
+	Parameter ALU_AND bound to: 4'b0011 
+	Parameter ALU_OR bound to: 4'b0100 
+	Parameter ALU_XOR bound to: 4'b0101 
+	Parameter ALU_SLL bound to: 4'b0110 
+	Parameter ALU_SRL bound to: 4'b0111 
+	Parameter ALU_SLT bound to: 4'b1000 
+	Parameter ALU_SLTU bound to: 4'b1001 
+	Parameter ALU_SRA bound to: 4'b1010 
+	Parameter ALU_Ap4 bound to: 4'b1011 
+	Parameter ALU_Bout bound to: 4'b1100 
+	Parameter hazard_optype_ALU bound to: 2'b01 
+	Parameter hazard_optype_LOAD bound to: 2'b10 
+	Parameter hazard_optype_STORE bound to: 2'b11 
+INFO: [Synth 8-6155] done synthesizing module 'CtrlUnit' (11#1) [D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/CtrlUnit.v:4]
+INFO: [Synth 8-6157] synthesizing module 'Regs' [D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/Regs.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'Regs' (12#1) [D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/Regs.v:22]
+INFO: [Synth 8-6157] synthesizing module 'ImmGen' [D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/ImmGen.v:3]
+	Parameter Imm_type_I bound to: 3'b001 
+	Parameter Imm_type_B bound to: 3'b010 
+	Parameter Imm_type_J bound to: 3'b011 
+	Parameter Imm_type_S bound to: 3'b100 
+	Parameter Imm_type_U bound to: 3'b101 
+INFO: [Synth 8-6155] done synthesizing module 'ImmGen' (13#1) [D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/ImmGen.v:3]
+INFO: [Synth 8-6157] synthesizing module 'MUX4T1_32' [D:/Vfile/Exp3_NEXYS_A7_nopre/code/common/MUX4T1_32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MUX4T1_32' (14#1) [D:/Vfile/Exp3_NEXYS_A7_nopre/code/common/MUX4T1_32.v:23]
+INFO: [Synth 8-6157] synthesizing module 'cmp_32' [D:/Vfile/Exp3_NEXYS_A7_nopre/code/common/cmp_32.v:3]
+	Parameter cmp_EQ bound to: 3'b001 
+	Parameter cmp_NE bound to: 3'b010 
+	Parameter cmp_LT bound to: 3'b011 
+	Parameter cmp_LTU bound to: 3'b100 
+	Parameter cmp_GE bound to: 3'b101 
+	Parameter cmp_GEU bound to: 3'b110 
+INFO: [Synth 8-6155] done synthesizing module 'cmp_32' (15#1) [D:/Vfile/Exp3_NEXYS_A7_nopre/code/common/cmp_32.v:3]
+INFO: [Synth 8-6157] synthesizing module 'HazardDetectionUnit' [D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/HazardDetectionUnit.v:3]
+	Parameter hazard_optype_ALU bound to: 2'b01 
+	Parameter hazard_optype_LOAD bound to: 2'b10 
+	Parameter hazard_optype_STORE bound to: 2'b11 
+INFO: [Synth 8-6155] done synthesizing module 'HazardDetectionUnit' (16#1) [D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/HazardDetectionUnit.v:3]
+INFO: [Synth 8-6157] synthesizing module 'REG_ID_EX' [D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/REG_ID_EX.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'REG_ID_EX' (17#1) [D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/REG_ID_EX.v:22]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/ALU.v:3]
+	Parameter ALU_ADD bound to: 4'b0001 
+	Parameter ALU_SUB bound to: 4'b0010 
+	Parameter ALU_AND bound to: 4'b0011 
+	Parameter ALU_OR bound to: 4'b0100 
+	Parameter ALU_XOR bound to: 4'b0101 
+	Parameter ALU_SLL bound to: 4'b0110 
+	Parameter ALU_SRL bound to: 4'b0111 
+	Parameter ALU_SLT bound to: 4'b1000 
+	Parameter ALU_SLTU bound to: 4'b1001 
+	Parameter ALU_SRA bound to: 4'b1010 
+	Parameter ALU_Ap4 bound to: 4'b1011 
+	Parameter ALU_Bout bound to: 4'b1100 
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (18#1) [D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/ALU.v:3]
+INFO: [Synth 8-6157] synthesizing module 'REG_EX_MEM' [D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/REG_EX_MEM.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'REG_EX_MEM' (19#1) [D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/REG_EX_MEM.v:22]
+INFO: [Synth 8-6157] synthesizing module 'RAM_B' [D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/RAM_B.v:3]
+	Parameter SIZE bound to: 256 - type: integer 
+	Parameter ADDR_LINE bound to: 8 - type: integer 
+	Parameter SIM_UART_ADDR bound to: 268435456 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'ram.hex' is read successfully [D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/RAM_B.v:21]
+
+Warning: Trying to implement RAM in registers. Block RAM or DRAM implementation is not possible for one or more of the following reasons :
+	1: RAM has multiple writes via different ports in same process. If RAM inferencing intended, write to one port per process. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM dissolved into registers
+Reason is one or more of the following :
+	1: RAM has multiple writes via different ports in same process. If RAM inferencing intended, write to one port per process. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM "data_reg" dissolved into registers
+INFO: [Synth 8-6155] done synthesizing module 'RAM_B' (20#1) [D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/RAM_B.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ExceptionUnit' [D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/ExceptionUnit.v:3]
+INFO: [Synth 8-6157] synthesizing module 'CSRRegs' [D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/CSRRegs.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'CSRRegs' (21#1) [D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/CSRRegs.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'ExceptionUnit' (22#1) [D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/ExceptionUnit.v:3]
+INFO: [Synth 8-6157] synthesizing module 'REG_MEM_WB' [D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/REG_MEM_WB.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'REG_MEM_WB' (23#1) [D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/REG_MEM_WB.v:21]
+INFO: [Synth 8-6157] synthesizing module 'CPUTEST' [D:/Vfile/Exp3_NEXYS_A7_nopre/code/auxillary/CPUTEST.v:21]
+INFO: [Synth 8-226] default block is never used [D:/Vfile/Exp3_NEXYS_A7_nopre/code/auxillary/CPUTEST.v:63]
+INFO: [Synth 8-6155] done synthesizing module 'CPUTEST' (24#1) [D:/Vfile/Exp3_NEXYS_A7_nopre/code/auxillary/CPUTEST.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'RV32core' (25#1) [D:/Vfile/Exp3_NEXYS_A7_nopre/code/core/RV32core.v:4]
+WARNING: [Synth 8-7071] port 'debug_wb_PC' of module 'RV32core' is unconnected for instance 'core' [D:/Vfile/Exp3_NEXYS_A7_nopre/code/auxillary/top.v:96]
+WARNING: [Synth 8-7023] instance 'core' of module 'RV32core' has 10 connections declared, but only 9 given [D:/Vfile/Exp3_NEXYS_A7_nopre/code/auxillary/top.v:96]
+INFO: [Synth 8-6157] synthesizing module 'display' [D:/Vfile/Exp3_NEXYS_A7_nopre/code/auxillary/display.v:7]
+	Parameter CLK_FREQ bound to: 25 - type: integer 
+	Parameter SEG_PULSE bound to: 1'b0 
+	Parameter REFRESH_INTERVAL bound to: 100 - type: integer 
+	Parameter COUNT_REFRESH bound to: 2500001 - type: integer 
+	Parameter COUNT_BITS bound to: 22 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'parallel2serial' [D:/Vfile/Exp3_NEXYS_A7_nopre/code/auxillary/parallel2serial.v:7]
+	Parameter P_CLK_FREQ bound to: 25 - type: integer 
+	Parameter S_CLK_FREQ bound to: 20 - type: integer 
+	Parameter DATA_BITS bound to: 16 - type: integer 
+	Parameter CODE_ENDIAN bound to: 1 - type: integer 
+	Parameter COUNT_HALFCYCLE bound to: 1 - type: integer 
+	Parameter CYCLE_COUNT_BITS bound to: 1 - type: integer 
+	Parameter DATA_COUNT_BITS bound to: 4 - type: integer 
+	Parameter S_IDLE bound to: 0 - type: integer 
+	Parameter S_CLEAR bound to: 1 - type: integer 
+	Parameter S_WORK bound to: 2 - type: integer 
+	Parameter S_DONE bound to: 3 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Vfile/Exp3_NEXYS_A7_nopre/code/auxillary/parallel2serial.v:48]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Vfile/Exp3_NEXYS_A7_nopre/code/auxillary/parallel2serial.v:99]
+INFO: [Synth 8-6155] done synthesizing module 'parallel2serial' (26#1) [D:/Vfile/Exp3_NEXYS_A7_nopre/code/auxillary/parallel2serial.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'display' (27#1) [D:/Vfile/Exp3_NEXYS_A7_nopre/code/auxillary/display.v:7]
+INFO: [Synth 8-638] synthesizing module 'UART_TX_CTRL' [D:/Vfile/Exp3_NEXYS_A7_nopre/code/auxillary/UART_TX_CTRL.vhd:50]
+INFO: [Synth 8-256] done synthesizing module 'UART_TX_CTRL' (28#1) [D:/Vfile/Exp3_NEXYS_A7_nopre/code/auxillary/UART_TX_CTRL.vhd:50]
+INFO: [Synth 8-6157] synthesizing module 'uart_buffer' [D:/Vfile/Exp3_NEXYS_A7_nopre/code/auxillary/uart_buffer.v:3]
+	Parameter SIZE bound to: 256 - type: integer 
+Reason is one or more of the following :
+	1: RAM has multiple writes via different ports in same process. If RAM inferencing intended, write to one port per process. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM "buffer_reg" dissolved into registers
+INFO: [Synth 8-6155] done synthesizing module 'uart_buffer' (29#1) [D:/Vfile/Exp3_NEXYS_A7_nopre/code/auxillary/uart_buffer.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'top' (30#1) [D:/Vfile/Exp3_NEXYS_A7_nopre/code/auxillary/top.v:8]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1243.352 ; gain = 133.254
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1243.352 ; gain = 133.254
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1243.352 ; gain = 133.254
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.177 . Memory (MB): peak = 1243.352 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Vfile/Exp3_NEXYS_A7_nopre/code/constraint.xdc]
+Finished Parsing XDC File [D:/Vfile/Exp3_NEXYS_A7_nopre/code/constraint.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Vfile/Exp3_NEXYS_A7_nopre/code/constraint.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Timing 38-2] Deriving generated clocks
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1385.301 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.043 . Memory (MB): peak = 1385.301 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:15 . Memory (MB): peak = 1385.301 ; gain = 275.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:15 . Memory (MB): peak = 1385.301 ; gain = 275.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:15 . Memory (MB): peak = 1385.301 ; gain = 275.203
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'parallel2serial'
+INFO: [Synth 8-802] inferred FSM for state register 'txState_reg' in module 'UART_TX_CTRL'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  S_IDLE |                             0001 |                              000
+                 S_CLEAR |                             0010 |                              001
+                  S_WORK |                             0100 |                              010
+                  S_DONE |                             1000 |                              011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'parallel2serial'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                     rdy |                               00 |                               00
+                load_bit |                               01 |                               01
+                send_bit |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'txState_reg' using encoding 'sequential' in module 'UART_TX_CTRL'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 1385.301 ; gain = 275.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   33 Bit       Adders := 1     
+	   2 Input   32 Bit       Adders := 5     
+	   3 Input   32 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 3     
+	   2 Input    4 Bit       Adders := 2     
+	   2 Input    1 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	               64 Bit    Registers := 1     
+	               32 Bit    Registers := 65    
+	               17 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	               10 Bit    Registers := 1     
+	                8 Bit    Registers := 516   
+	                5 Bit    Registers := 6     
+	                4 Bit    Registers := 4     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 5     
+	                1 Bit    Registers := 32    
++---Muxes : 
+	   2 Input 2048 Bit        Muxes := 2     
+	   4 Input 2048 Bit        Muxes := 1     
+	   2 Input   64 Bit        Muxes := 2     
+	   2 Input   32 Bit        Muxes := 22    
+	   3 Input   32 Bit        Muxes := 1     
+	   8 Input   32 Bit        Muxes := 1     
+	   4 Input   32 Bit        Muxes := 19    
+	   2 Input   24 Bit        Muxes := 1     
+	   4 Input   17 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 1     
+	   2 Input   12 Bit        Muxes := 4     
+	   2 Input    8 Bit        Muxes := 666   
+	   3 Input    8 Bit        Muxes := 104   
+	  16 Input    7 Bit        Muxes := 8     
+	   2 Input    7 Bit        Muxes := 8     
+	   2 Input    5 Bit        Muxes := 4     
+	   2 Input    4 Bit        Muxes := 6     
+	   4 Input    4 Bit        Muxes := 2     
+	  16 Input    4 Bit        Muxes := 8     
+	   3 Input    2 Bit        Muxes := 10    
+	   2 Input    2 Bit        Muxes := 5     
+	   4 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 52    
+	   7 Input    1 Bit        Muxes := 1     
+	   8 Input    1 Bit        Muxes := 2     
+	   4 Input    1 Bit        Muxes := 6     
+	   3 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7129] Port raddr[11] in module CSRRegs is either unconnected or has no load
+WARNING: [Synth 8-7129] Port raddr[10] in module CSRRegs is either unconnected or has no load
+WARNING: [Synth 8-7129] Port raddr[9] in module CSRRegs is either unconnected or has no load
+WARNING: [Synth 8-7129] Port raddr[8] in module CSRRegs is either unconnected or has no load
+WARNING: [Synth 8-7129] Port raddr[7] in module CSRRegs is either unconnected or has no load
+WARNING: [Synth 8-7129] Port raddr[5] in module CSRRegs is either unconnected or has no load
+WARNING: [Synth 8-7129] Port raddr[4] in module CSRRegs is either unconnected or has no load
+WARNING: [Synth 8-7129] Port raddr[3] in module CSRRegs is either unconnected or has no load
+WARNING: [Synth 8-7129] Port waddr[11] in module CSRRegs is either unconnected or has no load
+WARNING: [Synth 8-7129] Port waddr[10] in module CSRRegs is either unconnected or has no load
+WARNING: [Synth 8-7129] Port waddr[9] in module CSRRegs is either unconnected or has no load
+WARNING: [Synth 8-7129] Port waddr[8] in module CSRRegs is either unconnected or has no load
+WARNING: [Synth 8-7129] Port waddr[7] in module CSRRegs is either unconnected or has no load
+WARNING: [Synth 8-7129] Port waddr[5] in module CSRRegs is either unconnected or has no load
+WARNING: [Synth 8-7129] Port waddr[4] in module CSRRegs is either unconnected or has no load
+WARNING: [Synth 8-7129] Port waddr[3] in module CSRRegs is either unconnected or has no load
+WARNING: [Synth 8-7129] Port csr_rw_in in module ExceptionUnit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst_field[6] in module ImmGen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst_field[5] in module ImmGen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst_field[4] in module ImmGen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst_field[3] in module ImmGen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst_field[2] in module ImmGen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst_field[1] in module ImmGen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst_field[0] in module ImmGen is either unconnected or has no load
+INFO: [Synth 8-3886] merging instance 'reg_IF_ID/IR_ID_reg[1]' (FDPE) to 'reg_IF_ID/IR_ID_reg[0]'
+INFO: [Synth 8-3886] merging instance 'reg_ID_EX/IR_EX_reg[0]' (FDCE) to 'reg_ID_EX/IR_EX_reg[1]'
+INFO: [Synth 8-3886] merging instance 'reg_EXE_MEM/IR_MEM_reg[0]' (FDCE) to 'reg_EXE_MEM/IR_MEM_reg[1]'
+INFO: [Synth 8-3886] merging instance 'reg_MEM_WB/IR_WB_reg[0]' (FDCE) to 'reg_MEM_WB/IR_WB_reg[1]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[12][0]' (FDCE) to 'exp_unit/csr/CSR_reg[14][0]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[14][0]' (FDCE) to 'exp_unit/csr/CSR_reg[2][0]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[8][0]' (FDCE) to 'exp_unit/csr/CSR_reg[2][0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[0][0] )
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[2][0]' (FDCE) to 'exp_unit/csr/CSR_reg[6][0]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (exp_unit/\csr/CSR_reg[4][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[6][0] )
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[12][1]' (FDCE) to 'exp_unit/csr/CSR_reg[14][1]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[14][1]' (FDCE) to 'exp_unit/csr/CSR_reg[2][1]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[8][1]' (FDCE) to 'exp_unit/csr/CSR_reg[2][1]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[6][1]' (FDCE) to 'exp_unit/csr/CSR_reg[2][1]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (exp_unit/\csr/CSR_reg[4][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[0][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[2][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[0][2] )
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[2][2]' (FDCE) to 'exp_unit/csr/CSR_reg[14][2]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (exp_unit/\csr/CSR_reg[4][2] )
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[6][2]' (FDCE) to 'exp_unit/csr/CSR_reg[14][2]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[8][2]' (FDCE) to 'exp_unit/csr/CSR_reg[14][2]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[14][2]' (FDCE) to 'exp_unit/csr/CSR_reg[12][2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[12][2] )
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[8][3]' (FDCE) to 'exp_unit/csr/CSR_reg[14][3]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[14][3]' (FDCE) to 'exp_unit/csr/CSR_reg[12][3]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[12][3]' (FDCE) to 'exp_unit/csr/CSR_reg[2][3]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[2][3]' (FDCE) to 'exp_unit/csr/CSR_reg[6][3]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (exp_unit/\csr/CSR_reg[4][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[6][3] )
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[8][4]' (FDCE) to 'exp_unit/csr/CSR_reg[14][4]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[12][4]' (FDCE) to 'exp_unit/csr/CSR_reg[14][4]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[14][4]' (FDCE) to 'exp_unit/csr/CSR_reg[2][4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[0][4] )
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[2][4]' (FDCE) to 'exp_unit/csr/CSR_reg[6][4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[6][4] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (exp_unit/\csr/CSR_reg[4][4] )
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[12][5]' (FDCE) to 'exp_unit/csr/CSR_reg[14][5]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[14][5]' (FDCE) to 'exp_unit/csr/CSR_reg[2][5]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[8][5]' (FDCE) to 'exp_unit/csr/CSR_reg[2][5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[0][5] )
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[2][5]' (FDCE) to 'exp_unit/csr/CSR_reg[6][5]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (exp_unit/\csr/CSR_reg[4][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[6][5] )
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[8][6]' (FDCE) to 'exp_unit/csr/CSR_reg[14][6]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[14][6]' (FDCE) to 'exp_unit/csr/CSR_reg[12][6]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[12][6]' (FDCE) to 'exp_unit/csr/CSR_reg[2][6]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[0][6] )
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[2][6]' (FDCE) to 'exp_unit/csr/CSR_reg[6][6]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (exp_unit/\csr/CSR_reg[4][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[6][6] )
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[12][7]' (FDCE) to 'exp_unit/csr/CSR_reg[14][7]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[14][7]' (FDCE) to 'exp_unit/csr/CSR_reg[2][7]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[8][7]' (FDCE) to 'exp_unit/csr/CSR_reg[2][7]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[6][7]' (FDCE) to 'exp_unit/csr/CSR_reg[2][7]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (exp_unit/\csr/CSR_reg[4][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[2][7] )
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[12][8]' (FDCE) to 'exp_unit/csr/CSR_reg[14][8]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[14][8]' (FDCE) to 'exp_unit/csr/CSR_reg[2][8]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[8][8]' (FDCE) to 'exp_unit/csr/CSR_reg[2][8]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[0][8] )
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[2][8]' (FDCE) to 'exp_unit/csr/CSR_reg[6][8]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (exp_unit/\csr/CSR_reg[4][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[6][8] )
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[12][9]' (FDCE) to 'exp_unit/csr/CSR_reg[14][9]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[14][9]' (FDCE) to 'exp_unit/csr/CSR_reg[2][9]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[8][9]' (FDCE) to 'exp_unit/csr/CSR_reg[2][9]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[6][9]' (FDCE) to 'exp_unit/csr/CSR_reg[2][9]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (exp_unit/\csr/CSR_reg[4][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[0][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[2][9] )
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[6][10]' (FDCE) to 'exp_unit/csr/CSR_reg[14][10]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (exp_unit/\csr/CSR_reg[4][10] )
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[2][10]' (FDCE) to 'exp_unit/csr/CSR_reg[14][10]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[0][10] )
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[12][10]' (FDCE) to 'exp_unit/csr/CSR_reg[14][10]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[14][10]' (FDCE) to 'exp_unit/csr/CSR_reg[8][10]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[8][10] )
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[12][11]' (FDCE) to 'exp_unit/csr/CSR_reg[14][11]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[14][11]' (FDCE) to 'exp_unit/csr/CSR_reg[2][11]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[8][11]' (FDCE) to 'exp_unit/csr/CSR_reg[2][11]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[6][11]' (FDCE) to 'exp_unit/csr/CSR_reg[2][11]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (exp_unit/\csr/CSR_reg[4][11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[2][11] )
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[12][12]' (FDCE) to 'exp_unit/csr/CSR_reg[14][12]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[14][12]' (FDCE) to 'exp_unit/csr/CSR_reg[2][12]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[8][12]' (FDCE) to 'exp_unit/csr/CSR_reg[2][12]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[6][12]' (FDCE) to 'exp_unit/csr/CSR_reg[2][12]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[4][12]' (FDCE) to 'exp_unit/csr/CSR_reg[2][12]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[2][12] )
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[8][13]' (FDCE) to 'exp_unit/csr/CSR_reg[14][13]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[14][13]' (FDCE) to 'exp_unit/csr/CSR_reg[12][13]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[12][13]' (FDCE) to 'exp_unit/csr/CSR_reg[2][13]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[6][13]' (FDCE) to 'exp_unit/csr/CSR_reg[2][13]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[4][13]' (FDCE) to 'exp_unit/csr/CSR_reg[2][13]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[0][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[2][13] )
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[12][14]' (FDCE) to 'exp_unit/csr/CSR_reg[14][14]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[14][14]' (FDCE) to 'exp_unit/csr/CSR_reg[2][14]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[8][14]' (FDCE) to 'exp_unit/csr/CSR_reg[2][14]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[0][14] )
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[2][14]' (FDCE) to 'exp_unit/csr/CSR_reg[4][14]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[4][14]' (FDCE) to 'exp_unit/csr/CSR_reg[6][14]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[6][14] )
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[6][15]' (FDCE) to 'exp_unit/csr/CSR_reg[14][15]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[4][15]' (FDCE) to 'exp_unit/csr/CSR_reg[14][15]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[0][15] )
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[2][15]' (FDCE) to 'exp_unit/csr/CSR_reg[14][15]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[8][15]' (FDCE) to 'exp_unit/csr/CSR_reg[14][15]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[14][15]' (FDCE) to 'exp_unit/csr/CSR_reg[12][15]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[12][15] )
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[12][16]' (FDCE) to 'exp_unit/csr/CSR_reg[14][16]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[14][16]' (FDCE) to 'exp_unit/csr/CSR_reg[2][16]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[8][16]' (FDCE) to 'exp_unit/csr/CSR_reg[2][16]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[6][16]' (FDCE) to 'exp_unit/csr/CSR_reg[2][16]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[4][16]' (FDCE) to 'exp_unit/csr/CSR_reg[2][16]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[2][16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[0][16] )
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[14][17]' (FDCE) to 'exp_unit/csr/CSR_reg[12][17]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[12][17]' (FDCE) to 'exp_unit/csr/CSR_reg[2][17]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[8][17]' (FDCE) to 'exp_unit/csr/CSR_reg[2][17]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[4][17]' (FDCE) to 'exp_unit/csr/CSR_reg[2][17]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[6][17]' (FDCE) to 'exp_unit/csr/CSR_reg[2][17]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[2][17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[0][17] )
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[12][18]' (FDCE) to 'exp_unit/csr/CSR_reg[14][18]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[14][18]' (FDCE) to 'exp_unit/csr/CSR_reg[2][18]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[8][18]' (FDCE) to 'exp_unit/csr/CSR_reg[2][18]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[6][18]' (FDCE) to 'exp_unit/csr/CSR_reg[2][18]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[4][18]' (FDCE) to 'exp_unit/csr/CSR_reg[2][18]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[2][18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[0][18] )
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[12][19]' (FDCE) to 'exp_unit/csr/CSR_reg[14][19]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[14][19]' (FDCE) to 'exp_unit/csr/CSR_reg[2][19]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[8][19]' (FDCE) to 'exp_unit/csr/CSR_reg[2][19]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[6][19]' (FDCE) to 'exp_unit/csr/CSR_reg[2][19]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[4][19]' (FDCE) to 'exp_unit/csr/CSR_reg[2][19]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[2][19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[0][19] )
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[12][20]' (FDCE) to 'exp_unit/csr/CSR_reg[14][20]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[14][20]' (FDCE) to 'exp_unit/csr/CSR_reg[2][20]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[8][20]' (FDCE) to 'exp_unit/csr/CSR_reg[2][20]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[6][20]' (FDCE) to 'exp_unit/csr/CSR_reg[2][20]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[4][20]' (FDCE) to 'exp_unit/csr/CSR_reg[2][20]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[2][20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[0][20] )
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[12][21]' (FDCE) to 'exp_unit/csr/CSR_reg[14][21]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[14][21]' (FDCE) to 'exp_unit/csr/CSR_reg[2][21]'
+INFO: [Synth 8-3886] merging instance 'exp_unit/csr/CSR_reg[8][21]' (FDCE) to 'exp_unit/csr/CSR_reg[2][21]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[2][21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[0][21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[0][22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[2][22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[0][23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[2][23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[0][24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[4][24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[2][25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[0][25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[2][26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[0][26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[0][27] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[6][27] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[0][28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[8][28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[0][29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[8][29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[0][30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[2][30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[0][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (exp_unit/\csr/CSR_reg[8][31] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:04 ; elapsed = 00:01:35 . Memory (MB): peak = 1385.301 ; gain = 275.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping	Report
++------------+------------+---------------+----------------+
+|Module Name | RTL Object | Depth x Width | Implemented As | 
++------------+------------+---------------+----------------+
+|ROM_D       | p_0_out    | 256x31        | LUT            | 
++------------+------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:11 ; elapsed = 00:01:43 . Memory (MB): peak = 1385.301 ; gain = 275.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:27 ; elapsed = 00:03:00 . Memory (MB): peak = 1985.957 ; gain = 875.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:32 ; elapsed = 00:03:22 . Memory (MB): peak = 1985.957 ; gain = 875.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:41 ; elapsed = 00:03:31 . Memory (MB): peak = 1985.957 ; gain = 875.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:41 ; elapsed = 00:03:31 . Memory (MB): peak = 1985.957 ; gain = 875.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:43 ; elapsed = 00:03:33 . Memory (MB): peak = 1985.957 ; gain = 875.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:44 ; elapsed = 00:03:33 . Memory (MB): peak = 1985.957 ; gain = 875.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:46 ; elapsed = 00:03:36 . Memory (MB): peak = 1985.957 ; gain = 875.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:46 ; elapsed = 00:03:36 . Memory (MB): peak = 1985.957 ; gain = 875.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |BUFG       |     8|
+|2     |CARRY4     |    80|
+|3     |LUT1       |    46|
+|4     |LUT2       |   306|
+|5     |LUT3       |  2073|
+|6     |LUT4       |   650|
+|7     |LUT5       |  1970|
+|8     |LUT6       | 11261|
+|9     |MMCME2_ADV |     1|
+|10    |MUXF7      |  1844|
+|11    |MUXF8      |   760|
+|12    |FDCE       |  1583|
+|13    |FDPE       |     4|
+|14    |FDRE       |  4744|
+|15    |FDSE       |    22|
+|16    |IBUF       |    18|
+|17    |OBUF       |    33|
+|18    |OBUFT      |    14|
++------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:46 ; elapsed = 00:03:36 . Memory (MB): peak = 1985.957 ; gain = 875.859
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 24 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:34 ; elapsed = 00:03:33 . Memory (MB): peak = 1985.957 ; gain = 733.910
+Synthesis Optimization Complete : Time (s): cpu = 00:02:46 ; elapsed = 00:03:38 . Memory (MB): peak = 1985.957 ; gain = 875.859
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.278 . Memory (MB): peak = 1985.957 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2685 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1985.957 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+261 Infos, 28 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:57 ; elapsed = 00:03:48 . Memory (MB): peak = 1985.957 ; gain = 875.859
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+INFO: [Common 17-1381] The checkpoint 'D:/Vfile/Exp3_NEXYS_A7_nopre/Exp2.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Nov  8 16:51:00 2022...

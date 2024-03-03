@@ -1,0 +1,4 @@
+环境 ubuntu 22.04 LTS
+g++ 版本 11.03
+
+编译运行  g++ http.cpp -o http & ./http

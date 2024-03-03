@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Mar 15 23:04:21 2022
+# Process ID: 14356
+# Current directory: D:/Vteacher/OExp02-IP2SOC/IP/Supplementary/ROM_D（建议在BD工程中直接生成便于更换初始化文件）
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10764 D:\Vteacher\OExp02-IP2SOC\IP\Supplementary\ROM_D（建议在BD工程中直接生成便于更换初始化文件）\ROM_D.xpr
+# Log file: D:/Vteacher/OExp02-IP2SOC/IP/Supplementary/ROM_D（建议在BD工程中直接生成便于更换初始化文件）/vivado.log
+# Journal file: D:/Vteacher/OExp02-IP2SOC/IP/Supplementary/ROM_D（建议在BD工程中直接生成便于更换初始化文件）\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vteacher/OExp02-IP2SOC/IP/Supplementary/ROM_D（建议在BD工程中直接生成便于更换初始化文件）/ROM_D.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/Vteacher/OExp02-IP2SOC/IP/Supplementary/ROM_D（建议在BD工程中直接生成便于更换初始化文件）'
+INFO: [Project 1-313] Project file moved from 'C:/Users/ASUS/Desktop/OExp01/ROM_D' since last save.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'D:/Vteacher/OExp02-IP2SOC/IP/OExp01', nor could it be found using path 'C:/Users/ASUS/Desktop/OExp01'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'f:/项目/6 CPU--2020/计算机组成与设计 软硬件接口 第5版/计组 ZJU--MIPS版本/实验/ORG--ZJU/实验课 - 马德/OExp01/OExp01-MUX/Code/ROM.coe'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/Vteacher/OExp02-IP2SOC/IP/Supplementary/component.xml', nor could it be found using path 'C:/Users/ASUS/Desktop/OExp01/component.xml'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/Vteacher/OExp02-IP2SOC/IP/OExp01'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2020.2/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'ROM_D' is locked:
+* IP definition 'Distributed Memory Generator (8.0)' for IP 'ROM_D' (customized with software release 2017.4) has a different revision in the IP Catalog.
+INFO: [Project 1-230] Project 'ROM_D.xpr' upgraded for this version of Vivado.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 15 23:08:36 2022...

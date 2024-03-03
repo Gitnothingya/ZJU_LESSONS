@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun May  1 20:55:11 2022
+# Process ID: 22196
+# Current directory: D:/Vteacher/SingleCycleCPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1084 D:\Vteacher\SingleCycleCPU\SingleCycleCPU.xpr
+# Log file: D:/Vteacher/SingleCycleCPU/vivado.log
+# Journal file: D:/Vteacher/SingleCycleCPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vteacher/SingleCycleCPU/SingleCycleCPU.xpr
+update_compile_order -fileset sources_1

@@ -1,0 +1,11 @@
+pcp4_out
+pcpimm_out
+rd_out
+rs1_val_out   
+rs2_val_out 
+imm_out   
+ALUSrc_B_out    
+alu_ctrl_out 
+mem_wen_out         
+MemtoReg_out 
+reg_wen_out            

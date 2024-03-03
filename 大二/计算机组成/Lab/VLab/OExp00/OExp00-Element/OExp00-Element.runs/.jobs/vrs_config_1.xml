@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="OExp00_Element_MUX2T1_64_0_0_synth_1" LaunchDir="D:/Vteacher/OExp00/OExp00-Element/OExp00-Element.runs/OExp00_Element_MUX2T1_64_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="OExp00_Element_MUX2T1_5_0_0_synth_1" LaunchDir="D:/Vteacher/OExp00/OExp00-Element/OExp00-Element.runs/OExp00_Element_MUX2T1_5_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="OExp00_Element_MUX2T1_8_0_0_synth_1" LaunchDir="D:/Vteacher/OExp00/OExp00-Element/OExp00-Element.runs/OExp00_Element_MUX2T1_8_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="OExp00_Element_MUX2T1_32_0_0_synth_1" LaunchDir="D:/Vteacher/OExp00/OExp00-Element/OExp00-Element.runs/OExp00_Element_MUX2T1_32_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="OExp00_Element_MUX4T1_5_0_0_synth_1" LaunchDir="D:/Vteacher/OExp00/OExp00-Element/OExp00-Element.runs/OExp00_Element_MUX4T1_5_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="OExp00_Element_MUX4T1_32_0_0_synth_1" LaunchDir="D:/Vteacher/OExp00/OExp00-Element/OExp00-Element.runs/OExp00_Element_MUX4T1_32_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="OExp00_Element_MUX8T1_8_0_0_synth_1" LaunchDir="D:/Vteacher/OExp00/OExp00-Element/OExp00-Element.runs/OExp00_Element_MUX8T1_8_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="OExp00_Element_MUX8T1_32_0_0_synth_1" LaunchDir="D:/Vteacher/OExp00/OExp00-Element/OExp00-Element.runs/OExp00_Element_MUX8T1_32_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="OExp00_Element_and32_0_0_synth_1" LaunchDir="D:/Vteacher/OExp00/OExp00-Element/OExp00-Element.runs/OExp00_Element_and32_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="OExp00_Element_or32_0_0_synth_1" LaunchDir="D:/Vteacher/OExp00/OExp00-Element/OExp00-Element.runs/OExp00_Element_or32_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="OExp00_Element_nor32_0_0_synth_1" LaunchDir="D:/Vteacher/OExp00/OExp00-Element/OExp00-Element.runs/OExp00_Element_nor32_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="OExp00_Element_xor32_0_0_synth_1" LaunchDir="D:/Vteacher/OExp00/OExp00-Element/OExp00-Element.runs/OExp00_Element_xor32_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="OExp00_Element_or_bit_32_0_0_synth_1" LaunchDir="D:/Vteacher/OExp00/OExp00-Element/OExp00-Element.runs/OExp00_Element_or_bit_32_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="OExp00_Element_add_32_0_0_synth_1" LaunchDir="D:/Vteacher/OExp00/OExp00-Element/OExp00-Element.runs/OExp00_Element_add_32_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="OExp00_Element_addc_32_0_0_synth_1" LaunchDir="D:/Vteacher/OExp00/OExp00-Element/OExp00-Element.runs/OExp00_Element_addc_32_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="OExp00_Element_srl32_0_0_synth_1" LaunchDir="D:/Vteacher/OExp00/OExp00-Element/OExp00-Element.runs/OExp00_Element_srl32_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="OExp00_Element_SignalExt_32_0_0_synth_1" LaunchDir="D:/Vteacher/OExp00/OExp00-Element/OExp00-Element.runs/OExp00_Element_SignalExt_32_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="OExp00_Element_Ext_imm16_0_0_synth_1" LaunchDir="D:/Vteacher/OExp00/OExp00-Element/OExp00-Element.runs/OExp00_Element_Ext_imm16_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Mar 10 17:36:27 2022
+# Process ID: 32440
+# Current directory: D:/Vteacher/OExp00/OExp00-muxctrl
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent44880 D:\Vteacher\OExp00\OExp00-muxctrl\OExp00-muxctrl.xpr
+# Log file: D:/Vteacher/OExp00/OExp00-muxctrl/vivado.log
+# Journal file: D:/Vteacher/OExp00/OExp00-muxctrl\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vteacher/OExp00/OExp00-muxctrl/OExp00-muxctrl.xpr
+update_compile_order -fileset sources_1

@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Nov  9 20:30:39 2022
+# Process ID: 23172
+# Current directory: D:/Vfile/Exp3_NEXYS_A7_nopre
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9904 D:\Vfile\Exp3_NEXYS_A7_nopre\Exp2.xpr
+# Log file: D:/Vfile/Exp3_NEXYS_A7_nopre/vivado.log
+# Journal file: D:/Vfile/Exp3_NEXYS_A7_nopre\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vfile/Exp3_NEXYS_A7_nopre/Exp2.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config D:/Vfile/Exp3_NEXYS_A7_nopre/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+restart
+run 50 us
+close_sim

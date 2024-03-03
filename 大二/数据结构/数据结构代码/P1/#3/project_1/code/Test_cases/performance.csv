@@ -1,0 +1,25 @@
+Algorithm,Size,Interations(K), Ticks,Total Time(sec),Duration(sec)
+Algorithm0,5,100000,279,0.279,0.000003
+Algorithm0,10,10000,959,0.959,0.000096
+Algorithm0,30,1000,45685,45.685,0.045685
+Algorithm0,50,100,89781,89.781,0.89781
+Algorithm0,80,10,139793,139.793,13.9793
+Algorithm0,100,1,53004,53.004,53.004
+Algorithm,Size,Interations(K), Ticks,Total Time(sec),Duration(sec)
+Algorithm1,5,100000,294,0.294,0.000003
+Algorithm1,10,10000,396,0.396,0.00004
+Algorithm1,30,1000,2887,2.887,0.002887
+Algorithm1,50,100,2263,2.263,0.02263
+Algorithm1,80,10,1606,1.606,0.1606
+Algorithm1,100,1,390,0.39,0.39
+Algorithm,Size,Interations(K), Ticks,Total Time(sec),Duration(sec)
+Algorithm2,5,100000,67,0.067,0.000001
+Algorithm2,10,10000,55,0.055,0.000005
+Algorithm2,30,1000,162,0.162,0.000162
+Algorithm2,50,100,72,0.072,0.00072
+Algorithm2,80,10,38,0.038,0.0038
+Algorithm2,100,2,12,0.012,0.006
+Algorithm0,100,1,52933,52.933000,52.933000
+Algorithm0,100,1,52493,52.493000,52.493000
+Algorithm1,100,1,362,0.362000,0.362000
+Algorithm2,10,1000000,4757,4.757000,0.000005

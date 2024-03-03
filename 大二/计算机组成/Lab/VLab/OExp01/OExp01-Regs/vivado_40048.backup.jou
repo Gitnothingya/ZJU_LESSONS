@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Mar 15 22:49:39 2022
+# Process ID: 40048
+# Current directory: D:/Vteacher/OExp01/OExp01-Regs
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent38608 D:\Vteacher\OExp01\OExp01-Regs\OExp01-Regs.xpr
+# Log file: D:/Vteacher/OExp01/OExp01-Regs/vivado.log
+# Journal file: D:/Vteacher/OExp01/OExp01-Regs\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vteacher/OExp01/OExp01-Regs/OExp01-Regs.xpr
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir d:/vteacher/oexp01/oexp01-regs/oexp01-regs.srcs -vendor xilinx.com -library user -taxonomy /UserIP
+ipx::add_bus_parameter ASSOCIATED_BUSIF [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]
+ipx::add_bus_parameter ASSOCIATED_BUSIF [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]
+set_property name POLARITY [ipx::get_bus_parameters ASSOCIATED_BUSIF -of_objects [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/Vteacher/OExp01/OExp01-Regs/OExp01-Regs.srcs

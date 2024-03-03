@@ -1,0 +1,30 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto b18b6452b4ef4a7aa08cc991d9111fdb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L blk_mem_gen_v8_4_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_CPUT_behav xil_defaultlib.tb_CPUT xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'wea' [D:/Vteacher/Lab4_4/Lab2.srcs/sim_1/new/cpu_tb.v:173]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Load_Ctrl
+Compiling module xil_defaultlib.cpu_ctrl
+Compiling module xil_defaultlib.ImmGen
+Compiling module xil_defaultlib.RegFile32
+Compiling module xil_defaultlib.RV_INT
+Compiling module xil_defaultlib.PCReg
+Compiling module xil_defaultlib.ALUT
+Compiling module xil_defaultlib.DataPath
+Compiling module xil_defaultlib.CPUT
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="kin...
+Compiling module xil_defaultlib.ram_b
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="k...
+Compiling module xil_defaultlib.rom_d
+Compiling module xil_defaultlib.tb_CPUT
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_CPUT_behav

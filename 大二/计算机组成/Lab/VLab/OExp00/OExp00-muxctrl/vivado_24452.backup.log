@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Mar  4 21:34:50 2022
+# Process ID: 24452
+# Current directory: D:/Vfile/OExp00/OExp00-muxctrl
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7872 D:\Vfile\OExp00\OExp00-muxctrl\OExp00-muxctrl.xpr
+# Log file: D:/Vfile/OExp00/OExp00-muxctrl/vivado.log
+# Journal file: D:/Vfile/OExp00/OExp00-muxctrl\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vfile/OExp00/OExp00-muxctrl/OExp00-muxctrl.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Vfile/OExp00/OExp00-muxctrl/MUX'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2020.2/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'OExp01_muxctrl.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+OExp01_muxctrl_xlslice_0_0
+OExp01_muxctrl_xlslice_1_0
+OExp01_muxctrl_xlslice_2_0
+OExp01_muxctrl_xlconstant_0_0
+OExp01_muxctrl_xlconcat_0_0
+OExp01_muxctrl_xlslice_3_0
+OExp01_muxctrl_xlconstant_1_0
+OExp01_muxctrl_xlconcat_1_0
+OExp01_muxctrl_xlconstant_2_0
+OExp01_muxctrl_xlconstant_3_0
+
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:09 . Memory (MB): peak = 1110.371 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Mar  4 21:38:13 2022...

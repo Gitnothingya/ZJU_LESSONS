@@ -1,0 +1,2 @@
+../Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c:175:6:SystemInit	4	static
+../Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c:224:6:SystemCoreClockUpdate	24	static

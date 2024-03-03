@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/mux818/mux818.srcs/sources_1/new/mux818.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux818
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vfile/mux818/mux818.srcs/sim_1/new/sim818.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim818

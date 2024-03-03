@@ -1,0 +1,20 @@
+#define GenUIID(N) ( ((__LINE__<<16) | ( N & 0xFFFF))^((long)&__FILE__) )
+void InitGUI();
+void uiGetMouse(int x, int y, int button, int event);
+void uiGetKeyboard(int key, int event);
+void uiGetChar(int ch);
+int button(int id, double x, double y, double w, double h, char *label);
+int  menuList(int id, double x, double y, double w, double wlist, double h, char *labels[], int n);
+void drawMenuBar(double x, double y, double w, double h); 
+int textbox(int id, double x, double y, double w, double h, char textbuf[], int buflen);
+void setButtonColors (char *frame, char*label, char *hotFrame, char *hotLabel, int fillflag);
+void setMenuColors   (char *frame, char*label, char *hotFrame, char *hotLabel, int fillflag);
+void setTextBoxColors(char *frame, char*label, char *hotFrame, char *hotLabel, int fillflag);
+void usePredefinedColors(int k);
+void usePredefinedButtonColors(int k);
+void usePredefinedMenuColors(int k);
+void usePredefinedTexBoxColors(int k);
+void drawLabel(double x, double y, char *label);
+void drawRectangle(double x, double y, double w, double h, int fillflag);
+void drawBox(double x, double y, double w, double h, int fillflag, char *label, char xalignment, char *labelColor);
+

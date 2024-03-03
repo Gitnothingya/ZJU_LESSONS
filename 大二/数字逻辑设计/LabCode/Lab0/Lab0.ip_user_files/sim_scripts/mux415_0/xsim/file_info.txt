@@ -1,0 +1,3 @@
+mux415.v,verilog,xil_defaultlib,../../../../Lab0.gen/sources_1/ip/mux415_0/sources_1/new/mux415.v,
+mux415_0.v,verilog,xil_defaultlib,../../../../Lab0.gen/sources_1/ip/mux415_0/sim/mux415_0.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

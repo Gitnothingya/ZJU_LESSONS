@@ -1,0 +1,6 @@
+VgaController.v,verilog,xil_defaultlib,../../../../Lab5_23.gen/sources_1/ip/VGA_0/VgaController.v,
+VgaDebugger.v,verilog,xil_defaultlib,../../../../Lab5_23.gen/sources_1/ip/VGA_0/VgaDebugger.v,
+VgaDisplay.v,verilog,xil_defaultlib,../../../../Lab5_23.gen/sources_1/ip/VGA_0/VgaDisplay.v,
+VGA.v,verilog,xil_defaultlib,../../../../Lab5_23.gen/sources_1/ip/VGA_0/VGA.v,
+VGA_0.v,verilog,xil_defaultlib,../../../../Lab5_23.gen/sources_1/ip/VGA_0/sim/VGA_0.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

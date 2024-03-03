@@ -1,0 +1,26 @@
+`timescale 1ns / 1ps
+
+module MyMC14495(
+    input [3:0]D,
+    input LE,
+    input Point,
+    output reg [6:0]LED,
+    output reg p
+    );
+	 
+always @(①) begin
+	if(②) begin
+	                ③
+	end
+	else begin
+		case (④)
+			4'h0: LED <= ⑤; 
+                                                ............
+		endcase
+	end
+	p <= Point;
+end
+
+
+endmodule
+

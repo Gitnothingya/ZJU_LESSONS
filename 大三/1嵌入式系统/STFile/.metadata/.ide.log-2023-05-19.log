@@ -1,0 +1,527 @@
+2023-05-21 00:40:03,449 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 482697880 Bytes (773849088)
+2023-05-21 00:40:03,520 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 286272216 Bytes (773849088)
+2023-05-21 00:40:04,916 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 339673568 Bytes (773849088)
+2023-05-21 00:40:05,064 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-05-21 00:40:05,064 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: FREERTOS
+2023-05-21 00:40:05,064 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-05-21 00:40:05,064 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2023-05-21 00:40:05,064 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F1
+2023-05-21 00:40:05,064 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-05-21 00:40:05,065 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-05-21 00:40:05,065 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-05-21 00:40:05,070 [INFO] CodeGenerator:793 - code generatio: config db path: D:\STM\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-05-21 00:40:05,082 [INFO] Argument:319 - Argument : hdmavalue: null
+2023-05-21 00:40:05,082 [INFO] Argument:321 - 	 sub Args: 
+2023-05-21 00:40:05,082 [INFO] Argument:319 - Argument : Instancevalue: DMA1_Channel4
+2023-05-21 00:40:05,082 [INFO] Argument:329 - Argument : Instancevalue: DMA1_Channel4
+2023-05-21 00:40:05,082 [INFO] Argument:319 - Argument : Initvalue: null
+2023-05-21 00:40:05,082 [INFO] Argument:321 - 	 sub Args: 
+2023-05-21 00:40:05,082 [INFO] Argument:319 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2023-05-21 00:40:05,082 [INFO] Argument:329 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2023-05-21 00:40:05,083 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-05-21 00:40:05,083 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-05-21 00:40:05,083 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-05-21 00:40:05,083 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-05-21 00:40:05,083 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2023-05-21 00:40:05,083 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2023-05-21 00:40:05,083 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2023-05-21 00:40:05,083 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2023-05-21 00:40:05,083 [INFO] Argument:319 - Argument : Modevalue: DMA_NORMAL
+2023-05-21 00:40:05,083 [INFO] Argument:329 - Argument : Modevalue: DMA_NORMAL
+2023-05-21 00:40:05,083 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2023-05-21 00:40:05,083 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2023-05-21 00:40:05,083 [INFO] Argument:319 - Argument : Lockvalue: null
+2023-05-21 00:40:05,083 [INFO] Argument:329 - Argument : Lockvalue: null
+2023-05-21 00:40:05,083 [INFO] Argument:319 - Argument : Statevalue: null
+2023-05-21 00:40:05,083 [INFO] Argument:329 - Argument : Statevalue: null
+2023-05-21 00:40:05,083 [INFO] Argument:319 - Argument : Parentvalue: null
+2023-05-21 00:40:05,083 [INFO] Argument:329 - Argument : Parentvalue: null
+2023-05-21 00:40:05,083 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2023-05-21 00:40:05,083 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2023-05-21 00:40:05,083 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2023-05-21 00:40:05,083 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2023-05-21 00:40:05,083 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2023-05-21 00:40:05,083 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2023-05-21 00:40:05,083 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2023-05-21 00:40:05,083 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2023-05-21 00:40:05,193 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\MXTmpFiles\license.tmp_save
+2023-05-21 00:40:05,259 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\MXTmpFiles\license.tmp
+2023-05-21 00:40:05,285 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\Core\Src\gpio.c_save
+2023-05-21 00:40:05,346 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\Core\Src\gpio.c
+2023-05-21 00:40:05,350 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\Core\Inc\gpio.h_save
+2023-05-21 00:40:05,392 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\Core\Inc\gpio.h
+2023-05-21 00:40:05,625 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-05-21 00:40:05,629 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\MXTmpFiles\rtos_inc.tmp_save
+2023-05-21 00:40:05,679 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\MXTmpFiles\rtos_inc.tmp
+2023-05-21 00:40:05,681 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\MXTmpFiles\rtos_kernelInit.tmp_save
+2023-05-21 00:40:05,719 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\MXTmpFiles\rtos_kernelInit.tmp
+2023-05-21 00:40:05,721 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\MXTmpFiles\rtos_kernelStart.tmp_save
+2023-05-21 00:40:05,765 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\MXTmpFiles\rtos_kernelStart.tmp
+2023-05-21 00:40:05,768 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\MXTmpFiles\rtos_typedefs.tmp_save
+2023-05-21 00:40:05,813 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\MXTmpFiles\rtos_typedefs.tmp
+2023-05-21 00:40:05,816 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\MXTmpFiles\rtos_vars.tmp_save
+2023-05-21 00:40:05,861 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\MXTmpFiles\rtos_vars.tmp
+2023-05-21 00:40:05,864 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\MXTmpFiles\rtos_pfp.tmp_save
+2023-05-21 00:40:05,908 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\MXTmpFiles\rtos_pfp.tmp
+2023-05-21 00:40:05,910 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\MXTmpFiles\rtos_obj_creat.tmp_save
+2023-05-21 00:40:05,953 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\MXTmpFiles\rtos_obj_creat.tmp
+2023-05-21 00:40:05,959 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\MXTmpFiles\rtos_default_thread.tmp_save
+2023-05-21 00:40:05,996 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\MXTmpFiles\rtos_default_thread.tmp
+2023-05-21 00:40:06,002 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\MXTmpFiles\rtos_threads.tmp_save
+2023-05-21 00:40:06,051 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\MXTmpFiles\rtos_threads.tmp
+2023-05-21 00:40:06,057 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-05-21 00:40:06,063 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\MXTmpFiles\rtos_inc.tmp_save
+2023-05-21 00:40:06,117 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\MXTmpFiles\rtos_inc.tmp
+2023-05-21 00:40:06,121 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\MXTmpFiles\rtos_kernelInit.tmp_save
+2023-05-21 00:40:06,166 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\MXTmpFiles\rtos_kernelInit.tmp
+2023-05-21 00:40:06,172 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\MXTmpFiles\rtos_kernelStart.tmp_save
+2023-05-21 00:40:06,219 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\MXTmpFiles\rtos_kernelStart.tmp
+2023-05-21 00:40:06,228 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\MXTmpFiles\rtos_typedefs.tmp_save
+2023-05-21 00:40:06,273 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\MXTmpFiles\rtos_typedefs.tmp
+2023-05-21 00:40:06,280 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\MXTmpFiles\rtos_vars.tmp_save
+2023-05-21 00:40:06,322 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\MXTmpFiles\rtos_vars.tmp
+2023-05-21 00:40:06,327 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\MXTmpFiles\rtos_pfp.tmp_save
+2023-05-21 00:40:06,365 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\MXTmpFiles\rtos_pfp.tmp
+2023-05-21 00:40:06,370 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\MXTmpFiles\rtos_obj_creat.tmp_save
+2023-05-21 00:40:06,414 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\MXTmpFiles\rtos_obj_creat.tmp
+2023-05-21 00:40:06,419 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\MXTmpFiles\rtos_default_thread.tmp_save
+2023-05-21 00:40:06,461 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\MXTmpFiles\rtos_default_thread.tmp
+2023-05-21 00:40:06,472 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\MXTmpFiles\rtos_threads.tmp_save
+2023-05-21 00:40:06,523 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\MXTmpFiles\rtos_threads.tmp
+2023-05-21 00:40:06,527 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\Core\Inc\FreeRTOSConfig.h_save
+2023-05-21 00:40:06,604 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\Core\Inc\FreeRTOSConfig.h
+2023-05-21 00:40:06,615 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\Core\Src\freertos.c_save
+2023-05-21 00:40:06,716 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\Core\Src\freertos.c
+2023-05-21 00:40:06,743 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\Core\Src\dma.c_save
+2023-05-21 00:40:06,824 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\Core\Src\dma.c
+2023-05-21 00:40:06,835 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\Core\Inc\dma.h_save
+2023-05-21 00:40:07,002 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\Core\Inc\dma.h
+2023-05-21 00:40:07,056 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\Core\Src\tim.c_save
+2023-05-21 00:40:07,363 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\Core\Src\tim.c
+2023-05-21 00:40:07,380 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\Core\Inc\tim.h_save
+2023-05-21 00:40:07,445 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\Core\Inc\tim.h
+2023-05-21 00:40:07,461 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\Core\Src\usart.c_save
+2023-05-21 00:40:07,559 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\Core\Src\usart.c
+2023-05-21 00:40:07,563 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\Core\Inc\usart.h_save
+2023-05-21 00:40:07,620 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\Core\Inc\usart.h
+2023-05-21 00:40:07,630 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\Core\Src\stm32f1xx_it.c_save
+2023-05-21 00:40:07,761 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\Core\Src\stm32f1xx_it.c
+2023-05-21 00:40:07,766 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\Core\Inc\stm32f1xx_it.h_save
+2023-05-21 00:40:07,821 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\Core\Inc\stm32f1xx_it.h
+2023-05-21 00:40:07,830 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\Core\Src\stm32f1xx_hal_msp.c_save
+2023-05-21 00:40:07,900 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\Core\Src\stm32f1xx_hal_msp.c
+2023-05-21 00:40:07,905 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\MXTmpFiles\system.tmp_save
+2023-05-21 00:40:07,945 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\MXTmpFiles\system.tmp
+2023-05-21 00:40:07,959 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\Core\Src\stm32f1xx_hal_timebase_tim.c_save
+2023-05-21 00:40:08,009 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\Core\Src\stm32f1xx_hal_timebase_tim.c
+2023-05-21 00:40:08,031 [INFO] CodeEngine:311 - oldGeneratedFile, D:\STFile\LAB5\Core\Inc\stm32f1xx_hal_conf.h_save
+2023-05-21 00:40:08,083 [INFO] CodeEngine:335 - Generated code: D:\STFile\LAB5\Core\Inc\stm32f1xx_hal_conf.h
+2023-05-21 00:40:08,117 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\Core\Inc\main.h_save
+2023-05-21 00:40:08,185 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\Core\Inc\main.h
+2023-05-21 00:40:08,190 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\Core\Src\main.c_save
+2023-05-21 00:40:08,257 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\Core\Src\main.c
+2023-05-21 00:40:09,189 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 456mS.
+2023-05-21 00:40:09,192 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-05-21 00:40:09,407 [INFO] ConfigFileManager:1483 - The Die is : DIE410
+2023-05-21 00:40:10,490 [ERROR] MainProjectManager:238 - 
+org.jdom.input.JDOMParseException: Error on line 9 of document file:/D:/STFile/LAB5/mx.scratch: Invalid byte 1 of 1-byte UTF-8 sequence.
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:530) ~[STM32CubeMX.jar:?]
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:905) ~[STM32CubeMX.jar:?]
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:884) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.model.ConfigFileManager.deleteEmptyGroups(ConfigFileManager.java:7231) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.model.ConfigFileManager.deleteEmptyGroups(ConfigFileManager.java:7255) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.model.ConfigFileManager.createTmpFile(ConfigFileManager.java:2282) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.engine.ProjectBuilder.createToolChainFolders(ProjectBuilder.java:4460) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.engine.ProjectBuilder.createProject(ProjectBuilder.java:976) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.engine.ProjectBuilder.createProject(ProjectBuilder.java:612) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.engine.MainProjectManager.startGenerateCode(MainProjectManager.java:1261) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.engine.MainProjectManager$3.onCommandEntered(MainProjectManager.java:234) ~[filemanager.jar:?]
+	at com.st.components.util.CommandLineManager$3.run(CommandLineManager.java:175) ~[STM32CubeMX.jar:?]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:303) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:721) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:715) ~[?:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85) ~[?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:740) ~[?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) ~[?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) ~[?:?]
+Caused by: org.xml.sax.SAXParseException: Invalid byte 1 of 1-byte UTF-8 sequence.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204) ~[?:?]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:306) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3085) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216) ~[?:?]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635) ~[?:?]
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:518) ~[STM32CubeMX.jar:?]
+	... 24 more
+Caused by: com.sun.org.apache.xerces.internal.impl.io.MalformedByteSequenceException: Invalid byte 1 of 1-byte UTF-8 sequence.
+	at com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.invalidByte(UTF8Reader.java:702) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.read(UTF8Reader.java:568) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.load(XMLEntityScanner.java:1699) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.skipChar(XMLEntityScanner.java:1375) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2746) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216) ~[?:?]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635) ~[?:?]
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:518) ~[STM32CubeMX.jar:?]
+	... 24 more
+2023-05-21 09:39:39,124 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-05-21 09:39:49,682 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-05-21 09:39:53,417 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-05-21 09:41:46,476 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-05-21 09:42:03,236 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-05-21 09:42:05,140 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-05-21 09:44:48,697 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 648502672 Bytes (773849088)
+2023-05-21 09:44:48,744 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 659514768 Bytes (773849088)
+2023-05-21 09:44:50,383 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 369305552 Bytes (773849088)
+2023-05-21 09:44:50,578 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-05-21 09:44:50,578 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: FREERTOS
+2023-05-21 09:44:50,578 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-05-21 09:44:50,578 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2023-05-21 09:44:50,578 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F1
+2023-05-21 09:44:50,578 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F1
+2023-05-21 09:44:50,578 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-05-21 09:44:50,578 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-05-21 09:44:50,578 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-05-21 09:44:50,579 [INFO] CodeGenerator:793 - code generatio: config db path: D:\STM\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-05-21 09:44:50,593 [INFO] Argument:319 - Argument : hdmavalue: null
+2023-05-21 09:44:50,593 [INFO] Argument:321 - 	 sub Args: 
+2023-05-21 09:44:50,593 [INFO] Argument:319 - Argument : Instancevalue: DMA1_Channel4
+2023-05-21 09:44:50,593 [INFO] Argument:329 - Argument : Instancevalue: DMA1_Channel4
+2023-05-21 09:44:50,593 [INFO] Argument:319 - Argument : Initvalue: null
+2023-05-21 09:44:50,593 [INFO] Argument:321 - 	 sub Args: 
+2023-05-21 09:44:50,593 [INFO] Argument:319 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2023-05-21 09:44:50,593 [INFO] Argument:329 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2023-05-21 09:44:50,593 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-05-21 09:44:50,593 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-05-21 09:44:50,593 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-05-21 09:44:50,593 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-05-21 09:44:50,593 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2023-05-21 09:44:50,593 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2023-05-21 09:44:50,593 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2023-05-21 09:44:50,593 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2023-05-21 09:44:50,593 [INFO] Argument:319 - Argument : Modevalue: DMA_NORMAL
+2023-05-21 09:44:50,593 [INFO] Argument:329 - Argument : Modevalue: DMA_NORMAL
+2023-05-21 09:44:50,593 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2023-05-21 09:44:50,593 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2023-05-21 09:44:50,593 [INFO] Argument:319 - Argument : Lockvalue: null
+2023-05-21 09:44:50,593 [INFO] Argument:329 - Argument : Lockvalue: null
+2023-05-21 09:44:50,594 [INFO] Argument:319 - Argument : Statevalue: null
+2023-05-21 09:44:50,594 [INFO] Argument:329 - Argument : Statevalue: null
+2023-05-21 09:44:50,594 [INFO] Argument:319 - Argument : Parentvalue: null
+2023-05-21 09:44:50,594 [INFO] Argument:329 - Argument : Parentvalue: null
+2023-05-21 09:44:50,594 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2023-05-21 09:44:50,594 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2023-05-21 09:44:50,594 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2023-05-21 09:44:50,594 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2023-05-21 09:44:50,594 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2023-05-21 09:44:50,594 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2023-05-21 09:44:50,594 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2023-05-21 09:44:50,594 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2023-05-21 09:44:50,724 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\MXTmpFiles\license.tmp_save
+2023-05-21 09:44:50,786 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\MXTmpFiles\license.tmp
+2023-05-21 09:44:50,802 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\Core\Src\gpio.c_save
+2023-05-21 09:44:50,852 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\Core\Src\gpio.c
+2023-05-21 09:44:50,856 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\Core\Inc\gpio.h_save
+2023-05-21 09:44:50,901 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\Core\Inc\gpio.h
+2023-05-21 09:44:51,085 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-05-21 09:44:51,097 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\MXTmpFiles\rtos_inc.tmp_save
+2023-05-21 09:44:51,136 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\MXTmpFiles\rtos_inc.tmp
+2023-05-21 09:44:51,138 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\MXTmpFiles\rtos_kernelInit.tmp_save
+2023-05-21 09:44:51,182 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\MXTmpFiles\rtos_kernelInit.tmp
+2023-05-21 09:44:51,188 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\MXTmpFiles\rtos_kernelStart.tmp_save
+2023-05-21 09:44:51,237 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\MXTmpFiles\rtos_kernelStart.tmp
+2023-05-21 09:44:51,239 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\MXTmpFiles\rtos_typedefs.tmp_save
+2023-05-21 09:44:51,400 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\MXTmpFiles\rtos_typedefs.tmp
+2023-05-21 09:44:51,431 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\MXTmpFiles\rtos_vars.tmp_save
+2023-05-21 09:44:51,493 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\MXTmpFiles\rtos_vars.tmp
+2023-05-21 09:44:51,497 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\MXTmpFiles\rtos_pfp.tmp_save
+2023-05-21 09:44:51,541 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\MXTmpFiles\rtos_pfp.tmp
+2023-05-21 09:44:51,545 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\MXTmpFiles\rtos_obj_creat.tmp_save
+2023-05-21 09:44:51,617 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\MXTmpFiles\rtos_obj_creat.tmp
+2023-05-21 09:44:51,621 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\MXTmpFiles\rtos_default_thread.tmp_save
+2023-05-21 09:44:51,670 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\MXTmpFiles\rtos_default_thread.tmp
+2023-05-21 09:44:51,674 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\MXTmpFiles\rtos_threads.tmp_save
+2023-05-21 09:44:51,721 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\MXTmpFiles\rtos_threads.tmp
+2023-05-21 09:44:51,726 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-05-21 09:44:51,735 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\MXTmpFiles\rtos_inc.tmp_save
+2023-05-21 09:44:51,857 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\MXTmpFiles\rtos_inc.tmp
+2023-05-21 09:44:51,888 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\MXTmpFiles\rtos_kernelInit.tmp_save
+2023-05-21 09:44:51,943 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\MXTmpFiles\rtos_kernelInit.tmp
+2023-05-21 09:44:51,951 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\MXTmpFiles\rtos_kernelStart.tmp_save
+2023-05-21 09:44:52,010 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\MXTmpFiles\rtos_kernelStart.tmp
+2023-05-21 09:44:52,019 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\MXTmpFiles\rtos_typedefs.tmp_save
+2023-05-21 09:44:52,097 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\MXTmpFiles\rtos_typedefs.tmp
+2023-05-21 09:44:52,109 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\MXTmpFiles\rtos_vars.tmp_save
+2023-05-21 09:44:52,166 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\MXTmpFiles\rtos_vars.tmp
+2023-05-21 09:44:52,176 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\MXTmpFiles\rtos_pfp.tmp_save
+2023-05-21 09:44:52,238 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\MXTmpFiles\rtos_pfp.tmp
+2023-05-21 09:44:52,243 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\MXTmpFiles\rtos_obj_creat.tmp_save
+2023-05-21 09:44:52,296 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\MXTmpFiles\rtos_obj_creat.tmp
+2023-05-21 09:44:52,302 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\MXTmpFiles\rtos_default_thread.tmp_save
+2023-05-21 09:44:52,341 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\MXTmpFiles\rtos_default_thread.tmp
+2023-05-21 09:44:52,346 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\MXTmpFiles\rtos_threads.tmp_save
+2023-05-21 09:44:52,387 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\MXTmpFiles\rtos_threads.tmp
+2023-05-21 09:44:52,392 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\Core\Inc\FreeRTOSConfig.h_save
+2023-05-21 09:44:52,442 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\Core\Inc\FreeRTOSConfig.h
+2023-05-21 09:44:52,446 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\Core\Src\freertos.c_save
+2023-05-21 09:44:52,507 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\Core\Src\freertos.c
+2023-05-21 09:44:52,546 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\Core\Src\dma.c_save
+2023-05-21 09:44:52,591 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\Core\Src\dma.c
+2023-05-21 09:44:52,595 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\Core\Inc\dma.h_save
+2023-05-21 09:44:52,637 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\Core\Inc\dma.h
+2023-05-21 09:44:52,643 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\Core\Src\tim.c_save
+2023-05-21 09:44:52,717 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\Core\Src\tim.c
+2023-05-21 09:44:52,721 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\Core\Inc\tim.h_save
+2023-05-21 09:44:52,776 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\Core\Inc\tim.h
+2023-05-21 09:44:52,786 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\Core\Src\usart.c_save
+2023-05-21 09:44:52,850 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\Core\Src\usart.c
+2023-05-21 09:44:52,857 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\Core\Inc\usart.h_save
+2023-05-21 09:44:52,919 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\Core\Inc\usart.h
+2023-05-21 09:44:52,927 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\Core\Src\stm32f1xx_it.c_save
+2023-05-21 09:44:53,039 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\Core\Src\stm32f1xx_it.c
+2023-05-21 09:44:53,044 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\Core\Inc\stm32f1xx_it.h_save
+2023-05-21 09:44:53,097 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\Core\Inc\stm32f1xx_it.h
+2023-05-21 09:44:53,105 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\Core\Src\stm32f1xx_hal_msp.c_save
+2023-05-21 09:44:53,165 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\Core\Src\stm32f1xx_hal_msp.c
+2023-05-21 09:44:53,169 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\MXTmpFiles\system.tmp_save
+2023-05-21 09:44:53,229 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\MXTmpFiles\system.tmp
+2023-05-21 09:44:53,233 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\Core\Src\stm32f1xx_hal_timebase_tim.c_save
+2023-05-21 09:44:53,276 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\Core\Src\stm32f1xx_hal_timebase_tim.c
+2023-05-21 09:44:53,283 [INFO] CodeEngine:311 - oldGeneratedFile, D:\STFile\LAB5\Core\Inc\stm32f1xx_hal_conf.h_save
+2023-05-21 09:44:53,344 [INFO] CodeEngine:335 - Generated code: D:\STFile\LAB5\Core\Inc\stm32f1xx_hal_conf.h
+2023-05-21 09:44:53,430 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\Core\Inc\main.h_save
+2023-05-21 09:44:53,499 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\Core\Inc\main.h
+2023-05-21 09:44:53,504 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STFile\LAB5\Core\Src\main.c_save
+2023-05-21 09:44:53,581 [INFO] CodeEngine:279 - Generated code: D:\STFile\LAB5\Core\Src\main.c
+2023-05-21 09:44:54,264 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 359mS.
+2023-05-21 09:44:54,269 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-05-21 09:44:54,646 [INFO] ConfigFileManager:1483 - The Die is : DIE410
+2023-05-21 09:44:55,342 [ERROR] MainProjectManager:238 - 
+org.jdom.input.JDOMParseException: Error on line 9 of document file:/D:/STFile/LAB5/mx.scratch: Invalid byte 1 of 1-byte UTF-8 sequence.
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:530) ~[STM32CubeMX.jar:?]
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:905) ~[STM32CubeMX.jar:?]
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:884) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.model.ConfigFileManager.deleteEmptyGroups(ConfigFileManager.java:7231) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.model.ConfigFileManager.deleteEmptyGroups(ConfigFileManager.java:7255) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.model.ConfigFileManager.createTmpFile(ConfigFileManager.java:2282) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.engine.ProjectBuilder.createToolChainFolders(ProjectBuilder.java:4460) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.engine.ProjectBuilder.createProject(ProjectBuilder.java:976) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.engine.ProjectBuilder.createProject(ProjectBuilder.java:612) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.engine.MainProjectManager.startGenerateCode(MainProjectManager.java:1261) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.engine.MainProjectManager$3.onCommandEntered(MainProjectManager.java:234) ~[filemanager.jar:?]
+	at com.st.components.util.CommandLineManager$3.run(CommandLineManager.java:175) ~[STM32CubeMX.jar:?]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:303) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:721) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:715) ~[?:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85) ~[?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:740) ~[?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) ~[?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) ~[?:?]
+Caused by: org.xml.sax.SAXParseException: Invalid byte 1 of 1-byte UTF-8 sequence.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204) ~[?:?]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:306) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3085) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216) ~[?:?]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635) ~[?:?]
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:518) ~[STM32CubeMX.jar:?]
+	... 24 more
+Caused by: com.sun.org.apache.xerces.internal.impl.io.MalformedByteSequenceException: Invalid byte 1 of 1-byte UTF-8 sequence.
+	at com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.invalidByte(UTF8Reader.java:702) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.read(UTF8Reader.java:568) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.load(XMLEntityScanner.java:1699) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.skipChar(XMLEntityScanner.java:1375) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2746) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216) ~[?:?]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635) ~[?:?]
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:518) ~[STM32CubeMX.jar:?]
+	... 24 more
+2023-05-21 09:46:44,193 [INFO] MainUpdater:2854 - connection check result : 10
+2023-05-21 09:46:44,193 [INFO] MainUpdater:2854 - connection check result : 10
+2023-05-21 09:46:44,234 [INFO] MicroXplorer:468 - Change Database Path : 
+2023-05-21 09:46:44,234 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.81
+2023-05-21 09:46:44,244 [WARN] ThirdParty:871 - waiting for thirdparty lock release [close project]
+2023-05-21 09:46:44,244 [INFO] ThirdParty:873 - entering critical section [close project]
+2023-05-21 09:46:44,244 [INFO] ThirdParty:883 - exiting critical section [close project]
+2023-05-21 09:46:44,245 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2023-05-21 09:46:44,248 [INFO] UtilMem:75 - Begin LoadConfig() Used Memory: 322058040 Bytes (773849088)
+2023-05-21 09:46:44,249 [INFO] MicroXplorer:468 - Change Database Path : 
+2023-05-21 09:46:44,249 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.81
+2023-05-21 09:46:44,249 [INFO] OpenFileManager:308 - Change cursor
+2023-05-21 09:46:44,258 [INFO] RulesReader:64 - Compatibility file has been processed (293 Rules)
+2023-05-21 09:46:44,260 [INFO] Mcu:1937 - Initializing MCU STM32F103C(8-B)Tx STM32F103C8Tx STM32F103C8T6
+2023-05-21 09:46:44,621 [INFO] Context:659 - Trying to add GPIOservice into a context  which must be forbidden
+2023-05-21 09:46:44,813 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2023-05-21 09:46:44,813 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2023-05-21 09:46:44,813 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2023-05-21 09:46:44,813 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2023-05-21 09:46:44,813 [WARN] ModelIntegratedComponent:184 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2023-05-21 09:46:44,817 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-21 09:46:44,817 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-21 09:46:44,817 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-21 09:46:44,817 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-21 09:46:44,817 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-21 09:46:44,817 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-21 09:46:44,817 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-21 09:46:44,817 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-21 09:46:44,817 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-21 09:46:44,817 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-21 09:46:44,817 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-21 09:46:44,817 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-21 09:46:44,817 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-21 09:46:44,817 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-21 09:46:44,817 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-21 09:46:44,817 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-21 09:46:44,817 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-21 09:46:44,818 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-21 09:46:44,818 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-21 09:46:44,818 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-21 09:46:44,818 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-21 09:46:44,818 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-21 09:46:44,818 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-21 09:46:44,818 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-21 09:46:44,818 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-21 09:46:44,818 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-21 09:46:44,818 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-21 09:46:44,818 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-21 09:46:44,818 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-21 09:46:44,818 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-21 09:46:44,818 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-21 09:46:44,818 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-21 09:46:44,818 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-05-21 09:46:44,824 [INFO] ThirdPartyModel:298 - Start build external matchings
+2023-05-21 09:46:44,966 [INFO] ThirdPartyModel:316 - End build external matchings
+2023-05-21 09:46:44,970 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Parameter (ADCFreqValue) has invalid value (36000000)
+2023-05-21 09:46:44,971 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (FamilyName)
+2023-05-21 09:46:44,971 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Parameter (USBFreq_Value) has invalid value (72000000)
+2023-05-21 09:46:45,114 [INFO] UtilMem:75 - End LoadConfig() Used Memory: 336944656 Bytes (773849088)
+2023-05-21 09:46:45,172 [WARN] ThirdParty:833 - waiting for thirdparty lock release [change project]
+2023-05-21 09:46:45,172 [INFO] ThirdParty:835 - entering critical section [change project]
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 1.1.0
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.6.0
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.0.1
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.4
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.6.0
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 4.3.0
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.0.0
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.4
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.1.0
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.1.3
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 2.0.0
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.0.1
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 2.0.0
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.1.0
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.3.0
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.0
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 1.0.0
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 4.1.0
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 1.1.0
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2023-05-21 09:46:45,172 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2023-05-21 09:46:45,173 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2023-05-21 09:46:45,173 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 2.0.0
+2023-05-21 09:46:45,173 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2023-05-21 09:46:45,173 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2023-05-21 09:46:45,173 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2023-05-21 09:46:45,173 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2023-05-21 09:46:45,173 [INFO] ThirdParty:841 - exiting critical section [change project]
+2023-05-21 09:46:45,236 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2023-05-21 09:46:45,248 [INFO] PinOutPanel:1499 - setPackage(STM32F103C8Tx,LQFP48)
+2023-05-21 09:46:45,420 [INFO] UtilMem:75 - Before build in PCC Used Memory: 347820616 Bytes (773849088)
+2023-05-21 09:46:45,568 [INFO] UtilMem:75 - After build in PCC Used Memory: 389241416 Bytes (773849088)
+2023-05-21 09:46:45,576 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-21 09:46:45,577 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-21 09:46:45,577 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-21 09:46:45,577 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-21 09:46:45,577 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-21 09:46:45,577 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-21 09:46:45,577 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-21 09:46:45,577 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-21 09:46:45,577 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-21 09:46:45,577 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-21 09:46:45,577 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-21 09:46:45,577 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-21 09:46:45,577 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-21 09:46:45,577 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-21 09:46:45,577 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-21 09:46:45,577 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-21 09:46:45,578 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-21 09:46:45,578 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-21 09:46:45,578 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-21 09:46:45,578 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-21 09:46:45,578 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-21 09:46:45,578 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-21 09:46:45,578 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-21 09:46:45,578 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-21 09:46:45,578 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-21 09:46:45,578 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-21 09:46:45,579 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-05-21 09:46:45,600 [INFO] CADModel:165 - CPN selected for project levelSTM32F103C8T6
+2023-05-21 09:46:45,600 [INFO] CADModel:114 - Register for checkConnection events
+2023-05-21 09:46:45,656 [INFO] OpenFileManager:328 - Restore cursor
+2023-05-21 09:46:50,932 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]

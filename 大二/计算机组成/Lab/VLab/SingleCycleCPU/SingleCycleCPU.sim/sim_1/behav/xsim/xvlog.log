@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/EDAFile_vivado/LAB4/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/imports/Materials/Csr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Csr
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/EDAFile_vivado/LAB4/SingleCycleCPU/SingleCycleCPU.srcs/sim_1/new/csr_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Csr_tb

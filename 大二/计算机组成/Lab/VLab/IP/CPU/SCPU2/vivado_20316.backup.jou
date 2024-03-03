@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Apr 20 20:54:27 2022
+# Process ID: 20316
+# Current directory: D:/Vteacher/IP/CPU/SCPU2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25596 D:\Vteacher\IP\CPU\SCPU2\SCPU2.xpr
+# Log file: D:/Vteacher/IP/CPU/SCPU2/vivado.log
+# Journal file: D:/Vteacher/IP/CPU/SCPU2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vteacher/IP/CPU/SCPU2/SCPU2.xpr
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir D:/Vteacher/IP/CPU/SCPU2/SCPU2.srcs/sources_1 -vendor xilinx.com -library user -taxonomy /UserIP -import_files -set_current false
+ipx::unload_core d:/Vteacher/IP/CPU/SCPU2/SCPU2.srcs/sources_1/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory D:/Vteacher/IP/CPU/SCPU2/SCPU2.srcs/sources_1 d:/Vteacher/IP/CPU/SCPU2/SCPU2.srcs/sources_1/component.xml
+current_project SCPU2
+set_property core_revision 2 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project tmp_edit_project
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+set_property  ip_repo_paths  d:/Vteacher/IP/CPU/SCPU2/SCPU2.srcs/sources_1 [current_project]
+update_ip_catalog

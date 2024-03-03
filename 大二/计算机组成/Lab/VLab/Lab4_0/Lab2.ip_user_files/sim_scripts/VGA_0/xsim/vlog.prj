@@ -1,0 +1,11 @@
+verilog xil_defaultlib  \
+"../../../../Lab2.gen/sources_1/ip/VGA_0/Hex2Ascii.v" \
+"../../../../Lab2.gen/sources_1/ip/VGA_0/VgaController.v" \
+"../../../../Lab2.gen/sources_1/ip/VGA_0/VgaDebugger.v" \
+"../../../../Lab2.gen/sources_1/ip/VGA_0/VgaDisplay.v" \
+"../../../../Lab2.gen/sources_1/ip/VGA_0/VGA.v" \
+"../../../../Lab2.gen/sources_1/ip/VGA_0/sim/VGA_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

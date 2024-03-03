@@ -1,0 +1,7 @@
+ALUT.v,verilog,xil_defaultlib,../../../../Lab2.gen/sources_1/ip/DataPath_0_1/sources_1/new/ALUT.v,
+ImmGen.v,verilog,xil_defaultlib,../../../../Lab2.gen/sources_1/ip/DataPath_0_1/sources_1/new/ImmGen.v,
+PCReg.v,verilog,xil_defaultlib,../../../../Lab2.gen/sources_1/ip/DataPath_0_1/sources_1/new/PCReg.v,
+RegFile32.v,verilog,xil_defaultlib,../../../../Lab2.gen/sources_1/ip/DataPath_0_1/sources_1/new/RegFile32.v,
+DataPath.v,verilog,xil_defaultlib,../../../../Lab2.gen/sources_1/ip/DataPath_0_1/sources_1/new/DataPath.v,
+DataPath_0.v,verilog,xil_defaultlib,../../../../Lab2.gen/sources_1/ip/DataPath_0_1/sim/DataPath_0.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Mar 15 11:16:31 2022
+# Process ID: 34124
+# Current directory: D:/Vfile/Lab0/Lab0.runs/synth_1
+# Command line: vivado.exe -log muxctrl.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source muxctrl.tcl
+# Log file: D:/Vfile/Lab0/Lab0.runs/synth_1/muxctrl.vds
+# Journal file: D:/Vfile/Lab0/Lab0.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source muxctrl.tcl -notrace

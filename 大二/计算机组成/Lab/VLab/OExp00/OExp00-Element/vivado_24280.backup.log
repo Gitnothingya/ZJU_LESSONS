@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Mar  3 12:11:30 2022
+# Process ID: 24280
+# Current directory: D:/Vfile/OExp00/OExp00-Element
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3892 D:\Vfile\OExp00\OExp00-Element\OExp00-Element.xpr
+# Log file: D:/Vfile/OExp00/OExp00-Element/vivado.log
+# Journal file: D:/Vfile/OExp00/OExp00-Element\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vfile/OExp00/OExp00-Element/OExp00-Element.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/ASUS/Desktop/OExp00-Element' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Vfile/OExp00/OExp00-Element/IP'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2020.2/data/ip'.
+INFO: [Project 1-230] Project 'OExp00-Element.xpr' upgraded for this version of Vivado.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:08 . Memory (MB): peak = 1112.590 ; gain = 0.000
+report_ip_status -name ip_status 
+ruleName {xxv_Ethernet Connection} VLNV xilinx.com:ip:xxv_ethernet:3.3
+update_compile_order -fileset sources_1
+report_ip_status -name ip_status 
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Mar  3 15:30:31 2022...

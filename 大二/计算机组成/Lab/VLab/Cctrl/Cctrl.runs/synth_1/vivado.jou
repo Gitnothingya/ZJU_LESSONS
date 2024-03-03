@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue May  3 11:47:46 2022
+# Process ID: 31992
+# Current directory: D:/Vteacher/Cctrl/Cctrl.runs/synth_1
+# Command line: vivado.exe -log cpu_ctrl.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source cpu_ctrl.tcl
+# Log file: D:/Vteacher/Cctrl/Cctrl.runs/synth_1/cpu_ctrl.vds
+# Journal file: D:/Vteacher/Cctrl/Cctrl.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source cpu_ctrl.tcl -notrace
