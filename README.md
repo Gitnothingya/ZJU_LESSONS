@@ -1,6 +1,10 @@
 # ZJU_LESSONS
 浙大所学课程资料整合
 
+课件和教材分离出来了，基本只有报告和代码以及部分复习笔记
+
+不要忘了这个[求是潮项目](https://github.com/QSCTech/zju-icicles)
+
 大一
 
 * 工程图学
