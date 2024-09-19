@@ -1,8 +1,0 @@
-.idea
-cmake-build-debug
-test_in_file
-test_out_file
-CMakeLists.txt
-main
-.DS_Store
-.vscode

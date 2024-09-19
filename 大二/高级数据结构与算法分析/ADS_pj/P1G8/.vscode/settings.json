@@ -1,8 +1,0 @@
-{
-    "files.associations": {
-        "Makefile": "makefile",
-        "*.c": "c",
-        "rbtree.h": "c",
-        "splaytree.h": "c"
-    }
-}
